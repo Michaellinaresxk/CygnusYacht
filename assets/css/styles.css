@@ -447,7 +447,7 @@ input {
 
 
 .yachts-main__card {
-  background-image: url(../img/yates/Majesty-56/bg.jpg);
+  background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1636314527/cygnus%20yachts/pictures/yates/bg_gl2w5n.jpg);
 }
 
 .catamarans-main__card {
@@ -1141,7 +1141,7 @@ q {font-style: italic;}
 .about-banner,
 .yacht-banner,
 .contact-banner {
-  background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1635954193/cygnus%20yachts/pictures/home/home1_i9ypjb.jpg); 
+  background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1636314110/cygnus%20yachts/pictures/home/home1_i9ypjb_2_hb8cex.jpg); 
   background-size: cover;
   background-position: center;
   width: 100vw;
@@ -1228,6 +1228,11 @@ q {font-style: italic;}
 }
 .article-about .about__description {
   font-size: 1.1em;
+}
+
+.article-about__logo {
+  max-width: 100%;
+  margin-bottom: 2em;
 }
 
 .service-section .services-info {
@@ -1421,7 +1426,7 @@ q {font-style: italic;}
 }
 
 .aiconfly-banner {
-  background-image: url(../img/yates/Aicon-Fly-56/Nueva\ imagen1.JPG); 
+  background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1636318510/cygnus%20yachts/pictures/yates/Aicon-Fly-56/Nueva_imagen1_q1niqo.jpg); 
 }
 .majestic-banner {
   background-image: url(../img/yates/Majesty-56/bg.jpg)
@@ -1450,7 +1455,7 @@ q {font-style: italic;}
 
 .slide-container {
 	width: 50vw;
-	height: 70vh;
+	height: 80vh;
   margin: 0 auto;
 }
 
@@ -1550,7 +1555,7 @@ q {font-style: italic;}
 
 
 .contact__quotes {
-  background-image: url(../img/destinations/home/place1.jpg);
+  background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1635954443/cygnus%20yachts/pictures/destinations/home/place1_qgy0jw.jpg);
   background-size: cover;
   color: var(--white-color);
 
@@ -1635,7 +1640,7 @@ q {font-style: italic;}
 
 .yachts-banner-template {
   height: 400px;
-  background-image: url(../img/yates/Aicon-Fly-56/Nueva\ imagen2.JPG);
+  background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1636318509/cygnus%20yachts/pictures/yates/Aicon-Fly-56/Nueva_imagen2_cfu1lc.jpg);
   background-size: cover;
   background-position: center;
   margin-top: 2em;
@@ -1749,7 +1754,7 @@ q {font-style: italic;}
 /* ===================   FAQ's PAGE ===================== */
 
 .faq-banner {
-  background-image: url(../img/quiene-somos.jpeg);
+  background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1635954193/cygnus%20yachts/pictures/home/quiene-somos_bilovt.jpg);
   background-position: right;
 }
 
@@ -1844,9 +1849,9 @@ q {font-style: italic;}
   width: 20px;
   height: 20px;
   background-color: transparent;
-  color: #ff5f74;
+  color: rgba(30, 48, 86, 0.8);
   text-align: center;
-  border: 1px solid #ff5f74;
+  color: rgba(30, 48, 86, 0.8);
   border-radius: 50%;
   line-height: 100%;
   content: '\f067';
