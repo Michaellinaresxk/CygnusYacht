@@ -1489,7 +1489,7 @@ q {font-style: italic;}
 	height: 100%;
 	object-fit: cover;
   max-width: 100%;
-  overflow: visible;
+  overflow: hidden;
 }
 
 
@@ -1646,6 +1646,7 @@ q {font-style: italic;}
   background-position: center;
   margin-top: 2em;
   background-attachment: fixed;
+  max-width: 100%;
 }
 
 .banner-overlay {
