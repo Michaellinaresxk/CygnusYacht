@@ -447,7 +447,7 @@ input {
 
 
 .yachts-main__card {
-  background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1636314527/cygnus%20yachts/pictures/yates/bg_gl2w5n.jpg);
+  background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1637125146/cygnus%20yachts/pictures/yates/Majestic-56/1_firuqj.jpg);
 }
 
 .catamarans-main__card {
@@ -1252,8 +1252,7 @@ q {font-style: italic;}
 }
 
 .img-rounded {
-  border-radius: 50%;
-  width: 200px;
+  width: 80%;
   height: 200px;
   margin: 0 auto;
 }
@@ -1564,10 +1563,14 @@ q {font-style: italic;}
 
 .overlay__quotes {
   background-color: rgba(30, 48, 86, 0.8);
-  padding: 2em 2em 0em; 
   height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
-
+.contact-quotes__info {
+  padding: 2em 2em 0em;
+}
 
 .contact-quotes__info h4 {
   font-size: var(--h2-font-size);
@@ -1639,7 +1642,8 @@ q {font-style: italic;}
 }
 
 
-.yachts-banner-template {
+.yachts-banner-template,
+.destination-banner-template {
   height: 400px;
   background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1637088644/cygnus%20yachts/pictures/yates/Aicon-Fly-56/9_jshcjb.jpg);
   background-size: cover;
@@ -1647,6 +1651,26 @@ q {font-style: italic;}
   margin-top: 2em;
   background-attachment: fixed;
   max-width: 100%;
+}
+
+.destination-banner-template {
+  background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1635954420/cygnus%20yachts/pictures/destinations/pages/palmilla/3_svnvh7.jpg);
+  
+}
+
+.destination-banner-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.destination-banner-overlay h2 {
+
+  font-size: 2.5em;
+  color: #fff;
 }
 
 .banner-overlay {
@@ -1670,13 +1694,27 @@ q {font-style: italic;}
 
 /* ===================  DESTINATIONS PAGE =============== */
 
-.destination-banner {
+.destination-banner,
+.bayahibe-banner,
+.catalina-banner,
+.palmilla-banner,
+.puntacana-banner,
+.saona-banner {
   width: 100vw;
   height: 350px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+.bayahibe-banner {
+  background-image: url(../img/split/satisfaction.jpeg);  
+  width: 100vw;
+  height: 350px;
+  display: flex;
+  background-size: cover;
+}
+
 
 .destination-banner h1 {
   color: var(--white-color);
@@ -1751,7 +1789,34 @@ q {font-style: italic;}
   align-items: center;
 }
 
+/* =================== Destination templates ============ */
 
+.bayahibe-banner {
+  background-image: url();
+}
+.catalina-banner {
+  background-image: url();
+}
+.palmilla-banner {
+  background-image: url();
+}
+.puntacana-banner {
+  background-image: url();
+}
+.saona-banner {
+  background-image: url();
+}
+
+.destinations-contact {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  margin-top: 3em;
+}
+
+.container-gallery-contact {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
 
 /* ===================   FAQ's PAGE ===================== */
 
@@ -2075,6 +2140,10 @@ q {font-style: italic;}
     height: 250px;
   }
 
+
+  .destinations-contact {
+    grid-template-columns: repeat(1,1fr);
+  }
 
   .contact-banner .nav__toggle {
     margin-right: 1em;
