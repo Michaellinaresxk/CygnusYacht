@@ -1139,8 +1139,7 @@ q {font-style: italic;}
 /*=============== ABOUT PAGE ===============*/
 
 .about-banner,
-.yacht-banner,
-.contact-banner {
+.yacht-banner{
   background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1636314110/cygnus%20yachts/pictures/home/home1_i9ypjb_2_hb8cex.jpg); 
   background-size: cover;
   background-position: center;
@@ -1708,11 +1707,10 @@ q {font-style: italic;}
 }
 
 .bayahibe-banner {
-  background-image: url(../img/split/satisfaction.jpeg);  
-  width: 100vw;
-  height: 350px;
-  display: flex;
-  background-size: cover;
+  background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1635954416/cygnus%20yachts/pictures/destinations/pages/bayahibe/3_ivngw0.jpg); 
+}
+.catalina-banner {
+  background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1635954445/cygnus%20yachts/pictures/destinations/home/CATALINA_u0a5hs.jpg);
 }
 
 
@@ -1964,10 +1962,12 @@ q {font-style: italic;}
 /* =================== CONTACT PAGE ===================== */
 
 .contact-banner {
-  background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1635954193/cygnus%20yachts/pictures/home/home1_i9ypjb.jpg); 
-  height: 250px;
+  background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1636314110/cygnus%20yachts/pictures/home/home1_i9ypjb_2_hb8cex.jpg); 
+  background-position: center;
+  height: 300px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }  
 
 .contact-banner h1 {
