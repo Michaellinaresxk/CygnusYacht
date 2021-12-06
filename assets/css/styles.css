@@ -1652,26 +1652,6 @@ q {font-style: italic;}
   max-width: 100%;
 }
 
-.destination-banner-template {
-  background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1635954420/cygnus%20yachts/pictures/destinations/pages/palmilla/3_svnvh7.jpg);
-  
-}
-
-.destination-banner-overlay {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  height: 100%;
-  background-color: rgba(0,0,0,0.5);
-}
-
-.destination-banner-overlay h2 {
-
-  font-size: 2.5em;
-  color: #fff;
-}
-
 .banner-overlay {
   background-color: rgba(0,0,0,0.5);
   height: 100%;
@@ -1706,12 +1686,7 @@ q {font-style: italic;}
   align-items: center;
 }
 
-.bayahibe-banner {
-  background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1635954416/cygnus%20yachts/pictures/destinations/pages/bayahibe/3_ivngw0.jpg); 
-}
-.catalina-banner {
-  background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1635954445/cygnus%20yachts/pictures/destinations/home/CATALINA_u0a5hs.jpg);
-}
+
 
 
 .destination-banner h1 {
@@ -1789,20 +1764,40 @@ q {font-style: italic;}
 
 /* =================== Destination templates ============ */
 
+
 .bayahibe-banner {
-  background-image: url();
+  background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1635954416/cygnus%20yachts/pictures/destinations/pages/bayahibe/3_ivngw0.jpg); 
 }
 .catalina-banner {
-  background-image: url();
+  background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1635954445/cygnus%20yachts/pictures/destinations/home/CATALINA_u0a5hs.jpg);
 }
 .palmilla-banner {
-  background-image: url();
+  background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1635954420/cygnus%20yachts/pictures/destinations/pages/palmilla/3_svnvh7.jpg);
 }
 .puntacana-banner {
-  background-image: url();
+  background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1635954416/cygnus%20yachts/pictures/destinations/pages/puntacana/puntacana-card_fsfsef.jpg);
 }
 .saona-banner {
-  background-image: url();
+  background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1635954416/cygnus%20yachts/pictures/destinations/pages/saona/saona_d2uxuc.jpg);
+}
+
+.destination-banner-template {
+  background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1635954420/cygnus%20yachts/pictures/destinations/pages/palmilla/3_svnvh7.jpg);
+  
+}
+
+.destination-banner-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.destination-banner-overlay h2 {
+  font-size: 2.5em;
+  color: #fff;
 }
 
 .destinations-contact {
@@ -1952,11 +1947,6 @@ q {font-style: italic;}
   color: rgba(30, 48, 86, 0.8);
   line-height: 30px;
 }
-
-
-
-/* =================== D PAGE ===================== */
-
 
 
 /* =================== CONTACT PAGE ===================== */
@@ -2143,6 +2133,23 @@ q {font-style: italic;}
 
   .destinations-contact {
     grid-template-columns: repeat(1,1fr);
+  }
+
+  .destination-banner-overlay h2 {
+    font-size: 1.6em;
+    text-align: center;
+    font-weight: lighter;
+    padding: 0em 1.6em;
+  }
+
+  .container-gallery-contact {
+    margin-left: -0em;
+    grid-template-columns: 1fr;
+    margin-top: 3em;
+  }
+  
+  .destination-banner-template {
+    margin-top: -0em;
   }
 
   .contact-banner .nav__toggle {
