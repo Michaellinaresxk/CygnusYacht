@@ -1671,8 +1671,26 @@ q {font-style: italic;}
   padding-bottom: 2em;
 }
 
-/* ===================  DESTINATIONS PAGE =============== */
 
+
+/* =================== CATAMARANS PAGE =============== */
+
+.catamarans-banner {
+  background-image: url(../img/CATAMARANS/fotohome.jpeg);
+  background-position: center;
+}
+
+.catamaran-data__container {
+  width: 100vw;
+  display: flex;
+  position: relative;
+  /* height: calc(100vh - var(--header-height)); */
+  height: 400px;
+  /* row-gap: 3rem; */
+}
+
+/* ===================  DESTINATIONS PAGE =============== */
+.catamarans-banner,
 .destination-banner,
 .bayahibe-banner,
 .catalina-banner,
