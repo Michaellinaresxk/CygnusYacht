@@ -1238,6 +1238,7 @@ q {font-style: italic;}
   display: grid;
   grid-template-columns: repeat(2,1fr);
   margin-bottom: 2em;
+  gap: 2em;
 }
 
 .article-about {
@@ -1248,12 +1249,6 @@ q {font-style: italic;}
 
 .article-about img {
   margin-left: -2em;
-}
-
-.img-rounded {
-  width: 80%;
-  height: 200px;
-  margin: 0 auto;
 }
 
 .img-rounded:nth-child(3) {
@@ -1269,7 +1264,7 @@ q {font-style: italic;}
 }
 
 .services-info-logo img {
-  width: 400px;
+  width: 300px;
   margin-top: 4em;
 }
 
