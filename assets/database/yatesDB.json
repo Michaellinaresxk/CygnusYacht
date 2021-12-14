@@ -1,0 +1,1046 @@
+[
+    {
+        "id": "1",
+        "name": "Alena 56",
+        "principalImage": "",
+        "imagesList": [
+            {
+                "id": "1",
+                "imageUrl": ""
+            }
+        ],
+        "icons": [
+            {
+                "id": "1",
+                "iconName": "yachts",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png"
+            },
+            {
+                "id": "2",
+                "iconName": "people capacity",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png"
+            },
+            {
+                "id": "3",
+                "iconName": "meters",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/measure_cf74dx.png"
+            },
+            {
+                "id": "4",
+                "iconName": "cabins",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/bed_ddzqac.png"
+            }
+        ],
+        "description": "​El yate en alquiler Alena 56 es una elección inteligente para aquellos que desean experimentar una nueva sensación de libertad en estilo y comodidad. Sube a bordo de este yate en República Dominicana y prepárate para una aventura de alta velocidad en el mar con tus amigos y familiares. Este yate de alquiler en Punta Cana tiene una capacidad de hasta 18 personas en el día y 6 personas en la noche, y es perfecto para explorar las mejores playas de República Dominicana. 
+        ALENA 56 es un cómodo yate a motor con un estilo elegante, lleno de soluciones prácticas, que llenará de placer tu navegación y tus vacaciones. La espaciosa cubierta, la sala de estar interior, los camarotes y los baños te brindan libertad de movimiento y el equipamiento funcional y técnico brinda una comodidad extrema.
+        Reserva este increíble yate en Punta Cana con Cygnus Yachts y experimenta un inolvidable viaje a motor en el mar Caribe de República Dominicana.",
+        "features": {
+            "Length": "17,53 m",
+            "Manga": "4,65 m",
+            "Capacity": "18 Paxs",
+            "Motor": "2x715 hp",
+            "Year": "2006/ Renovada 2019",
+            "Model": "Alena 56",
+            "Cabins": "3",
+            "Toilets": "3"
+        }
+    },
+    {
+        "id": "2",
+        "name": "Azimut 55",
+        "principalImage": "",
+        "imagesList": [
+            {
+                "id": "1",
+                "imageUrl": ""
+            }
+        ],
+        "icons": [
+            {
+                "id": "1",
+                "iconName": "yachts",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png"
+            },
+            {
+                "id": "2",
+                "iconName": "people capacity",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png"
+            },
+            {
+                "id": "3",
+                "iconName": "meters",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/measure_cf74dx.png"
+            },
+            {
+                "id": "4",
+                "iconName": "cabins",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/bed_ddzqac.png"
+            }
+        ],
+        "description": "Este increíble yate Azimut 55 se caracteriza por sus 3 dormitorios y 2 baños de lujo. Tiene un diseño excepcional que le da la talla a cualquier yate deportivo. Su elegante interior y su increíble uso del espacio lo convierten en un yate ideal para chárter gracias a su tamaño y a su capacidad. Esta embarcación es la definición pura de la experiencia de navegar y una vez que pisas sus cubiertas de teca, sientes que estás en una obra de arte italiana.
+        Este yate de chárter en Punta Cana atraviesa las aguas con gran estilo y diseño. Lujo, confort, espacio y clase para navegar las islas de República Dominicana.
+        No es solo un yate ... ¡es un estilo de vida! Esta embarcación te hará vivir una experiencia inolvidable a bordo de tu yate de lujo privado mientras navegas por el mar Caribe.",
+        "features": {
+            "Length": "17,98 m",
+            "Manga": "4,82 m",
+            "Capacity": "18 Paxs",
+            "Motor": "2x700 hp",
+            "Year": "2006/ Renovada 2019",
+            "Model": "Azimut 55",
+            "Cabins": "3",
+            "Toilets": "3"
+        }
+    },
+    {
+        "id": "3",
+        "name": "Benetti 120",
+        "principalImage": "",
+        "imagesList": [
+            {
+                "id": "1",
+                "imageUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1639431967/cygnus%20yachts/pictures/yates/benetti/IMG_6753logo_dt75tx.jpg"
+            },
+            {
+                "id": "2",
+                "imageUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1639431967/cygnus%20yachts/pictures/yates/benetti/IMG_6784logo_k4oirw.jpg"
+            },
+            {
+                "id": "3",
+                "imageUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1639431967/cygnus%20yachts/pictures/yates/benetti/IMG_6805logo_liyr7r.jpg"
+            },
+            {
+                "id": "4",
+                "imageUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1639431966/cygnus%20yachts/pictures/yates/benetti/IMG_6769logo_qrhp3n.jpg"
+            }
+        ],
+        "icons": [
+            {
+                "id": "1",
+                "iconName": "yachts",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png"
+            },
+            {
+                "id": "2",
+                "iconName": "people capacity",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png"
+            },
+            {
+                "id": "3",
+                "iconName": "meters",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/measure_cf74dx.png"
+            },
+            {
+                "id": "4",
+                "iconName": "cabins",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/bed_ddzqac.png"
+            }
+        ],
+        "description": "Este lujoso yate a motor de alquiler se encuentra en las mejores condiciones para albergar las próximas vacaciones de tu vida. Combina estilo, rendimiento y comodidad para tener una experiencia única e inolvidable. Construido en 2008, este yate de alquiler Benetti 120 ofrece cubiertas de hermosas proporciones para una vida interior y exterior exquisita durante un alquiler de yates de lujo. Tiene una variedad de comodidades enfocadas en el alquiler para garantizar una experiencia memorable a bordo, sea cual sea el destino.
+        Las familias amarán particularmente este yate Benetti 120 gracias a su configuración amigable para los niños. Ofrece alojamiento para hasta 12 huéspedes con un diseño que comprende una suite principal ubicada en la cubierta principal, dos cabinas dobles y dos cabinas gemelas. Hay 9 camas en total, incluidas 2 queen, 1 doble, 4 individuales y 2 pullmans. También es capaz de llevar hasta 7 tripulantes a bordo para garantizar una experiencia relajada de alquiler de yates de lujo.  Este superyate cuenta con una gran terraza con jacuzzi, una sala de estar y una cómoda zona para tomar el sol, que ofrece mucho espacio para que los huéspedes del chárter se relajen y disfruten de los hermosos alrededores durante sus vacaciones en yate.
+        El yate a motor Benetti 120 cuenta con una gran cantidad de espacios de convivencia, perfectos para alquilar un yate de lujo con familias o amigos, que ofrece amplias oportunidades para relajarse y disfrutar del agua en la variedad de juguetes acuáticos del yate.
+        Un alquiler de yate a motor Benetti 120 te ofrecerá una semana de recuerdos familiares inolvidables. Sin duda, el principal candidato para cualquiera que busque probar el estilo de vida de un superyate.",
+        "features": {
+            "Length": "36,57 m",
+            "Manga": "8 m",
+            "Capacity": "15 Paxs",
+            "Motor": "2x1550 hp",
+            "Year": "2008/ Renovada 2020",
+            "Model": "Benetti 120",
+            "Cabins": "5",
+            "Toilets": "5"
+        }
+    },
+    {
+        "id": "4",
+        "name": "Cranchi 50",
+        "principalImage": "",
+        "imagesList": [
+            {
+                "id": "1",
+                "imageUrl": ""
+            }
+        ],
+        "icons": [
+            {
+                "id": "1",
+                "iconName": "yachts",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png"
+            },
+            {
+                "id": "2",
+                "iconName": "people capacity",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png"
+            },
+            {
+                "id": "3",
+                "iconName": "meters",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/measure_cf74dx.png"
+            },
+            {
+                "id": "4",
+                "iconName": "cabins",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/bed_ddzqac.png"
+            }
+        ],
+        "description": "Con este yate de alquiler en Punta Cana, disfrutarás de toda la comodidad que puede ofrecer una embarcación de estas características, gracias a sus grandes prestaciones será imposible no pasar unas más que agradables jornadas de navegación por la isla. 
+        Con este yate de alquiler en Punta Cana y La Romana “Casa de Campo”, harás realidad tus sueños de navegar por la isla de República Dominicana, no lo dudes más!!",
+        "features": {
+            "Length": "15,01 m",
+            "Manga": "3,80 m",
+            "Capacity": "16 Paxs",
+            "Motor": "2x715 hp",
+            "Year": "2012/ Renovada 2019",
+            "Model": "Cranchi 50",
+            "Cabins": "3",
+            "Toilets": "2"
+        }
+    },
+    {
+        "id": "5",
+        "name": "Fairline 48 Targa",
+        "principalImage": "",
+        "imagesList": [
+            {
+                "id": "1",
+                "imageUrl": ""
+            }
+        ],
+        "icons": [
+            {
+                "id": "1",
+                "iconName": "yachts",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png"
+            },
+            {
+                "id": "2",
+                "iconName": "people capacity",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png"
+            },
+            {
+                "id": "3",
+                "iconName": "meters",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/measure_cf74dx.png"
+            },
+            {
+                "id": "4",
+                "iconName": "cabins",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/bed_ddzqac.png"
+            }
+        ],
+        "description": "​Exclusivo yate de alquiler en Punta Cana de 14,75 metros de longitud, perfecto para recorrer la isla de Republica Dominicana. Ideal para la vida a bordo, este yate está diseñado para tener una estancia de lujo y disfrutar de unas vacaciones inolvidables.
+
+        Con dos motores de 2x430 hp, es excelente para poder desplazarse rápidamente. Ofrece buen compartimento durante la navegación, siendo muy estable y ágil su manejo, con una velocidad de crucero de 25 nudos. Su comportamiento deportivo no deja indiferente a nadie, con líneas estilizadas y muy bien diseñado. Dispone de un amplio solárium en proa ideal para tomar el sol. La popa es abierta y muy ancha, pensada para hacer vida a bordo y con su plataforma de baño, que te facilita una cómoda y sencilla entrada al agua.
+        Gracias a este yate Fairline 48 de alquiler en Punta Cana, podrás explorar el mar Caribe de una manera única.",
+        "features": {
+            "Length": "14,75 m",
+            "Manga": "4,33 m",
+            "Capacity": "16 Paxs",
+            "Motor": "2x430 hp",
+            "Year": "2015/ Renovada 2019",
+            "Model": "Meridian 391",
+            "Cabins": "3",
+            "Toilets": "2"
+        }
+    },
+    {
+        "id": "6",
+        "name": "Fairline Targa 43",
+        "principalImage": "",
+        "imagesList": [
+            {
+                "id": "1",
+                "imageUrl": ""
+            }
+        ],
+        "icons": [
+            {
+                "id": "1",
+                "iconName": "yachts",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png"
+            },
+            {
+                "id": "2",
+                "iconName": "people capacity",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png"
+            },
+            {
+                "id": "3",
+                "iconName": "meters",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/measure_cf74dx.png"
+            },
+            {
+                "id": "4",
+                "iconName": "cabins",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/bed_ddzqac.png"
+            }
+        ],
+        "description": "El yate Fairline Targa 43 es uno de los yates deportivos más populares y valorados en la industria de la navegación. Este elegante yate de alquiler en Punta Cana está diseñado tanto para socializar como para la velocidad, el yate Targa 43 hace ambas cosas excepcionalmente bien y tiene una capacidad de hasta 10 invitados.
+        Tiene una velocidad máxima de 30 nudos y es un placer conducir este yate gracias a sus dos potentes motores Volvo de 480 hp cada uno.  El espacio esta inteligentemente diseñado tanto por dentro como por fuera para el entretenimiento y el placer.
+        Este Yate Fairline Targa 43 está totalmente equipado y con un espacio optimizado para ofrecerte la comodidad que requieres para disfrutar de un viaje fascinante sobre las aguas del mar caribe.
+        
+        A bordo de este yate puedes realizar un tour privado con tripulación hacia Isla Saona, Playa Palmilla o Isla Catalina. De regreso puedes disfrutar de los hermosos atardeceres que República Dominicana tiene para ti.",
+        "features": {
+            "Length": "13,74 m",
+            "Manga": "3,81 m",
+            "Capacity": "10 Paxs",
+            "Motor": "2x480 hp",
+            "Year": "2006/ Renovada 2020",
+            "Model": "Fairline Targa 43",
+            "Cabins": "2",
+            "Toilets": "2"
+        }
+    },
+    {
+        "id": "7",
+        "name": "Ferretti 731",
+        "principalImage": "",
+        "imagesList": [
+            {
+                "id": "1",
+                "imageUrl": ""
+            }
+        ],
+        "icons": [
+            {
+                "id": "1",
+                "iconName": "yachts",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png"
+            },
+            {
+                "id": "2",
+                "iconName": "people capacity",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png"
+            },
+            {
+                "id": "3",
+                "iconName": "meters",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/measure_cf74dx.png"
+            },
+            {
+                "id": "4",
+                "iconName": "cabins",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/bed_ddzqac.png"
+            }
+        ],
+        "description": "Alquiler de yate Ferretti 731 en Punta Cana.
+        Con este yate privado en Punta Cana, puedes disfrutar de unos días de navegación por la isla de República Dominicana, de la manera más cómoda y lujosa. El yate Ferretti 731 Flybridge fue, en su gama, la máxima expresión del estilo Ferretti: un proyecto altamente innovador nacido de un concepto revolucionario de los espacios exteriores e interiores. Con sus increíbles espacios y abundancia de áreas para disfrutar, este yate lleva la experiencia de navegar a un nivel completamente nuevo. Este yate de chárter en Punta Cana tiene capacidad de hasta 14 personas para day charter y 8 para pernoctar. 
+        Una embarcación privada que se está convirtiendo en un referente a la hora de elegir un alquiler de yate en República Dominicana.",
+        "features": {
+            "Length": "22,68 m",
+            "Manga": "5,80 m",
+            "Capacity": "18 Paxs",
+            "Motor": "2x1550 hp",
+            "Year": "2006/ Renovada 2019",
+            "Model": "Ferretti 731",
+            "Cabins": "4",
+            "Toilets": "5"
+        }
+    },
+    {
+        "id": "8",
+        "name": "Icon Fly 56",
+        "principalImage": "https://res.cloudinary.com/michaelxk-com/image/upload/v1637088644/cygnus%20yachts/pictures/yates/Aicon-Fly-56/bg1_pdewyb.jpg",
+        "imagesList": [
+            {
+                "id": "1",
+                "imageUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1637088644/cygnus%20yachts/pictures/yates/Aicon-Fly-56/9_jshcjb.jpg"
+            },
+            {
+                "id": "2",
+                "imageUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1637088643/cygnus%20yachts/pictures/yates/Aicon-Fly-56/2_qtqg7t.jpg"
+            },
+            {
+                "id": "3",
+                "imageUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1637088643/cygnus%20yachts/pictures/yates/Aicon-Fly-56/7_nibsv2.jpg"
+            },
+            {
+                "id": "4",
+                "imageUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1637088643/cygnus%20yachts/pictures/yates/Aicon-Fly-56/6_vwsvm0.jpg"
+            },
+            {
+                "id": "5",
+                "imageUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1637088642/cygnus%20yachts/pictures/yates/Aicon-Fly-56/3_okmnoi.jpg"
+            },
+            {
+                "id": "6",
+                "imageUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1637088642/cygnus%20yachts/pictures/yates/Aicon-Fly-56/4_ozxli9.jpg"
+            },
+            {
+                "id": "7",
+                "imageUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1637088642/cygnus%20yachts/pictures/yates/Aicon-Fly-56/5_ggymkn.jpg"
+            },
+            {
+                "id": "8",
+                "imageUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1637088641/cygnus%20yachts/pictures/yates/Aicon-Fly-56/1_m5os5p.jpg"
+            }
+        ],
+        "icons": [
+            {
+                "id": "1",
+                "iconName": "yachts",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png"
+            },
+            {
+                "id": "2",
+                "iconName": "people capacity",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png"
+            },
+            {
+                "id": "3",
+                "iconName": "meters",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/measure_cf74dx.png"
+            },
+            {
+                "id": "4",
+                "iconName": "cabins",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/bed_ddzqac.png"
+            }
+        ],
+        "description": "Charter yate privado Punta Cana
+        El yate a motor, 'Acion Fly 56' es un buen ejemplo de diseño italiano. Tiene dos camarotes meticulosamente arreglados y una habitación doble para niños o invitados. También tiene una cabina de tripulación, 3 baños / duchas, una sala de estar y comedor y una cocina. Tiene aire acondicionado en todo el barco y sus dos motores diésel 800Hp CAT le dan una gran potencia que lo llevará lejos a los lugares con los que ha estado soñando. 
+        Vive una experiencia inolvidable junto a tu pareja, familia o amigos y descubre la belleza de Republica Dominicana a bordo de este magnífico yate en alquiler. 
+        Este barco de motor está disponible para charter con una relación calidad-precio espectacular. 
+        Si quieres una vacaciones únicas e inolvidables, no dudes en alquilar este yate.",
+        "features": {
+            "Length": "17,06 m",
+            "Manga": "4,87 m",
+            "Capacity": "18 Paxs",
+            "Motor": "2x800 hp",
+            "Year": "2008/ Renovada 2014",
+            "Model": "Aicon Fly 56",
+            "Cabins": "3",
+            "Toilets": "3"
+        }
+    },
+    {
+        "id": "9",
+        "name": "catamrán Lagoon 420 TPI",
+        "principalImage": "",
+        "imagesList": [
+            {
+                "id": "1",
+                "imageUrl": ""
+            }
+        ],
+        "icons": [
+            {
+                "id": "1",
+                "iconName": "yachts",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png"
+            },
+            {
+                "id": "2",
+                "iconName": "people capacity",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png"
+            },
+            {
+                "id": "3",
+                "iconName": "meters",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/measure_cf74dx.png"
+            },
+            {
+                "id": "4",
+                "iconName": "cabins",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/bed_ddzqac.png"
+            }
+        ],
+        "description": "El catamarán Lagoon 420 es una excelente elección a la hora de alquilar un catamarán en Punta Cana. Con una eslora de 42 pies (12,80 metros) y una manga de 25,3 pies (7,70 metros), este precioso barco de chárter ofrece una superficie de 100 m2. El diseño invita a la vida exterior. La zona interior del barco ahora queda completamente integrada y comunicada con la parte externa. Con este alquiler de catamarán podrá disfrutar de una navegación cómoda y un fondeo de total comodidad.
+        Este precioso catamarán está totalmente equipado para navegar durante varios días y descubrir las playas y rincones más hermosos de República Dominicana. Cuenta con cuatro camarotes con camas dobles, dos baños y salón interior muy luminoso.
+        Ofrecemos todo tipo de charters e itinerarios; 
+        Charters de día completo, para grupos de amigos, despedidas de soltera, grupos de empresa, familias, pedidas de mano y un largo etcétera.
+        Ofrecemos varios itinerarios recorriendo las diferentes partes de las islas. ¡La excursión entre Isla Saona, Isla Catalina y la maravillosa Playa Palmilla es sin duda la más demandada! 
+        Un lujo de alquiler de barcos en Punta Cana.",
+        "features": {
+            "Length": "12,80 m",
+            "Manga": "7,70 m",
+            "Capacity": "20 Paxs",
+            "Motor": "2x60 hp",
+            "Year": "2011/ Renovada 2020",
+            "Model": "Lagoon 420 TPI",
+            "Cabins": "4",
+            "Toilets": "2"
+        }
+    },
+    {
+        "id": "10",
+        "name": "catamarán Lagoon 440 Power",
+        "principalImage": "",
+        "imagesList": [
+            {
+                "id": "1",
+                "imageUrl": ""
+            }
+        ],
+        "icons": [
+            {
+                "id": "1",
+                "iconName": "yachts",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png"
+            },
+            {
+                "id": "2",
+                "iconName": "people capacity",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png"
+            },
+            {
+                "id": "3",
+                "iconName": "meters",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/measure_cf74dx.png"
+            },
+            {
+                "id": "4",
+                "iconName": "cabins",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/bed_ddzqac.png"
+            }
+        ],
+        "description": "Con este alquiler de catamarán Lagoon 440 en Punta Cana tendrás toda la comodidad que puedes necesitar en una embarcación. Es una elección segura y adecuada para pasar unas magníficas vacaciones tanto para un day charter como para un alquiler semanal. Un catamarán de gran capacidad. Por sus prestaciones y equipamiento te encontrarás como en un hotel de lujo flotante.
+        En los barcos de charter se suele pasar el mayor tiempo en zonas exteriores, y esta embarcación va sobrada de dichas zonas. Su " terraza" en popa, está diseñada para pasar agradables momentos, tanto durante los fondeos como durante la navegación. 
+        Se trata probablemente del catamarán de charter más demandado de todo el sector de alquiler de barcos en Punta Cana.",
+        "features": {
+            "Length": "13,71 m",
+            "Manga": "7,62 m",
+            "Capacity": "20 Paxs",
+            "Motor": "2x100 hp",
+            "Year": "2012/ Renovada 2020",
+            "Model": "Lagoon 440 Power",
+            "Cabins": "4",
+            "Toilets": "3"
+        }
+    },
+    {
+        "id": "11",
+        "name": "Majesty 56",
+        "principalImage": "https://res.cloudinary.com/michaelxk-com/image/upload/v1637125146/cygnus%20yachts/pictures/yates/Majestic-56/1_firuqj.jpg",
+        "imagesList": [
+            {
+                "id": "1",
+                "imageUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1637125163/cygnus%20yachts/pictures/yates/Majestic-56/8_hez1gk.jpg"
+            },
+            {
+                "id": "2",
+                "imageUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1637125158/cygnus%20yachts/pictures/yates/Majestic-56/2_jvvlgy.jpg"
+            },
+            {
+                "id": "3",
+                "imageUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1637125158/cygnus%20yachts/pictures/yates/Majestic-56/7_hi2iqn.jpg"
+            },
+            {
+                "id": "4",
+                "imageUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1637125158/cygnus%20yachts/pictures/yates/Majestic-56/9_sdtafa.jpg"
+            },
+            {
+                "id": "5",
+                "imageUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1637125157/cygnus%20yachts/pictures/yates/Majestic-56/3_cjbcsn.jpg"
+            },
+            {
+                "id": "6",
+                "imageUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1637125151/cygnus%20yachts/pictures/yates/Majestic-56/4_g6onad.jpg"
+            },
+            {
+                "id": "7",
+                "imageUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1637125150/cygnus%20yachts/pictures/yates/Majestic-56/6_pnq7le.jpg"
+            },
+            {
+                "id": "8",
+                "imageUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1637125148/cygnus%20yachts/pictures/yates/Majestic-56/5_gln811.jpg"
+            }
+        ],
+        "icons": [
+            {
+                "id": "1",
+                "iconName": "yachts",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png"
+            },
+            {
+                "id": "2",
+                "iconName": "people capacity",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png"
+            },
+            {
+                "id": "3",
+                "iconName": "meters",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/measure_cf74dx.png"
+            },
+            {
+                "id": "4",
+                "iconName": "cabins",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/bed_ddzqac.png"
+            }
+        ],
+        "description": "¿Te imaginas navegar con este exclusivo yate privado en alquiler por las cristalinas aguas de Isla Catalina, Playa Palmilla o Isla Saona?
+        El yate Majesty 56 es uno de los modelos más exitosos de la gama Majesty -Yachts de Gulf Craft. Este moderno yate está totalmente equipado con muebles cómodos y equipos que garantizan una estancia de lujo y el más alto nivel de confort. Las zonas amplias están especialmente acondicionadas para que las personas a bordo se puedan recrear al aire libre y dentro del yate. El fly-bridge es excepcionalmente amplio, cuenta con una magnífica mesa, alrededor de la cual pueden sentarse hasta 6 personas cómodamente, y zona de solárium. Este yate de alquiler en Punta Cana tiene una capacidad de hasta 18 personas en el día y 6 personas en la noche. Es el yate ideal para que pasar unas vacaciones en familia o con los amigos recorriendo las costas de Punta Cana. 
+        Este yate de chárter en Punta Cana es sin duda alguna, una de las mejores embarcaciones para navegar por la isla de República Dominicana. Si quieres unas vacaciones diferentes, no dudes en alquilar este yate.",
+        "features": {
+            "Length": "17,30 m",
+            "Manga": "4,90 m",
+            "Capacity": "18 Paxs",
+            "Motor": "2x800 hp",
+            "Year": "2008/ Renovada 2019",
+            "Model": "Majesty 56",
+            "Cabins": "3",
+            "Toilets": "3"
+        }
+    },
+    {
+        "id": "12",
+        "name": "Meridian 391",
+        "principalImage": "",
+        "imagesList": [
+            {
+                "id": "1",
+                "imageUrl": ""
+            }
+        ],
+        "icons": [
+            {
+                "id": "1",
+                "iconName": "yachts",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png"
+            },
+            {
+                "id": "2",
+                "iconName": "people capacity",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png"
+            },
+            {
+                "id": "3",
+                "iconName": "meters",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/measure_cf74dx.png"
+            },
+            {
+                "id": "4",
+                "iconName": "cabins",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/bed_ddzqac.png"
+            }
+        ],
+        "description": "Este yate de alquiler en Punta Cana Meridian 391 es un magnífico barco de chárter a motor diseñado para brindar comodidad superior con espaciosas áreas abiertas. Con una longitud de 12,49 m y un ancho de 4,21 metros, este yate de alquiler en Punta Cana ofrece el confort necesario para disfrutar de una excursión en yate a lo largo de las aguas transparentes más impresionantes del mar Caribe.
+        Este precioso yate ofrece también pasar la noche a bordo para aquellos clientes (máximo 2 personas) que deseen pasar sus vacaciones en el mar Caribe. Este imponente yate de chárter en Punta Cana abre las puertas a la posibilidad de quedarse dormido bajo la luna llena y despertar en la virgen y hermosa Playa Palmilla.",
+        "features": {
+            "Length": "12,49 m",
+            "Manga": "4,21 m",
+            "Capacity": "14 Paxs",
+            "Motor": "2x280 hp",
+            "Year": "2014/ Renovada 2019",
+            "Model": "Meridian 391",
+            "Cabins": "2",
+            "Toilets": "2"
+        }
+    },
+    {
+        "id": "13",
+        "name": "Oceanfast 90",
+        "principalImage": "",
+        "imagesList": [
+            {
+                "id": "1",
+                "imageUrl": ""
+            }
+        ],
+        "icons": [
+            {
+                "id": "1",
+                "iconName": "yachts",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png"
+            },
+            {
+                "id": "2",
+                "iconName": "people capacity",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png"
+            },
+            {
+                "id": "3",
+                "iconName": "meters",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/measure_cf74dx.png"
+            },
+            {
+                "id": "4",
+                "iconName": "cabins",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/bed_ddzqac.png"
+            }
+        ],
+        "description": "El yate a motor Oceanfast 90 es un yate hecho a medida que puede acomodar hasta 30 personas para excursiones privadas de lujo de un día en República Dominicana. Este yate de alquiler es una villa flotante para las mejores escapadas de fin de semana o fiestas en el mar. El yate Oceanfast 90 es ideal para eventos corporativos de empresas en Punta Cana y grupos que buscan una experiencia de alquiler de yates única, de alta gama y personalizada en un entorno elegante y con estilo.
+        Con sus 28 metros de eslora entra en el mercado de alquiler en Punta Cana en verano de 2018, dispuesto a ofrecer la mejor experiencia a bordo de un yate de lujo. Es un barco muy cómodo tanto por su distribución interior como por su navegación, y uno de los barcos de alquiler más elegantes y lujosos que se pueden encontrar de República Dominicana, en perfectas condiciones gracias a su última revisión de 2020.
+        Los materiales nobles de su interior, la combinación de cuero, maderas y tejidos de calidad en tonos claros y oscuros junto con la atención a los pequeños detalles y el confort y amplitud de espacios convierten a esta embarcación en el barco ideal para vivir a bordo unas vacaciones increíbles en Punta Cana. 
+        El alquiler de yate Oceanfast 90 incluye los siguientes juguetes: 1 moto acuática, 2 tablas de remo, 1 bote auxiliar, 2 Seabobs, 2 Kayaks, 1 tabla de remo con pedales y equipos de esnórquel.",
+        "features": {
+            "Length": "28 m",
+            "Manga": "6,40 m",
+            "Capacity": "20 Paxs",
+            "Motor": "2x1250 hp",
+            "Year": "2008/ Renovada 2020",
+            "Model": "Oceanfast 90",
+            "Cabins": "4",
+            "Toilets": "5"
+        }
+    },
+    {
+        "id": "14",
+        "name": "catamarán Power Cat Marine 57",
+        "principalImage": "",
+        "imagesList": [
+            {
+                "id": "1",
+                "imageUrl": ""
+            }
+        ],
+        "icons": [
+            {
+                "id": "1",
+                "iconName": "yachts",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png"
+            },
+            {
+                "id": "2",
+                "iconName": "people capacity",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png"
+            },
+            {
+                "id": "3",
+                "iconName": "meters",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/measure_cf74dx.png"
+            },
+            {
+                "id": "4",
+                "iconName": "cabins",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/bed_ddzqac.png"
+            }
+        ],
+        "description": "Alquiler de catamarán Power Cat Marine 57 en Casa de Campo
+        Con una impresionante capacidad de hasta 25 personas, este catamarán es el barco ideal para grupos. Navegar en este catamarán de alquiler es toda una experiencia, su construcción de doble casco proporciona la estabilidad perfecta para que todos nuestros clientes puedan convivir y moverse cómodamente. A diferencia de otros catamaranes, este tiene motores y no requiere de velas, por lo que la cubierta es más ancha y será el lugar perfecto para quienes prefieran tomar el sol, ya sea en la parte de abajo a tan solo 1.2 metros del agua, o arriba en el flybridge con asientos donde disfrutarás de la hermosa vista 360º mientras navegas por la costa de República Dominicana.
+        Tiene una cómoda y amplia zona en la parte de atrás para protegerse de los rayos del sol mientras disfrutas de tu bebida favorita. En su interior está equipado con 4 camarotes, 4 baños, cocina y una amplia sala de estar donde podrás refrescarte y degustar el menú elaborado por nuestro chef. También está equipado con un sistema de sonido donde puedes reproducir tus listas de música preferida.",
+        "features": {
+            "Length": "17,37 m",
+            "Manga": "7,92 m",
+            "Capacity": "25 Paxs",
+            "Motor": "2x125 hp",
+            "Year": "2013/ Renovada 2018",
+            "Model": "Power Cat Marine 57",
+            "Cabins": "4",
+            "Toilets": "4"
+        }
+    },
+    {
+        "id": "15",
+        "name": "Prestige 420",
+        "principalImage": "https://res.cloudinary.com/michaelxk-com/image/upload/v1637179377/cygnus%20yachts/pictures/yates/prestige/bg1_t2pyw8.jpg",
+        "imagesList": [
+            {
+                "id": "1",
+                "imageUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1637179377/cygnus%20yachts/pictures/yates/prestige/3_s9a2vz.jpg"
+            },
+            {
+                "id": "2",
+                "imageUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1637179375/cygnus%20yachts/pictures/yates/prestige/4_cqkssh.jpg"
+            },
+            {
+                "id": "3",
+                "imageUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1637179375/cygnus%20yachts/pictures/yates/prestige/8_dftnxp.jpg"
+            },
+            {
+                "id": "4",
+                "imageUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1637179375/cygnus%20yachts/pictures/yates/prestige/8_dftnxp.jpg"
+            },
+            {
+                "id": "5",
+                "imageUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1637179372/cygnus%20yachts/pictures/yates/prestige/bg2_gglfca.jpg"
+            },
+            {
+                "id": "6",
+                "imageUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1637179369/cygnus%20yachts/pictures/yates/prestige/6_jqjske.jpg"
+            }
+            {
+                "id": "7",
+                "imageUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1637179366/cygnus%20yachts/pictures/yates/prestige/5_ncikts.jpg"
+            },
+            {
+                "id": "8",
+                "imageUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1637179366/cygnus%20yachts/pictures/yates/prestige/7_cpxdqc.jpg"
+            }
+        ],
+        "icons": [
+            {
+                "id": "1",
+                "iconName": "yachts",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png"
+            },
+            {
+                "id": "2",
+                "iconName": "people capacity",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png"
+            },
+            {
+                "id": "3",
+                "iconName": "meters",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/measure_cf74dx.png"
+            },
+            {
+                "id": "4",
+                "iconName": "cabins",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/bed_ddzqac.png"
+            }
+        ],
+        "description": "Te presentamos este magnífico yate de alquiler en Punta Cana, con uno de los mejores diseños que podemos encontrar. El yate Prestige 420 es espacioso, luminoso, agradable pero también potente y promete ofrecer una increíble vida a bordo en un yate de este tamaño. Este yate privado de alquiler tiene una distribución increíble para un yate de este tamaño. El gran FLY ofrece una incomparable vida en el exterior. Hay una cabina completa, una cocina, una gran zona para tomar el sol y una zona para comer con mesa y sofá en forma de U.
+        En el interior, el yate PRESTIGE 420 revela todo su ingenio al servicio del refinamiento. Acabados y materiales de alta gama crean un universo armonioso y agradable. Todo está pensado para disfrutar de un ambiente amable, cálido, luminoso y armonioso.
+        Con este chárter de yate en Punta Cana disfrutarán de todo el lujo de navegar por las hermosas aguas cristalinas de Playa Palmilla.",
+        "features": {
+            "Length": "13,06 m",
+            "Manga": "4,10 m",
+            "Capacity": "16 Paxs",
+            "Motor": "2x425 hp",
+            "Year": "2018/ Renovada 2020",
+            "Model": "Prestige 420",
+            "Cabins": "2",
+            "Toilets": "2"
+        }
+    },
+    {
+        "id": "16",
+        "name": "Riva 65",
+        "principalImage": "",
+        "imagesList": [
+            {
+                "id": "1",
+                "imageUrl": ""
+            }
+        ],
+        "icons": [
+            {
+                "id": "1",
+                "iconName": "yachts",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png"
+            },
+            {
+                "id": "2",
+                "iconName": "people capacity",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png"
+            },
+            {
+                "id": "3",
+                "iconName": "meters",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/measure_cf74dx.png"
+            },
+            {
+                "id": "4",
+                "iconName": "cabins",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/bed_ddzqac.png"
+            }
+        ],
+        "description": "Este hermoso yate de alquiler Riva 65 tiene todas las características de una gran embarcación. Estilo llamativo, potencia y espacio. Este modelo puede adaptarse a todos los estilos de vida, tardes de ocio tomando el sol en sus amplias terrazas exteriores o navegando a una velocidad de hasta 35 nudos.  Para la vida "al aire libre", las cubiertas exteriores proporcionan niveles sin precedentes de espacio y flexibilidad y se adaptan a todas las necesidades. Este modelo ofrece un interior increíble con su amplio salón y asientos. 
+        Este yate es perfecto para visitar Isla Saona o navegar por las increíbles costas de República Dominicana. Tiene una capacidad de hasta 18 personas durante un chárter de un día. Este yate de alquiler en Punta Cana tiene un impresionante tamaño de 20 metros de eslora. Tu grupo de amigos o familia disfrutará plenamente de este hermoso yate. 
+        Sobre la cabina de navegación, este lujoso yate de alquiler tiene un techo retráctil para disfrutar del sol durante el día o para una cena romántica bajo las estrellas. Este fabuloso yate Riva 65 puede acoger cómodamente hasta 6 personas durante la noche mientras el barco está en el puerto deportivo y hasta 4 personas cuando el barco está fondeado en el mar. Tiene un baño por cabina, las habitaciones se distribuyen en una cabina principal, una cabina VIP y una cabina con dos camas individuales.",
+        "features": {
+            "Length": "19,80 m",
+            "Manga": "5,10 m",
+            "Capacity": "18 Paxs",
+            "Motor": "2x800 hp",
+            "Year": "2008/ Renovada 2019",
+            "Model": "Riva 65",
+            "Cabins": "3",
+            "Toilets": "3"
+        }
+    },
+    {
+        "id": "17",
+        "name": "Sea Ray 420 Sundancer",
+        "principalImage": "https://res.cloudinary.com/michaelxk-com/image/upload/v1639346262/cygnus%20yachts/pictures/yates/searay/bymatteocrupi-56logo_npc3rb.jpg",
+        "imagesList": [
+            {
+                "id": "1",
+                "imageUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1639346263/cygnus%20yachts/pictures/yates/searay/bymatteocrupi-109logo_ezmteq.jpg"
+            },
+            {
+                "id": "2",
+                "imageUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1639346263/cygnus%20yachts/pictures/yates/searay/bymatteocrupi-72logo_fwrwxw.jpg"
+            },
+            {
+                "id": "3",
+                "imageUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1639346262/cygnus%20yachts/pictures/yates/searay/bymatteocrupi-86logo_tg9rjp.jpg"
+            },
+            {
+                "id": "4",
+                "imageUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1639346264/cygnus%20yachts/pictures/yates/searay/bymatteocrupi-130logo_cb4tpe.jpg"
+            },
+            {
+                "id": "5",
+                "imageUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1639346263/cygnus%20yachts/pictures/yates/searay/bymatteocrupi-72logo_fwrwxw.jpg"
+            },
+            {
+                "id": "6",
+                "imageUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1639346262/cygnus%20yachts/pictures/yates/searay/bymatteocrupi-60logo_b8jxdp.jpg"
+            }
+        ],
+        "icons": [
+            {
+                "id": "1",
+                "iconName": "yachts",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png"
+            },
+            {
+                "id": "2",
+                "iconName": "people capacity",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png"
+            },
+            {
+                "id": "3",
+                "iconName": "meters",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/measure_cf74dx.png"
+            },
+            {
+                "id": "4",
+                "iconName": "cabins",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/bed_ddzqac.png"
+            }
+        ],
+        "description": "El yate Sea Ray 420 Sundancer es la encarnación de la elegancia, el atletismo y la sofisticación. Cada centímetro de la embarcación ha sido cuidadosamente diseñado para maximizar el espacio y la función, lo que lo hace perfecto para viajes de un día o estadías de fin de semana. Además, el yate Sea Ray 420 Sundancer presenta una multitud de tecnologías y comodidades de primer nivel para encender tu pasión por el agua como nunca antes. No importa a dónde te lleve la aventura, este yate atraviesa el agua con facilidad. Explora nuevas costas durante el día y descansa durante la noche. Este yate de alquiler en Punta Cana está bellamente amueblado con atractivas comodidades para un retiro como un oasis sobre las olas. 
+        La comodidad es la clave para disfrutar plenamente de un fin de semana largo, una noche extra y de esa última hora en el agua. Este chárter de yate en Punta Cana te ofrecerá una experiencia de navegación idílica.
+        Uno de los principales beneficios de alquilar un yate es la libertad de relajarse, dejar de lado las preocupaciones y concentrarse en saborear la buena vida en el agua.",
+        "features": {
+            "Length": "13,71 m",
+            "Manga": "4,26 m",
+            "Capacity": "12 Paxs",
+            "Motor": "2x450 hp",
+            "Year": "2008/ Renovada 2020",
+            "Model": "Sea Ray 420 Sundancer",
+            "Cabins": "1",
+            "Toilets": "2"
+        }
+    },
+    {
+        "id": "18",
+        "name": "Tiara 39 Open",
+        "principalImage": "",
+        "imagesList": [
+            {
+                "id": "1",
+                "imageUrl": ""
+            }
+        ],
+        "icons": [
+            {
+                "id": "1",
+                "iconName": "yachts",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png"
+            },
+            {
+                "id": "2",
+                "iconName": "people capacity",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png"
+            },
+            {
+                "id": "3",
+                "iconName": "meters",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/measure_cf74dx.png"
+            },
+            {
+                "id": "4",
+                "iconName": "cabins",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/bed_ddzqac.png"
+            }
+        ],
+        "description": "¿Buscas alquilar un bote privado a buen precio? 
+        Esta Tiara 39 Open es una fantástica opción de alquiler de yate en Punta Cana.
+        Este yate de alquiler en Punta Cana Tiara 39 Open es un magnífico barco de crucero, pesca y turismo familiar. Un barco de chárter a motor con un diseño que compenetra a la perfección la comodidad y la velocidad. Con sus dos potentes motores de 400 hp cada uno, todos nuestros clientes disfrutan de una navegación placentera.
+        ¡Decídete por este alquiler yate en Punta Cana!",
+        "features": {
+            "Length": "11,88 m",
+            "Manga": "4,57 m",
+            "Capacity": "10 Paxs",
+            "Motor": "2x400 hp",
+            "Year": "2008/ Renovada 2019",
+            "Model": "Tiara 39 Open",
+            "Cabins": "1",
+            "Toilets": "1"
+        }
+    },
+    {
+        "id": "19",
+        "name": "Tiara 43 Sovran",
+        "principalImage": "",
+        "imagesList": [
+            {
+                "id": "1",
+                "imageUrl": ""
+            }
+        ],
+        "icons": [
+            {
+                "id": "1",
+                "iconName": "yachts",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png"
+            },
+            {
+                "id": "2",
+                "iconName": "people capacity",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png"
+            },
+            {
+                "id": "3",
+                "iconName": "meters",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/measure_cf74dx.png"
+            },
+            {
+                "id": "4",
+                "iconName": "cabins",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/bed_ddzqac.png"
+            }
+        ],
+        "description": "¿Por qué este yate de alquiler en Punta Cana es una muy buena elección para las familias? Porque con este yate encontrarás toda la comodidad tanto durante la navegación como durante los fondeos, gracias a su gran zona de confort en la parte trasera del yate. Es una embarcación con muy fácil acceso al mar y con muy poco calado, por lo que, podrá fondear muy cerca de la playa o en las piscinas naturales de Isla Saona o Playa Palmilla, donde el agua le llegará a la altura de su cintura. Gracias a este yate de alquiler en Punta Cana, podrás estar a 200 metros de la playa con el agua al nivel de la cintura y compartir junto con toda tu familia o amigos de una experiencia totalmente paradisíaca.",
+        "features": {
+            "Length": "13,10 m",
+            "Manga": "4,57 m",
+            "Capacity": "12 Paxs",
+            "Motor": "2x450 hp",
+            "Year": "2009/ Renovada 2019",
+            "Model": "Meridian 391",
+            "Cabins": "2",
+            "Toilets": "2"
+        }
+    },
+    {
+        "id": "20",
+        "name": "Tiara 3100 Open",
+        "principalImage": "",
+        "imagesList": [
+            {
+                "id": "1",
+                "imageUrl": ""
+            }
+        ],
+        "icons": [
+            {
+                "id": "1",
+                "iconName": "yachts",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png"
+            },
+            {
+                "id": "2",
+                "iconName": "people capacity",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png"
+            },
+            {
+                "id": "3",
+                "iconName": "meters",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/measure_cf74dx.png"
+            },
+            {
+                "id": "4",
+                "iconName": "cabins",
+                "iconUrl": "https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/bed_ddzqac.png"
+            }
+        ],
+        "description": "El yate Tiara 3100 Open es uno de esos barcos excepcionales cuya perdurable popularidad lo convierte en un diseño clásico. Aparte de su construcción de calidad y su perfil deportivo, el atractivo tiene mucho que ver con su gran cabina de pesca y su cómodo interior recortado en madera de teca. Las características notables incluyen cubiertas laterales anchas, techo rígido, excelentes cubiertas antideslizantes y motores diésel.
+
+        Este yate de alquiler en Punta Cana es el barco perfecto para pasar tiempo de calidad en el agua con familiares y amigos, navegar por un día, pasar un fin de semana pescando o navegar de puerto en puerto.
+        Si estas buscando una embarcación privada a buen precio en Punta Cana, esta Tiara 3100 Open es una fantástica opción de alquiler de yate en Punta Cana.",
+        "features": {
+            "Length": "9,45 m",
+            "Manga": "3,85 m",
+            "Capacity": "7 Paxs",
+            "Motor": "2x375 hp",
+            "Year": "2004/ Renovada 2019",
+            "Model": "Tiara 3100 Open",
+            "Cabins": "1",
+            "Toilets": "1"
+        }
+    }
+]
