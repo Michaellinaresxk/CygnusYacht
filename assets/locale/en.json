@@ -1,0 +1,127 @@
+{
+  "navbar": {
+    "home": "Home",
+    "aboutUs": "About us",
+    "yachts": "Yachts",
+    "destinations": "Destinations",
+    "contact": "Contact us"
+  },
+  "home-banner": {
+    "slogan1": "10 years and counting...",
+    "slogan2": "Fullfilling",
+    "slogan3": "dreams",
+    "slogan4": "From",
+    "slogan5": "2010",
+    "span": "5 best places to visit"
+  },
+  "boat-tipe": {
+    "title": "Types of yachts Charter",
+    "subtitle": "Disponemos de una amplia selección de alquiler de yates, super yates, lanchas y catamaranes únicos.",
+    "yachts": "Yachts",
+    "catamarans": "Catamaras",
+    "superyachts": "Superyatchs"
+  },
+  "places": {
+    "title": "Elije un destino",
+    "subtitle": "Elige uno de los destinos que tenemos para ti.",
+    "beach": "Playa",
+    "island": "Isla"
+  },
+  "video-tour": {
+    "title": "Video Tour",
+    "description": "Find out more with our video of the most beautiful and pleasant places for you and your family."
+  },
+  "testimonials": {
+    "happyClientes": "Clientes Felices",
+    "testimonial-1": "Mi novio y yo estuvimos en Punta Cana hace un mes y contratamos los servicios de esta empresa para ir en un yate privado hasta isla Saona, la experiencia fue súper divertida e increíble, hicimos snorkel, nos bañamos en las piscinas naturales, la comida fue muy buena y la tripulación son personas muy amables y profesionales. Vamos a repetir seguro el año que viene.",
+    "name1": "Anna",
+    "from1": "from Glasgow, Scotland",
+    "testimonial-2": "Celebré mi cumpleaños con mis amigos en un yate en playa Palmilla, una experiencia inolvidable. La playa es hermosa, el yate que reservamos era espectacular y el servicio fue atento y excelente. No tuve que preocuparme de nada durante mi cumpleaños, y mis amigos y yo nos divertimos muchísimo. Recomendado 100%.",
+    "name2": "Ella Mentree",
+    "from2": "from United States",
+    "testimonial-3": "Si desean disfrutar de una experiencia única e inolvidable les recomiendo esta empresa. Me recomendaron esta empresa en el Hotel, son muy profesionales y ofrecen un servicio personalizado. Navegar en un yate por el mar Caribe con mis seres queridos es una experiencia que jamás olvidaré, un recuerdo para toda la vida.",
+    "name3": "Rannynm",
+    "from3": "from Indonesia"
+  },
+  "subscribe": {
+    "title": "Suscribete para recibir boletines",
+    "subtitle": "Suscribete con tu correo y asi podras recibir informacion, sobre descuentos y mas",
+    "inputText": "Escribe tu correo",
+    "subscribe": "Suscribete"
+  },
+  "footer": {
+    "description": "Servicio de alquiler de yates, donde le brindamos la oportunidad de hacer realidad todos sus sueños y deseos en los destinos más bellos y exclusivos que se pueden encontrar en el Caribe.",
+    "quicklinks": "Enlaces",
+    "faqs": "Preguntas Frecuentes",
+    "contactUs": "Contàctanos",
+    "terminos": "Terminos y condiciones",
+    "politica": "Politica de privacidad"
+  },
+  "about-page": {
+    "title": "Quienes Somos",
+    "slogan1": "Siempre a tu servicio",
+    "description": "En Elysium Yachts, estamos orgullosos de presentarle nuestro servicio de alquiler de yates, donde le brindamos la oportunidad de hacer realidad todos sus sueños y deseos en los destinos más bellos y exclusivos que se pueden encontrar en el Caribe.",
+    "experienceTitle": "Con nuestra experiencia",
+    "experienceTitle2": "Te servimos",
+    "year": "Años de experiencia",
+    "Tours": "Tours Completados",
+    "destinations": "Destinos turisticos",
+    "yachtSelection": "Selección de yates",
+    "yachtSelection-text1": "En Elysium Yachts ponemos a su disposición una gran variedad de experiencias: salidas diurnas o por semanas, veladas románticas o gastronómicas, cualquier actividad relacionada con bodas en barco y recién casados, barcos para eventos de empresa… y todo aquello que desee.",
+    "yachtSelection-text2": "Disponemos de una amplia selección de yates únicos de alquiler en Punta Cana y un servicio totalmente personalizado, diseñado para cubrir todas sus necesidades y para que su experiencia con Elysium Yachts sea inolvidable.",
+    "bannerText-title": "Bienvenido a bordo!",
+    "bannerText": "Todos nuestros yates de alquiler y servicios han sido escogidos cuidadosamente por el equipo de Elysium Yachts para ofrecerle los más altos niveles de calidad.",
+    "bannerText2": "Disponemos de una amplia selección de yates únicos de alquiler en Punta Cana y un servicio totalmente personalizado, diseñado para cubrir todas sus necesidades y para que su experiencia con Elysium Yachts sea inolvidable.",
+    "bannerText3": "Desde su solicitud de alquiler hasta el final de su experiencia Elysium Yachts en un alquiler de yates en Punta Cana Republica Dominicana, usted tendrá uno de nuestros especialistas como interlocutor respaldado por un equipo de profesionales altamente cualificados, juntos velarán para cubrir todas sus necesidades y darle el mejor servicio posible durante su experiencia Elysium Yachts en un alquiler de yate.",
+    "bannerText4": "Si desea alquilar un yate en Punta Cana póngase en contacto con Elysium Yachts, permítanos asesorarle a personalizar sus vacaciones o eventos de empresa y nos encargaremos de todos los detalles.",
+    "split-title": "Confort",
+    "split-subtitle": "En Elysium Yachts somos conscientes de la importancia del confort, del bienestar y de los pequeños detalles.",
+    "split-text": "Por esta razón le ofrecemos un servicio totalmente personalizado pensado exclusivamente para cubrir todas sus necesidades antes, durante y después del alquiler de un yate, donde usted podrá encontrar todo lo que necesita para hacer de su estancia a bordo, un espacio a su medida.",
+    "split-title2": "Satisfacción",
+    "split-subtitle2": "Un trabajo bien hecho, la satisfacción de nuestros clientes…",
+    "split-text2": "es el reflejo de la pasión y del entusiasmo que ponemos en todo lo que hacemos en Elysium Yachts, por ello hallará con nosotros la tranquilidad, discreción y seguridad que le ofrece tener el mejor equipo de profesionales a su disposición antes, durante y después de su alquiler de yate.",
+    "split-title3": "Confianza",
+    "split-subtitle3": "Permítanos asesorarle a personalizar sus vacaciones o eventos de empresa y nos encargaremos de todos los detalles.",
+    "split-text3": "Desde su solicitud de alquiler hasta el final de su experiencia Elysium Yachts en un alquiler de yates en Punta Cana Republica Dominicana, usted tendrá uno de nuestros especialistas como interlocutor respaldado por un equipo de profesionales altamente cualificados, juntos velarán para cubrir todas sus necesidades y darle el mejor servicio posible durante su experiencia Elysium Yachts en un alquiler de yate."
+  },
+  "yacht-page": {
+    "slogan1": "Somos la empresa lider en",
+    "slogan2": "Alquiler de",
+    "slogan3": "Yates",
+    "ourYachts": "Nuestros Yates",
+    "subtitle": "Exclusivos Yates de alquiler en Punta Cana y Caribe.",
+    "rentYacth1": "Alquiler yate Aicon Fly 56",
+    "rentYacth2": "Alquiler yate Meridian 42",
+    "rentYacth3": "Alquiler yate Majestic",
+    "rentYacth4": "Alquiler yate Prestige-42",
+    "rentYacth5": "Alquiler yate Meridian 42"
+  },
+  "contact-page": {
+    "address": "Dirección",
+    "puntacana": "Punta Cana",
+    "phone": "Telefono",
+    "instagram": "Instagram"
+  },
+  "contactForm": {
+    "name": "Nombre",
+    "email": "Correo",
+    "message": "Mensaje",
+    "placerYourName": "Colocar nombre:",
+    "placerYourEmail": "Correo electrónico:",
+    "placerYourMessage": "Mensaje:",
+    "errorMissing": "Todos los campos son obligatorios",
+    "errorNotValidEmail": "Este correo no es válido",
+    "emailSuccess": "El mensaje se envio correctamente",
+    "sendingEmail": "Enviando Correo...",
+  },
+  "button": {
+    "Our-yachts": "Ver Yates",
+    "more": "Mas info",
+    "suscribe": "Suscribete",
+    "ourDestinations": "Ver Nuestros Destinos",
+    "bookYourYacht": "Reserva tu yate",
+    "ContactUs": "Contáctanos",
+    "aboutUs": "Quienes Somos",
+    "sendMessage": "Enviar mensaje"
+  }
+}
