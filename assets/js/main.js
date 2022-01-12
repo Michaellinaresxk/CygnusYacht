@@ -122,27 +122,27 @@ sr.reveal(`.about__img-overlay,
     interval: 100,
 })
 
-var slideIndex = 1;
-showSlides(slideIndex);
+// var slideIndex = 1;
+// showSlides(slideIndex);
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
+// function plusSlides(n) {
+//   showSlides(slideIndex += n);
+// }
 
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
+// function currentSlide(n) {
+//   showSlides(slideIndex = n);
+// }
 
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  if (n > slides.length) {slideIndex = 1}
-    if (n < 1) {slideIndex = slides.length}
-    for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-    }
-  slides[slideIndex-1].style.display = "block";
-}
+// function showSlides(n) {
+//   var i;
+//   var slides = document.getElementsByClassName("mySlides");
+//   if (n > slides.length) {slideIndex = 1}
+//     if (n < 1) {slideIndex = slides.length}
+//     for (i = 0; i < slides.length; i++) {
+//       slides[i].style.display = "none";
+//     }
+//   slides[slideIndex-1].style.display = "block";
+// }
 
 
 
@@ -154,208 +154,268 @@ function showSlides(n) {
      language picker 
 ------------------------------------------------------------------*/
 
-class Translator {
-    constructor(options = {}) {
-      this._options = Object.assign({}, this.defaultConfig, options);
-      this._elements = document.querySelectorAll("[data-i18n]");
-      this._cache = new Map();
+// class Translator {
+//     constructor(options = {}) {
+//       this._options = Object.assign({}, this.defaultConfig, options);
+//       this._elements = document.querySelectorAll("[data-i18n]");
+//       this._cache = new Map();
   
-      if (this._options.detectLanguage) {
-        this._options.defaultLanguage = this._detectLanguage();
-      }
+//       if (this._options.detectLanguage) {
+//         this._options.defaultLanguage = this._detectLanguage();
+//       }
   
-      if (
-        this._options.defaultLanguage &&
-        typeof this._options.defaultLanguage == "string"
-      ) {
-        this._getResource(this._options.defaultLanguage);
-      }
-    }
+//       if (
+//         this._options.defaultLanguage &&
+//         typeof this._options.defaultLanguage == "string"
+//       ) {
+//         this._getResource(this._options.defaultLanguage);
+//       }
+//     }
   
-    _detectLanguage() {
-      var stored = localStorage.getItem("language");
+//     _detectLanguage() {
+//       var stored = localStorage.getItem("language");
   
-      if (this._options.persist && stored) {
-        return stored;
-      }
+//       if (this._options.persist && stored) {
+//         return stored;
+//       }
   
-      var lang = navigator.languages
-        ? navigator.languages[0]
-        : navigator.language;
+//       var lang = navigator.languages
+//         ? navigator.languages[0]
+//         : navigator.language;
   
-      return lang
-    }
+//       return lang
+//     }
   
   
-    _fetchLocal(url) {
-      return new Promise(function (resolve, reject) {
-          var xhr = new XMLHttpRequest
-          xhr.onload = function () {
-              resolve(new Response(xhr.response, { status: xhr.status }))
-          }
-          xhr.onerror = function () {
-              reject(new TypeError('Local request failed'))
-          }
-          xhr.open('GET', url)
-          xhr.responseType = "arraybuffer";
-          xhr.send(null)
-      })
-  };
+//     _fetchLocal(url) {
+//       return new Promise(function (resolve, reject) {
+//           var xhr = new XMLHttpRequest
+//           xhr.onload = function () {
+//               resolve(new Response(xhr.response, { status: xhr.status }))
+//           }
+//           xhr.onerror = function () {
+//               reject(new TypeError('Local request failed'))
+//           }
+//           xhr.open('GET', url)
+//           xhr.responseType = "arraybuffer";
+//           xhr.send(null)
+//       })
+//   };
   
-    _fetch(path) {
-      return this._fetchLocal(path)
-        .then(response => response.json())
-        .catch(() => {
-          console.error(
-            `Could not load ${path}. Please make sure that the file exists.`
-          );
-        });
-    }
+//     _fetch(path) {
+//       return this._fetchLocal(path)
+//         .then(response => response.json())
+//         .catch(() => {
+//           console.error(
+//             `Could not load ${path}. Please make sure that the file exists.`
+//           );
+//         });
+//     }
   
-    async _getResource(lang) {
-      if (this._cache.has(lang)) {
-        return JSON.parse(this._cache.get(lang));
-      }
+//     async _getResource(lang) {
+//       if (this._cache.has(lang)) {
+//         return JSON.parse(this._cache.get(lang));
+//       }
   
-      var translation = await this._fetch(
-        `${this._options.filesLocation}/${lang}.json`
-      );
+//       var translation = await this._fetch(
+//         `${this._options.filesLocation}/${lang}.json`
+//       );
   
-      if (!this._cache.has(lang)) {
-        this._cache.set(lang, JSON.stringify(translation));
-      }
+//       if (!this._cache.has(lang)) {
+//         this._cache.set(lang, JSON.stringify(translation));
+//       }
   
-      return translation;
-    }
+//       return translation;
+//     }
   
-    async load(lang) {
-      if (!this._options.languages.includes(lang)) {
-        return;
-      }
+//     async load(lang) {
+//       if (!this._options.languages.includes(lang)) {
+//         return;
+//       }
   
-      this._translate(await this._getResource(lang));
+//       this._translate(await this._getResource(lang));
   
-      document.documentElement.lang = lang;
+//       document.documentElement.lang = lang;
   
-      if (this._options.persist) {
-        localStorage.setItem("language", lang);
-      }
-    }
+//       if (this._options.persist) {
+//         localStorage.setItem("language", lang);
+//       }
+//     }
   
-    async getTranslationByKey(lang, key) {
-      if (!key) throw new Error("Expected a key to translate, got nothing.");
+//     async getTranslationByKey(lang, key) {
+//       if (!key) throw new Error("Expected a key to translate, got nothing.");
   
-      if (typeof key != "string")
-        throw new Error(
-          `Expected a string for the key parameter, got ${typeof key} instead.`
-        );
+//       if (typeof key != "string")
+//         throw new Error(
+//           `Expected a string for the key parameter, got ${typeof key} instead.`
+//         );
   
-      var translation = await this._getResource(lang);
+//       var translation = await this._getResource(lang);
   
-      return this._getValueFromJSON(key, translation, true);
-    }
+//       return this._getValueFromJSON(key, translation, true);
+//     }
   
-    _getValueFromJSON(key, json, fallback) {
-      var text = key.split(".").reduce((obj, i) => obj[i], json);
+//     _getValueFromJSON(key, json, fallback) {
+//       var text = key.split(".").reduce((obj, i) => obj[i], json);
   
-      if (!text && this._options.defaultLanguage && fallback) {
-        let fallbackTranslation = JSON.parse(
-          this._cache.get(this._options.defaultLanguage)
-        );
+//       if (!text && this._options.defaultLanguage && fallback) {
+//         let fallbackTranslation = JSON.parse(
+//           this._cache.get(this._options.defaultLanguage)
+//         );
   
-        text = this._getValueFromJSON(key, fallbackTranslation, false);
-      } else if (!text) {
-        text = key;
-        console.warn(`Could not find text for attribute "${key}".`);
-      }
+//         text = this._getValueFromJSON(key, fallbackTranslation, false);
+//       } else if (!text) {
+//         text = key;
+//         console.warn(`Could not find text for attribute "${key}".`);
+//       }
   
-      return text;
-    }
+//       return text;
+//     }
   
-    _translate(translation) {
-      var zip = (keys, values) => keys.map((key, i) => [key, values[i]]);
-      var nullSafeSplit = (str, separator) => (str ? str.split(separator) : null);
+//     _translate(translation) {
+//       var zip = (keys, values) => keys.map((key, i) => [key, values[i]]);
+//       var nullSafeSplit = (str, separator) => (str ? str.split(separator) : null);
   
-      var replace = element => {
-        var keys = nullSafeSplit(element.getAttribute("data-i18n"), " ") || [];
-        var properties = nullSafeSplit(
-          element.getAttribute("data-i18n-attr"),
-          " "
-        ) || ["innerHTML"];
+//       var replace = element => {
+//         var keys = nullSafeSplit(element.getAttribute("data-i18n"), " ") || [];
+//         var properties = nullSafeSplit(
+//           element.getAttribute("data-i18n-attr"),
+//           " "
+//         ) || ["innerHTML"];
   
-        if (keys.length > 0 && keys.length !== properties.length) {
-          console.error(
-            "data-i18n and data-i18n-attr must contain the same number of items"
-          );
-        } else {
-          var pairs = zip(keys, properties);
-          pairs.forEach(pair => {
-            const [key, property] = pair;
-            var text = this._getValueFromJSON(key, translation, true);
+//         if (keys.length > 0 && keys.length !== properties.length) {
+//           console.error(
+//             "data-i18n and data-i18n-attr must contain the same number of items"
+//           );
+//         } else {
+//           var pairs = zip(keys, properties);
+//           pairs.forEach(pair => {
+//             const [key, property] = pair;
+//             var text = this._getValueFromJSON(key, translation, true);
   
-            if (text) {
-              element[property] = text;
-              element.setAttribute(property, text);
-            } else {
-              console.error(`Could not find text for attribute "${key}".`);
-            }
-          });
-        }
-      };
+//             if (text) {
+//               element[property] = text;
+//               element.setAttribute(property, text);
+//             } else {
+//               console.error(`Could not find text for attribute "${key}".`);
+//             }
+//           });
+//         }
+//       };
   
-      this._elements.forEach(replace);
-    }
+//       this._elements.forEach(replace);
+//     }
   
-    get defaultConfig() {
-      return {
-        persist: false,
-        languages: ["en"],
-        defaultLanguage: "en",
-        detectLanguage: true,
-        filesLocation: "/locale"
-      };
-    }
-  }
+//     get defaultConfig() {
+//       return {
+//         persist: false,
+//         languages: ["en"],
+//         defaultLanguage: "en",
+//         detectLanguage: true,
+//         filesLocation: "/locale"
+//       };
+//     }
+//   }
   
-  var translator = new Translator({
-    persist: false,
-    languages: ["en","es"],
-    defaultLanguage: "en",
-    detectLanguage: true,
-    filesLocation: "/locale"
-  });
+//   var translator = new Translator({
+//     persist: false,
+//     languages: ["en","es"],
+//     defaultLanguage: "en",
+//     detectLanguage: true,
+//     filesLocation: "/locale"
+//   });
   
-  translator.load();
+//   translator.load();
   
   
   // select feature
   
-  document.getElementById("select-lang").addEventListener("change", function(e) {
-    let langSelected = e.target.value;
-    translator.load(langSelected);
+  // document.getElementById("select-lang").addEventListener("change", function(e) {
+  //   let langSelected = e.target.value;
+  //   translator.load(langSelected);
   
-    setLangInLocalStorage(langSelected)
-  });
+  //   setLangInLocalStorage(langSelected)
+  // });
   
   
-  function setLangInLocalStorage(language) {
-    localStorage.setItem('langChosen', language)
-  }
+  // function setLangInLocalStorage(language) {
+  //   localStorage.setItem('langChosen', language)
+  // }
   
-  (function() {
-    if(localStorage.getItem('langChosen') === null || localStorage.getItem('langChosen') === undefined) {
+  // (function() {
+  //   if(localStorage.getItem('langChosen') === null || localStorage.getItem('langChosen') === undefined) {
      
-      localStorage.setItem('langChosen', "en")
-    }
-  })();
+  //     localStorage.setItem('langChosen', "en")
+  //   }
+  // })();
   
-  (function() {
-    let getLang = localStorage.getItem('langChosen');
-    translator.load(getLang);
-    updateSelect(getLang)
-  })();
+  // (function() {
+  //   let getLang = localStorage.getItem('langChosen');
+  //   translator.load(getLang);
+  //   updateSelect(getLang)
+  // })();
   
-  function updateSelect(getLang) {
-    document.getElementById("select-lang").value = getLang;
-  }
+  // function updateSelect(getLang) {
+  //   document.getElementById("select-lang").value = getLang;
+  // }
   
+
+//   document.addEventListener('DOMContentLoaded', () => {
+//     getYachtsDb();
+//   })
+  
+//   function getYachtsDb () {
+//     fetch('/assets/database/Yates.json')
+//     .then(response => response.json())
+//     .then(yachts => {
+        
+//       console.log(yachts)
+
+//       let html = '';
+//       let element = '';
+  
+//       yachts.map(yacht => {
+
+//       html += `
+//       <div class="yachts-card">
+//       <a href="yachts/aiconfly.html">  
+//       <div class="yachts-card__img">
+//         <img src="${yacht.principalImage}" alt="Alquiler de yate Aicon Fly 56">
+//       </div>
+
+//       <div class="yachts-card__icons" id="yachtsCard__icons">
+//           <div class="yachs-card__icon">
+            
+//           </div>
+//       </div>
+//     </div>  
+//   `
+//     })  
+//     document.getElementById('yachtCard__container').innerHTML = html;
+//     document.getElementById('yachtsCard__icons').innerHTML = element;
+//     })
+//   };
+  
+  
+   // <div class="yachts-card__body">
+        //   <h3 class="yachts-card__title">Yacht charter ${yacht.name}</h3>
+        //   <div class="yachts-card__icons">
+        //     <div class="yachs-card__icon">
+        //       <img src="${yacht.iconName}" alt="boat icon">
+        //       <p>${yacht.iconName}</p>
+        //     </div>
+        //     <div class="yachs-card__icon">
+        //       <img src="${yacht.icons.icon2}"  alt="people icon">
+        //       <p>${yacht.iconName}</p>
+        //     </div>
+        //     <div class="yachs-card__icon">
+        //       <img src="${yacht.icons.icon3}" alt="measure icon">
+        //       <p>${yacht.measure}</p>
+        //     </div>
+        //     <div class="yachs-card__icon">
+        //       <img src="${yacht.iconName}" alt="bed icon">
+        //       <p>2</p>
+        //     </div>
+        //   </div>
+        //     <button class="button-yacht__btn">Rent Now</button>
+        //   </a>
