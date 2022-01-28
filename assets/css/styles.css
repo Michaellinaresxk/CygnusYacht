@@ -1251,8 +1251,20 @@ q {font-style: italic;}
   margin-left: -2em;
 }
 
+ .services-info-img1 {
+  height: 300px;
+}
+
 .img-rounded:nth-child(3) {
   width: 400px;
+}
+
+.service-info-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  height: 300px;
 }
 
 .service-info-content h2 {
@@ -1266,6 +1278,7 @@ q {font-style: italic;}
 .services-info-logo img {
   width: 300px;
   margin-top: 4em;
+  margin-left: 5em;
 }
 
 
