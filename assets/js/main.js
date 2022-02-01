@@ -360,42 +360,44 @@ sr.reveal(`.about__img-overlay,
   // }
   
 
-//   document.addEventListener('DOMContentLoaded', () => {
-//     getYachtsDb();
-//   })
+  document.addEventListener('DOMContentLoaded', () => {
+    getYachtsDb();
+  })
   
-//   function getYachtsDb () {
-//     fetch('/assets/database/Yates.json')
-//     .then(response => response.json())
-//     .then(yachts => {
+  function getYachtsDb () {
+    fetch('/assets/database/Yates.json')
+    .then(response => response.json())
+    .then(yachts => {
         
-//       console.log(yachts)
+      console.log(yachts)
+      let html = '';
+      let element = '';
 
-//       let html = '';
-//       let element = '';
-  
-//       yachts.map(yacht => {
+      yachts.map(yacht => {
 
-//       html += `
-//       <div class="yachts-card">
-//       <a href="yachts/aiconfly.html">  
-//       <div class="yachts-card__img">
-//         <img src="${yacht.principalImage}" alt="Alquiler de yate Aicon Fly 56">
-//       </div>
+              html += `
+      <div class="yachts-card">
+      <a href="yachts/aiconfly.html">  
+      <div class="yachts-card__img">
+        <img src="${yacht.principalImage}" alt="Alquiler de yate Aicon Fly 56">
+      </div>
 
-//       <div class="yachts-card__icons" id="yachtsCard__icons">
-//           <div class="yachs-card__icon">
+      <div class="yachts-card__icons" id="yachtsCard__icons">
+          <div class="yachs-card__icon">
             
-//           </div>
-//       </div>
-//     </div>  
-//   `
-//     })  
-//     document.getElementById('yachtCard__container').innerHTML = html;
-//     document.getElementById('yachtsCard__icons').innerHTML = element;
-//     })
-//   };
-  
+          </div>
+      </div>
+    </div>  
+  `
+  document.getElementById('yachtCard__container1').innerHTML = html;
+  document.getElementById('yachtsCard__icons').innerHTML = element;
+    })  
+}) 
+
+  }
+
+
+   
   
    // <div class="yachts-card__body">
         //   <h3 class="yachts-card__title">Yacht charter ${yacht.name}</h3>
