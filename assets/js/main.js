@@ -360,64 +360,56 @@ sr.reveal(`.about__img-overlay,
   // }
   
 
-  document.addEventListener('DOMContentLoaded', () => {
-    getYachtsDb();
-  })
+
+
+
+
+
+
+
+  /*  data from json yachts */ 
+    
+//   document.addEventListener('DOMContentLoaded', () => {
+//     getYachtsDb();
+//   })
   
-  function getYachtsDb () {
-    fetch('/assets/database/Yates.json')
-    .then(response => response.json())
-    .then(yachts => {
+//   function getYachtsDb () {
+//     fetch('/assets/database/Yates.json')
+//     .then(response => response.json())
+//     .then(yachts => {
         
-      console.log(yachts)
-      let html = '';
-      let element = '';
+//       console.log(yachts)
+//       let html = '';
+//       let element = '';
 
-      yachts.map(yacht => {
+//       yachts.map(yacht => {
 
-              html += `
-      <div class="yachts-card">
-      <a href="yachts/aiconfly.html">  
-      <div class="yachts-card__img">
-        <img src="${yacht.principalImage}" alt="Alquiler de yate Aicon Fly 56">
-      </div>
-
-      <div class="yachts-card__icons" id="yachtsCard__icons">
-          <div class="yachs-card__icon">
+//       html += `
+//       <div class="yachts-card">
+//         <a href="yachts/aiconfly.html">  
+//         <div class="yachts-card__img">
+//         <img src="${yacht.principalImage}" alt="${yacht.name}">
+//         </div>
+//         <div class="yachts-card__body">
+//             <h3 class="yachts-card__title">${yacht.name}</h3>
             
-          </div>
-      </div>
-    </div>  
-  `
-  document.getElementById('yachtCard__container1').innerHTML = html;
-  document.getElementById('yachtsCard__icons').innerHTML = element;
-    })  
-}) 
+//             <div class="yachts-card__icons" id="yachtsCard__icons">
+//                 <div class="yachs-card__icon">
+                    
+//                 </div>
+//             </div>
+            
+//         </div> 
+//         <button class="button-yacht__btn">Rent Now</button>
+//        </a>  
+//       </div>  
+//   `
+//   document.getElementById('yachtCard__container1').innerHTML = html;
+//   document.getElementById('yachtsCard__icons').innerHTML = element;
+//     })  
+// }) 
 
-  }
+//   }
 
 
    
-  
-   // <div class="yachts-card__body">
-        //   <h3 class="yachts-card__title">Yacht charter ${yacht.name}</h3>
-        //   <div class="yachts-card__icons">
-        //     <div class="yachs-card__icon">
-        //       <img src="${yacht.iconName}" alt="boat icon">
-        //       <p>${yacht.iconName}</p>
-        //     </div>
-        //     <div class="yachs-card__icon">
-        //       <img src="${yacht.icons.icon2}"  alt="people icon">
-        //       <p>${yacht.iconName}</p>
-        //     </div>
-        //     <div class="yachs-card__icon">
-        //       <img src="${yacht.icons.icon3}" alt="measure icon">
-        //       <p>${yacht.measure}</p>
-        //     </div>
-        //     <div class="yachs-card__icon">
-        //       <img src="${yacht.iconName}" alt="bed icon">
-        //       <p>2</p>
-        //     </div>
-        //   </div>
-        //     <button class="button-yacht__btn">Rent Now</button>
-        //   </a>
