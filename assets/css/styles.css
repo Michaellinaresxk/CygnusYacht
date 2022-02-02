@@ -175,23 +175,18 @@ input {
   align-items: center;
 }
 
-
-.nav__logo, .nav__toggle {
-  color: var(--white-color);
-}
-
-.nav__logo {
-  font-weight: var(--font-semi-bold);
-}
-
-
 .nav__toggle {
   font-size: 1.2rem;
   cursor: pointer;
+  color: var(--white-color);
 }
 
 .nav__menu {
   position: relative;
+}
+
+.nav__logo img {
+  width: 150px;
 }
 
 @media screen and (max-width: 767px) {
@@ -244,7 +239,6 @@ input {
   box-shadow: 0 0 4px rgba(14, 55, 63, 0.15);
 }
 
-.scroll-header .nav__logo,
 .scroll-header .nav__toggle {
   color: var(--title-color);
 }
@@ -2089,7 +2083,9 @@ q {font-style: italic;}
 
 @media screen and (max-width: 762px) {
 
-
+  .nav__logo img {
+    width: 110px;
+  }
 
   .home__data {
     margin-top: 8em;
