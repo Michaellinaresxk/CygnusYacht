@@ -144,6 +144,10 @@ input {
   margin-bottom: var(--mb-2);
 }
 
+.section__title-home {
+  margin-bottom: 0em;
+}
+
 .container {
   max-width: 1000px;
   margin-left: var(--mb-1);
