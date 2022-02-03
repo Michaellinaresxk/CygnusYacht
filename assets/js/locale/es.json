@@ -12,13 +12,13 @@
     "slogan2": "Cumpliendo",
     "slogan3": "sueños",
     "slogan4": "Desde",
-    "span": "5 best places to visit"
+    "span": "Top 5 mejores destinos"
   },
   "boat-tipe": {
     "title": "Tipos de barcos en alquiler",
     "subtitle": "Disponemos de una amplia selección de alquiler de yates, super yates, lanchas y catamaranes únicos.",
     "yachts": "Yates",
-    "catamarans": "Catamaran",
+    "catamarans": "Catamaranes",
     "superyachts": "Superyates"
   },
   "places": {
@@ -29,7 +29,7 @@
   },
   "video-tour": {
     "title": "Video Tour",
-    "description": "Find out more with our video of the most beautiful and pleasant places for you and your family."
+    "description": "Descubre los mejores <br> y más atractivos yates por dentro."
   },
   "testimonials": {
     "happyClientes": "Clientes Felices",
@@ -55,7 +55,8 @@
     "faqs": "Preguntas Frecuentes",
     "contactUs": "Contàctanos",
     "terminos": "Terminos y condiciones",
-    "politica": "Politica de privacidad"
+    "politica": "Politica de privacidad",
+    "boats": "Botes"
   },
   "about-page": {
     "title": "Quienes Somos",
