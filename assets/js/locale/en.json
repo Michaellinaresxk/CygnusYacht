@@ -112,7 +112,7 @@
     "errorMissing": "Todos los campos son obligatorios",
     "errorNotValidEmail": "Este correo no es válido",
     "emailSuccess": "El mensaje se envio correctamente",
-    "sendingEmail": "Enviando Correo...",
+    "sendingEmail": "Enviando Correo..."
   },
   "button": {
     "Our-yachts": "Ver Yates",
