@@ -1,47 +1,41 @@
 {
   "navbar": {
-    "home": "Inicio",
-    "aboutUs": "Quienes Somos",
-    "yachts": "Yates",
-    "destinations": "Destinos",
-    "contact": "Contácto",
-    "faq": "Preguntas Frecuentes"
+    "home": "Home",
+    "aboutUs": "About us",
+    "yachts": "Yachts",
+    "destinations": "Destinations",
+    "contact": "Contact us"
   },
   "home-banner": {
-    "slogan1": "10 años y contando...",
-    "slogan2": "Cumpliendo",
-    "slogan3": "sueños",
-    "slogan4": "Desde",
+    "slogan1": "10 years and counting...",
+    "slogan2": "Fullfilling",
+    "slogan3": "dreams",
+    "slogan4": "From",
+    "slogan5": "2010",
     "span": "5 best places to visit"
   },
   "boat-tipe": {
-    "title": "Tipos de barcos en alquiler",
-    "subtitle": "Disponemos de una amplia selección de alquiler de yates, super yates, lanchas y catamaranes únicos.",
-    "yachts": "Yates",
-    "catamarans": "Catamaran",
-    "superyachts": "Superyates"
+    "title": "Types of yachts Charter",
+    "subtitle": "We have a wide selection of unique yacht, super yacht, boat and catamaran rentals.",
+    "yachts": "Yachts",
+    "catamarans": "Catamaras",
+    "superyachts": "Superyatchs"
   },
   "places": {
-    "title": "Elije un destino",
-    "subtitle": "Elige uno de los destinos que tenemos para ti.",
-    "beach": "Playa",
-    "island": "Isla"
+    "title": "Choose Your Place",
+    "subtitle": "Choose one of the destinations we have for you.",
+    "beach": "Beach",
+    "island": "Island"
   },
   "video-tour": {
     "title": "Video Tour",
-    "description": "Find out more with our video of the most beautiful and pleasant places for you and your family."
+    "description": "Discover the most <br> attractive  yachts from inside"
   },
   "testimonials": {
-    "happyClientes": "Clientes Felices",
-    "testimonial-1": "Mi novio y yo estuvimos en Punta Cana hace un mes y contratamos los servicios de esta empresa para ir en un yate privado hasta isla Saona, la experiencia fue súper divertida e increíble, hicimos snorkel, nos bañamos en las piscinas naturales, la comida fue muy buena y la tripulación son personas muy amables y profesionales. Vamos a repetir seguro el año que viene.",
-    "name1": "Anna",
-    "from1": "from Glasgow, Scotland",
-    "testimonial-2": "Celebré mi cumpleaños con mis amigos en un yate en playa Palmilla, una experiencia inolvidable. La playa es hermosa, el yate que reservamos era espectacular y el servicio fue atento y excelente. No tuve que preocuparme de nada durante mi cumpleaños, y mis amigos y yo nos divertimos muchísimo. Recomendado 100%.",
-    "name2": "Ella Mentree",
-    "from2": "from United States",
-    "testimonial-3": "Si desean disfrutar de una experiencia única e inolvidable les recomiendo esta empresa. Me recomendaron esta empresa en el Hotel, son muy profesionales y ofrecen un servicio personalizado. Navegar en un yate por el mar Caribe con mis seres queridos es una experiencia que jamás olvidaré, un recuerdo para toda la vida.",
-    "name3": "Rannynm",
-    "from3": "from Indonesia"
+    "happyClientes": "Happy Clients",
+    "testimonial-1": "My boyfriend and I were in Punta Cana a month ago and we hired this company’s services to go on a private yacht to Saona Island. The experience was super fun and incredible. We did snorkeling, we bathed in natural pools, the food was very good and the crew was very professional and kind. We will definitely repeat next year.",
+    "testimonial-2": "I celebrated my birthday with my friends on a yacht at Palmilla Beach, it was an unforgettable experience. The beach is beautiful, the yacht we booked was spectacular and the service was attentive and excellent. I did not have to worry about anything during my birthday, and my friends and I had a lot of fun. 100% Recommended.",
+    "testimonial-3": "If you want to enjoy a unique and unforgettable experience, I recommend this company. They recommended me this company in the Hotel, they are very professional and offer a personalized service. Sailing on a yacht through the Caribbean Sea with my loved ones is an experience that I will never forget, a memory for a lifetime."
   },
   "subscribe": {
     "title": "Suscribete para recibir boletines",
@@ -50,12 +44,13 @@
     "subscribe": "Suscribete"
   },
   "footer": {
-    "description": "Servicio de alquiler de yates, donde le brindamos la oportunidad de hacer realidad todos sus sueños y deseos en los destinos más bellos y exclusivos que se pueden encontrar en el Caribe.",
-    "quicklinks": "Enlaces",
-    "faqs": "Preguntas Frecuentes",
-    "contactUs": "Contàctanos",
-    "terminos": "Terminos y condiciones",
-    "politica": "Politica de privacidad"
+    "description": "Yacht charter service, where we give you the opportunity to make all your dreams and wishes come true in the most beautiful and exclusive destinations that can be found in the Caribbean.",
+    "quicklinks": "Quick links",
+    "faqs": "Frequntly Asked Questions",
+    "contactUs": "Contact us",
+    "terminos": "Terms and Conditions",
+    "politica": "Privacy Policy",
+    "boats": "Boats"
   },
   "about-page": {
     "title": "Quienes Somos",
@@ -112,10 +107,10 @@
     "errorMissing": "Todos los campos son obligatorios",
     "errorNotValidEmail": "Este correo no es válido",
     "emailSuccess": "El mensaje se envio correctamente",
-    "sendingEmail": "Enviando Correo...",
+    "sendingEmail": "Enviando Correo..."
   },
   "button": {
-    "Our-yachts": "Ver Yates",
+    "Our-yachts": "Our Yachts",
     "more": "Mas info",
     "suscribe": "Suscribete",
     "ourDestinations": "Ver Nuestros Destinos",

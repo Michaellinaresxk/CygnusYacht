@@ -1,25 +1,25 @@
 {
   "navbar": {
-    "home": "Home",
-    "aboutUs": "About us",
-    "yachts": "Yachts",
-    "destinations": "Destinations",
-    "contact": "Contact us"
+    "home": "Inicio",
+    "aboutUs": "Quienes Somos",
+    "yachts": "Yates",
+    "destinations": "Destinos",
+    "contact": "Contácto",
+    "faq": "Preguntas Frecuentes"
   },
   "home-banner": {
-    "slogan1": "10 years and counting...",
-    "slogan2": "Fullfilling",
-    "slogan3": "dreams",
-    "slogan4": "From",
-    "slogan5": "2010",
-    "span": "5 best places to visit"
+    "slogan1": "10 años y contando...",
+    "slogan2": "Cumpliendo",
+    "slogan3": "sueños",
+    "slogan4": "Desde",
+    "span": "Top 5 mejores destinos"
   },
   "boat-tipe": {
-    "title": "Types of yachts Charter",
+    "title": "Tipos de barcos en alquiler",
     "subtitle": "Disponemos de una amplia selección de alquiler de yates, super yates, lanchas y catamaranes únicos.",
-    "yachts": "Yachts",
-    "catamarans": "Catamaras",
-    "superyachts": "Superyatchs"
+    "yachts": "Yates",
+    "catamarans": "Catamaranes",
+    "superyachts": "Superyates"
   },
   "places": {
     "title": "Elije un destino",
@@ -29,7 +29,7 @@
   },
   "video-tour": {
     "title": "Video Tour",
-    "description": "Find out more with our video of the most beautiful and pleasant places for you and your family."
+    "description": "Descubre los mejores <br> y más atractivos yates por dentro."
   },
   "testimonials": {
     "happyClientes": "Clientes Felices",
@@ -55,7 +55,8 @@
     "faqs": "Preguntas Frecuentes",
     "contactUs": "Contàctanos",
     "terminos": "Terminos y condiciones",
-    "politica": "Politica de privacidad"
+    "politica": "Politica de privacidad",
+    "boats": "Botes"
   },
   "about-page": {
     "title": "Quienes Somos",
@@ -112,7 +113,7 @@
     "errorMissing": "Todos los campos son obligatorios",
     "errorNotValidEmail": "Este correo no es válido",
     "emailSuccess": "El mensaje se envio correctamente",
-    "sendingEmail": "Enviando Correo...",
+    "sendingEmail": "Enviando Correo..."
   },
   "button": {
     "Our-yachts": "Ver Yates",
