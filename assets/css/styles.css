@@ -141,11 +141,7 @@ input {
   color: var(--title-color);
   text-align: center;
   text-transform: capitalize;
-
 }
-
-
-
 .container {
   max-width: 1000px;
   margin-left: var(--mb-1);
@@ -1465,7 +1461,6 @@ q {font-style: italic;}
 .bennety-banner {
   background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1643601583/cygnus%20yachts/pictures/yates/benetti/bg_x3h03m.jpg)
 }
-
 .azimut55-banner {
   background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1643669266/cygnus%20yachts/pictures/yates/Azimut/bymatteocrupi-60_bgwhme.jpg) 
 }
