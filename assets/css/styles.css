@@ -1477,6 +1477,12 @@ q {font-style: italic;}
   background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1643947013/cygnus%20yachts/pictures/yates/fairline-43/4_crkpmd.jpg)
 }
 
+.tiara39-11-banner {
+  background-image: url(../img/yacht/tiara-39open/1.jpg);
+}
+.tiara43-sovran-banner {
+  background-image: url(../img/yacht/Tiara43-Sovran/bymc-4.jpg);
+}
 /* GALLERY YACHT TEMPLATE */
 
 .yacht-gallery {
@@ -1838,6 +1844,7 @@ q {font-style: italic;}
   
 }
 
+
 .destination-banner-overlay {
   display: flex;
   justify-content: center;
@@ -2080,6 +2087,29 @@ q {font-style: italic;}
 }
 
 
+.input-error {
+  outline: 1px solid red;
+} 
+
+.input-valido {
+  outline: 1px solid var(--green);
+}
+
+.mensajes-de-error {
+  border: 1px solid red;
+  padding: 1em;
+  color: red;
+  margin-top: 1em;
+  text-align: center;
+}
+
+.enviado-correctamente {
+ padding: .5em;
+ background-color: #e67e2e;
+ color: #fff;
+ text-align: center;
+ margin-top: 1em;
+}
 
 
 @media screen and (max-width: 762px) {

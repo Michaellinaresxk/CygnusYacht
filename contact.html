@@ -110,6 +110,7 @@
                           </div>
                         </div>
                         <div class="row">
+                          <div class="form-result" id="formResult"></div><!-- /.form-result -->
                           <div class="col-md-12">
                               <button type="submit" class="button" id="contact_submitBtn">Send Message</button>
                             <span class="submitting"></span>
@@ -208,8 +209,23 @@
       <script src="assets/js/swiper-bundle.min.js"></script>
 
       <!--=============== MAIN JS ===============-->
-      <script src="assets/js/main.js"></script>
+      <script type="module" src="assets/js/main.js"></script>
      
-    
+      <script type="module">
+        import {
+          message, 
+          name, 
+          email,
+          contactForm, 
+          formResult, 
+          contact_submitBtn,
+          er,
+          eventlisteners,
+          iniciarWeb,
+          validarFormulario,
+          mostrarError,
+          enviarFormulario,
+          resetearFormulario } from "./js/validation.js";
+      </script>
   </body>
 </html>
