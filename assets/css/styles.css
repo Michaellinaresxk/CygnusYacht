@@ -142,6 +142,10 @@ input {
   text-align: center;
   text-transform: capitalize;
 }
+.section__title:nth-child(2) {
+  margin-bottom: 2em;
+}
+
 .container {
   max-width: 1000px;
   margin-left: var(--mb-1);
