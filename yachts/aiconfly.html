@@ -23,30 +23,36 @@
             <div class="overlay"> 
                 <header class="header" id="header">
                     <nav class="nav container">
-                        <a href="../index.html" class="nav__logo">
+                        <a href="index.html" class="nav__logo">
                             <img src="../assets/img/logocygnus-color.png" class="brand-logo" alt="Cygnus Yachts">
-                          </a>        
+                          </a>
+        
                         <div class="nav__menu" id="nav-menu">
                             <ul class="nav__list">
                                 <li class="nav__item">
-                                    <a href="../index.html" class="nav__link active-link">Home</a>
+                                    <a href="../index.html" class="nav__link active-link" data-i18n="navbar.home">Home</a>
                                 </li>
                                 <li class="nav__item">
-                                    <a href="../about.html" class="nav__link">About</a>
+                                    <a href="../about.html" class="nav__link" data-i18n="navbar.aboutUs">About</a>
                                 </li>
                                 <li class="nav__item">
-                                    <a href="../yachts.html" class="nav__link">Yachts</a>
+                                    <a href="../yachts.html" class="nav__link" data-i18n="navbar.yachts">Yachts</a>
                                 </li>
                                 <li class="nav__item">
-                                    <a href="../destinations.html" class="nav__link">Destinations</a>
+                                    <a href="../destinations.html" class="nav__link" data-i18n="navbar.destinations">Destinations</a>
                                 </li>
                                 <li class="nav__item">
-                                    <a href="../contact.html" class="nav__link">Contact</a>
+                                    <a href="../contact.html" class="nav__link" data-i18n="navbar.contact">Contact</a>
                                 </li>
                             </ul>
+        
+        
                             <i class="ri-close-line nav__close" id="nav-close"></i>
                         </div>
-        
+                         <select data-width="fit" id="select-lang" class="select-lang">
+                            <option class="option" name="lang" value="es">Es</option>
+                            <option class="option" name="lang" value="en" selected="selected">En</option>
+                           </select>
                         <div class="nav__toggle" id="nav-toggle">
                             <i class="ri-function-line"></i>
                         </div>
@@ -59,7 +65,7 @@
             <div class="yachts-card__icons">
               <div class="yachs-card__icon">
                 <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png" alt="boat icon">
-                <p>Yacht</p>
+                <p data-i18n="navbar.yachts">Yacht</p>
               </div>
               <div class="yachs-card__icon">
                 <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png" alt="people icon">
