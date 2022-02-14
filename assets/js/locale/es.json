@@ -100,6 +100,23 @@
     "rentYacth4": "Alquiler yate Prestige-42",
     "rentYacth5": "Alquiler yate Meridian 42"
   },
+  "destinations": {
+    "title": "Nuestros Destinos",
+    "subtitle": "Elige tu destino",
+    "subtitle2": "Elige uno de los destinos que tenemos para ti.",
+    "description": "Disfruta de los destinos más exclusivos del Caribe. Tenemos acceso a más de 10 yates de renta en 4 destinos diferentes - renta un yate en Casa de Campo la Romana, visita las increíbles islas que tenemos para ti, renta un Yate en Punta Cana o renta un yate en La Marina de Cap Cana - todo es posible con nuestro servicio de alquiler de barcos a medida.",
+    "place1": "Isla Saona",
+    "place2": "Punta Cana",
+    "place3": "Bayahibe",
+    "place4": "Catalina",
+    "place5": "Palmilla",
+    "recomended": "Recomendado",
+    "title2": "Islas Tropicales",
+    "descriptionP": "El Caribe es la zona del mundo donde se encuentran estas maravillosas islas tropicales. Aguas azules cristalinas, sol los 365 días del año, arrecifes de coral y playas bordeadas de palmeras es lo que caracteriza al Caribe, aunque su diversidad es la verdadera cualidad de su encanto. Amplio en tamaño de destino y oportunidades de aventura, puede esperar tener una experiencia diferente en cualquier isla que elija.",
+    "descriptionP2":  "La República Dominicana tiene una gran variedad de islas tropicales, entre ellas están: Isla Saona, Isla Catalina, Playa Palmilla y las increíbles piscinas naturales en Playa Juanillo Cap Cana y Punta Cana. Una escapada fantástica para los meses de invierno, siempre puede esperar el sol en el Caribe. Cada parte del Caribe tiene su propio encanto único.",
+    "descriptionP3":  "Estas islas son perfectas para una escapada de vacaciones de invierno. Con un clima cálido durante todo el año, República Dominicana te ofrece la oportunidad perfecta para evitar los fríos meses de invierno."
+
+  },
   "contact-page": {
     "slogan": "Do you have questions about yacht charter in Punta Cana?",
     "address": "Dirección",

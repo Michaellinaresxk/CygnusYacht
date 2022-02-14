@@ -94,6 +94,23 @@
     "rentYacth4": "Alquiler yate Prestige-42",
     "rentYacth5": "Alquiler yate Meridian 42"
   },
+  "destinations": {
+    "title": "Our Destinations",
+    "subtitle": "Choose Your Place",
+    "subtitle2": "Choose one of the destinations we have for you.",
+    "description": "Enjoy the most exclusive destinations in the Caribbean. We have access to more than 10 rental yachts in 4 different destinations - rent a yacht in Casa de Campo la Romana, visit the incredible islands we have for you, rent a Yacht in Punta Cana or rent a yacht in La Marina de Cap Cana - everything is possible with our bespoke boat rental service.",
+    "place1": "Isla Saona",
+    "place2": "Punta Cana",
+    "place3": "Bayahibe",
+    "place4": "Catalina",
+    "place5": "Palmilla",
+    "recomended": "Recomeded",
+    "title2": "Tropical Islands",
+    "descriptionP": "The Caribbean is the area of ​​the world where these wonderful tropical islands are found. Crystal clear blue waters, 365 days a year of sunshine, coral reefs and palm fringed beaches is what the Caribbean is known for, although its diversity is the true quality of its charm. Extensive in destination size and adventure opportunities, you can expect to have a different experience on any island you choose.",
+    "descriptionP2":  "The Dominican Republic has a great variety of tropical islands, among them are: Saona Island, Catalina Island, Palmilla Beach and the incredible Natural pools at Juanillo Beach Cap Cana and Punta Cana. A fantastic getaway for the winter months, you can always expect the sun in the Caribbean. Each part of the Caribbean has its own unique charm.",
+    "descriptionP3":  "These islands are perfect for a winter vacation getaway. With a warm climate throughout the year, the Dominican Republic offers you the perfect opportunity to avoid the cold winter months."
+
+  },
   "contact-page": {
     "slogan": "Tienes alguna pregunta sobre yachts charter en Punta Cana?",
     "address": "Dirección",

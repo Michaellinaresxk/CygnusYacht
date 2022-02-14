@@ -1765,9 +1765,16 @@ q {font-style: italic;}
   position: relative;
 }
 
+.destination-home {
+  margin-top: 5em;
+}
 
+.destination-home h2 {
+  margin-bottom: .5em;
+}
 
 .destination-home p {
+
   margin-bottom: 2em;
 }
 
