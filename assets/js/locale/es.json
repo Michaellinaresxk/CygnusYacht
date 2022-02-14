@@ -94,11 +94,7 @@
     "slogan3": "Yates",
     "ourYachts": "Nuestros Yates",
     "subtitle": "Exclusivos Yates de alquiler en Punta Cana y Caribe.",
-    "rentYacth1": "Alquiler yate Aicon Fly 56",
-    "rentYacth2": "Alquiler yate Meridian 42",
-    "rentYacth3": "Alquiler yate Majestic",
-    "rentYacth4": "Alquiler yate Prestige-42",
-    "rentYacth5": "Alquiler yate Meridian 42"
+    "rentYacth1": "Alquiler yate"
   },
   "destinations": {
     "title": "Nuestros Destinos",
@@ -118,14 +114,15 @@
 
   },
   "contact-page": {
-    "slogan": "Do you have questions about yacht charter in Punta Cana?",
+    "slogan": "Tienes algun pregunta sobre yacht charter en Punta Cana?",
     "address": "Dirección",
     "puntacana": "Punta Cana",
     "phone": "Telefono",
     "instagram": "Instagram",
     "contactUs": "Contactanos",
-    "keepinTouch": "Nos mantenemos en contácto"
-
+    "keepinTouch": "Nos mantenemos en contácto",
+    "description1": "Si no sabes exactamente que tipo de barco alquilar o no tienes tiempo, rellena este formulario y dinos cuantas personas irán a bordo, posibles fechas, presupuesto aproximado y te enviaremos una propuesta por email.",
+    "description2": "No olvides dejarnos tu número de teléfono para que podamos contactar contigo y darte información completa sobre el alquiler de barcos privados en Punta Cana."
   },
   "contactForm": {
     "name": "Nombre:",
@@ -147,6 +144,7 @@
     "bookYourYacht": "Reserva tu yate",
     "ContactUs": "Contáctanos",
     "aboutUs": "Quienes Somos",
-    "sendMessage": "Enviar mensaje"
+    "sendMessage": "Enviar mensaje",
+    "Rent-Now": "Reserva tu yate"
   }
 }
