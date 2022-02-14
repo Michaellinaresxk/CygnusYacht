@@ -25,43 +25,48 @@
         <div class="overlay">
           <header class="header" id="header">
             <nav class="nav container">
-                <a href="index.html" class="nav__logo">
+              <a href="index.html" class="nav__logo">
                   <img src="assets/img/logocygnus-color.png" class="brand-logo" alt="Cygnus Yachts">
                 </a>
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item">
-                          <a href="index.html" class="nav__link active-link">Home</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="about.html" class="nav__link">About</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="yachts.html" class="nav__link">Yachts</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="destinations.html" class="nav__link">Destinations</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="contact.html" class="nav__link">Contact</a>
-                        </li>
-                    </ul>
-                    <i class="ri-close-line nav__close" id="nav-close"></i>
-                </div>
+              <div class="nav__menu" id="nav-menu">
+                  <ul class="nav__list">
+                      <li class="nav__item">
+                          <a href="index.html" class="nav__link active-link" data-i18n="navbar.home">Home</a>
+                      </li>
+                      <li class="nav__item">
+                          <a href="about.html" class="nav__link" data-i18n="navbar.aboutUs">About</a>
+                      </li>
+                      <li class="nav__item">
+                          <a href="yachts.html" class="nav__link" data-i18n="navbar.yachts">Yachts</a>
+                      </li>
+                      <li class="nav__item">
+                          <a href="destinations.html" class="nav__link" data-i18n="navbar.destinations">Destinations</a>
+                      </li>
+                      <li class="nav__item">
+                          <a href="contact.html" class="nav__link" data-i18n="navbar.contact">Contact</a>
+                      </li>
+                  </ul>
 
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class="ri-function-line"></i>
-                </div>
-            </nav>
+
+                  <i class="ri-close-line nav__close" id="nav-close"></i>
+              </div>
+               <select data-width="fit" id="select-lang" class="select-lang">
+                  <option class="option" name="lang" value="es">Es</option>
+                  <option class="option" name="lang" value="en" selected="selected">En</option>
+                 </select>
+              <div class="nav__toggle" id="nav-toggle">
+                  <i class="ri-function-line"></i>
+              </div>
+          </nav>
 
           </header>
-        </div>  
+        </div>  v      c   
           <div class="yacht-data__container">
             <div class="yacht__data">
-              <span class="yacht__data-subtitle">Leading company in</span>
-              <h1 class="yacht__data-title">yacht<br><strong>Charter</strong> </h1>
-              <a href="about.html" class="button">About Us</a>
+              <span class="yacht__data-subtitle" data-i18n="yacht-page.slogan1">Leading company in</span>
+              <h1 class="yacht__data-title">Yacht<br><strong>Charter</strong> </h1>
+              <a href="about.html" class="button" data-i18n="button.aboutUs">About Us</a>
             </div>
           </div>
       </div>
@@ -69,8 +74,8 @@
 
       <main class="yachts-container">
         <div class="container grid">
-          <h2>Our Yachts</h2>
-          <h3>Exclusive Yachts for rent in Punta Cana and the Caribbean.</h3>
+          <h2 data-i18n="yacht-page.ourYachts">Our Yachts</h2>
+          <h3 data-i18n="boat-tipe.subtitle">Exclusive Yachts for rent in Punta Cana and the Caribbean.</h3>
         </div>
 
         <div class="yacht-card__container">
@@ -80,11 +85,11 @@
                 <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1637088644/cygnus%20yachts/pictures/yates/Aicon-Fly-56/bg1_pdewyb.jpg" alt="Alquiler de yate Aicon Fly 56">
               </div>
               <div class="yachts-card__body">
-                <h3 class="yachts-card__title">Yacht charter Aicon Fly 56</h3>
+                <h3 class="yachts-card__title"> <span data-i18n="yacht-page.rentYacth1"></span> Aicon Fly 56</h3>
                 <div class="yachts-card__icons">
                   <div class="yachs-card__icon">
                     <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png" alt="boat icon">
-                    <p>Yacht</p>
+                    <p data-i18n="navbar.yachts">Yacht</p>
                   </div>
                   <div class="yachs-card__icon">
                     <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png" alt="people icon">
@@ -99,7 +104,7 @@
                     <p>3</p>
                   </div>
                 </div>
-                <button class="button-yacht__btn">Rent Now</button>
+                <button class="button-yacht__btn" data-i18n="button.Rent-Now">Rent Now</button>
               </div>
             </a>     
           </div>
@@ -111,11 +116,11 @@
                 <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1637091985/cygnus%20yachts/pictures/yates/Meridian-42/1_uiic5j.jpg" alt="">
               </div>
               <div class="yachts-card__body">
-                <h3 class="yachts-card__title">Yacht charter Meridian 42</h3>
+                <h3 class="yachts-card__title"> <span data-i18n="yacht-page.rentYacth1"></span> Meridian 42</h3>
                 <div class="yachts-card__icons">
                   <div class="yachs-card__icon">
                     <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png" alt="boat icon">
-                    <p>Yacht</p>
+                    <p data-i18n="navbar.yachts">Yacht</p>
                   </div>
                   <div class="yachs-card__icon">
                     <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png" alt="people icon">
@@ -130,8 +135,7 @@
                     <p>2</p>
                   </div>
                 </div>
-                <button class="button-yacht__btn">Rent Now</button>
-              </div>  
+                <button class="button-yacht__btn" data-i18n="button.Rent-Now">Rent Now</button>              </div>  
             </a>      
           </div>
            <!-- end yacht card meridian -->  
@@ -142,11 +146,11 @@
                 <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1637125146/cygnus%20yachts/pictures/yates/Majestic-56/1_firuqj.jpg" alt="">
               </div>
               <div class="yachts-card__body">
-                <h3 class="yachts-card__title">Yacht charter Majesty 56</h3>
+                <h3 class="yachts-card__title"> <span data-i18n="yacht-page.rentYacth1"></span> Majesty 56</h3>
                 <div class="yachts-card__icons">
                   <div class="yachs-card__icon">
                     <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png" alt="boat icon">
-                    <p>Yacht</p>
+                    <p data-i18n="navbar.yachts">Yacht</p>
                   </div>
                   <div class="yachs-card__icon">
                     <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png" alt="people icon">
@@ -161,8 +165,7 @@
                     <p>3</p>
                   </div>
                 </div>
-                <button class="button-yacht__btn">Rent Now</button>
-              </div>
+                <button class="button-yacht__btn" data-i18n="button.Rent-Now">Rent Now</button>              </div>
             </a>
           </div> 
           <!-- end yacht card majesty 56 -->   
@@ -176,11 +179,11 @@
               <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1637179377/cygnus%20yachts/pictures/yates/prestige/bg1_t2pyw8.jpg" alt="Alquiler de yate Aicon Fly 56">
             </div>
             <div class="yachts-card__body">
-              <h3 class="yachts-card__title">Yacht charter Prestige 420</h3>
+              <h3 class="yachts-card__title"> <span data-i18n="yacht-page.rentYacth1"></span> Prestige 420</h3>
               <div class="yachts-card__icons">
                 <div class="yachs-card__icon">
                   <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png" alt="boat icon">
-                  <p>Yacht</p>
+                  <p data-i18n="navbar.yachts">Yacht</p>
                 </div>
                 <div class="yachs-card__icon">
                   <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png" alt="people icon">
@@ -195,8 +198,7 @@
                   <p>2</p>
                 </div>
               </div>
-              <button class="button-yacht__btn">Rent Now</button>
-            </div> 
+              <button class="button-yacht__btn" data-i18n="button.Rent-Now">Rent Now</button>            </div> 
            </a>
           </div>
           <!-- end yacht card prestige 420 -->
@@ -207,11 +209,11 @@
                 <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1643482208/cygnus%20yachts/pictures/yates/ferreti/bg_iyizif.jpg" alt="">
               </div>
               <div class="yachts-card__body">
-                <h3 class="yachts-card__title">Yacht charter Ferreti 731</h3>
+                <h3 class="yachts-card__title"> <span data-i18n="yacht-page.rentYacth1"></span> Ferreti 731</h3>
                 <div class="yachts-card__icons">
                   <div class="yachs-card__icon">
                     <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png" alt="boat icon">
-                    <p>Yacht</p>
+                    <p data-i18n="navbar.yachts">Yacht</p>
                   </div>
                   <div class="yachs-card__icon">
                     <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png" alt="people icon">
@@ -226,8 +228,7 @@
                     <p>4</p>
                   </div>
                 </div>
-                <button class="button-yacht__btn">Rent Now</button>
-              </div>
+                <button class="button-yacht__btn" data-i18n="button.Rent-Now">Rent Now</button>              </div>
             </a>
           </div>    
           <!-- end yacht card ferreti 731 -->
@@ -238,11 +239,11 @@
                 <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1643589886/cygnus%20yachts/pictures/yates/fairline/fairline5_dumvgm.jpg" alt="">
               </div>
               <div class="yachts-card__body">
-                <h3 class="yachts-card__title">Yacht charter Fairline 50</h3>
+                <h3 class="yachts-card__title"> <span data-i18n="yacht-page.rentYacth1"></span> Fairline 50</h3>
                 <div class="yachts-card__icons">
                   <div class="yachs-card__icon">
                     <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png" alt="boat icon">
-                    <p>Yacht</p>
+                    <p data-i18n="navbar.yachts">Yacht</p>
                   </div>
                   <div class="yachs-card__icon">
                     <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png" alt="people icon">
@@ -257,8 +258,7 @@
                     <p>3</p>
                   </div>    
                 </div>
-                  <button class="button-yacht__btn">Rent Now</button>
-              </div>  
+                <button class="button-yacht__btn" data-i18n="button.Rent-Now">Rent Now</button>              </div>  
             </a>  
           </div>  
           <!-- end yacht card fairline 50-->
@@ -273,11 +273,11 @@
                 <img src="https://res.cloudinary.com/michaelxk-com/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1643591760/cygnus%20yachts/pictures/yates/ocean-fast/ocean1_ksckd3.jpg" alt="">
               </div>
               <div class="yachts-card__body">
-                <h3 class="yachts-card__title">Yacht charter Ocean Fast 90</h3>
+                <h3 class="yachts-card__title"> <span data-i18n="yacht-page.rentYacth1"></span> Ocean Fast 90</h3>
                 <div class="yachts-card__icons">
                   <div class="yachs-card__icon">
                     <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png" alt="boat icon">
-                    <p>Yacht</p>
+                    <p data-i18n="navbar.yachts">Yacht</p>
                   </div>
                   <div class="yachs-card__icon">
                     <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png" alt="people icon">
@@ -292,8 +292,7 @@
                     <p>4</p>
                   </div>    
                 </div>
-                  <button class="button-yacht__btn">Rent Now</button>
-              </div>  
+                <button class="button-yacht__btn" data-i18n="button.Rent-Now">Rent Now</button>              </div>  
             </a>  
           </div> 
            <!-- end yacht card Ocean Fast 90 -->
@@ -304,11 +303,11 @@
                 <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1643684661/cygnus%20yachts/pictures/yates/power%20cat%20marine/WhatsApp_Image_2021-02-19_at_12.48.04_owyega.jpg" alt="">
               </div>
               <div class="yachts-card__body">
-                <h3 class="yachts-card__title">Yacht charter Power Cat Marine</h3>
+                <h3 class="yachts-card__title"> <span data-i18n="yacht-page.rentYacth1"></span> Power Cat Marine</h3>
                 <div class="yachts-card__icons">
                   <div class="yachs-card__icon">
                     <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png" alt="boat icon">
-                    <p>Yacht</p>
+                    <p data-i18n="navbar.yachts">Yacht</p>
                   </div>
                   <div class="yachs-card__icon">
                     <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png" alt="people icon">
@@ -323,8 +322,7 @@
                     <p>5</p>
                   </div>    
                 </div>
-                  <button class="button-yacht__btn">Rent Now</button>
-              </div>  
+                <button class="button-yacht__btn" data-i18n="button.Rent-Now">Rent Now</button>              </div>  
             </a>  
           </div> 
            <!-- end yacht card Power Cat Marine 57 -->
@@ -335,11 +333,11 @@
                 <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1643669266/cygnus%20yachts/pictures/yates/Azimut/bymatteocrupi-60_bgwhme.jpg" alt="">
               </div>
               <div class="yachts-card__body">
-                <h3 class="yachts-card__title">Yacht charter Azimut 55</h3>
+                <h3 class="yachts-card__title"> <span data-i18n="yacht-page.rentYacth1"></span> Azimut 55</h3>
                 <div class="yachts-card__icons">
                   <div class="yachs-card__icon">
                     <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png" alt="boat icon">
-                    <p>Yacht</p>
+                    <p data-i18n="navbar.yachts">Yacht</p>
                   </div>
                   <div class="yachs-card__icon">
                     <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png" alt="people icon">
@@ -354,8 +352,7 @@
                     <p>4</p>
                   </div>    
                 </div>
-                  <button class="button-yacht__btn">Rent Now</button>
-              </div>  
+                <button class="button-yacht__btn" data-i18n="button.Rent-Now">Rent Now</button>              </div>  
             </a>  
           </div> 
          <!-- end yacht card Power Azimut -->
@@ -369,11 +366,11 @@
                 <img src="/assets/img/yacht/Tiara43-Sovran/bymc-4.jpg" alt="">
               </div>
               <div class="yachts-card__body">
-                <h3 class="yachts-card__title">Yacht charter Tiara 43 Sovran</h3>
+                <h3 class="yachts-card__title"> <span data-i18n="yacht-page.rentYacth1"></span> Tiara 43 Sovran</h3>
                 <div class="yachts-card__icons">
                   <div class="yachs-card__icon">
                     <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png" alt="boat icon">
-                    <p>Yacht</p>
+                    <p data-i18n="navbar.yachts">Yacht</p>
                   </div>
                   <div class="yachs-card__icon">
                     <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png" alt="people icon">
@@ -388,8 +385,7 @@
                     <p>2</p>
                   </div>    
                 </div>
-                  <button class="button-yacht__btn">Rent Now</button>
-              </div>  
+                <button class="button-yacht__btn" data-i18n="button.Rent-Now">Rent Now</button>              </div>  
             </a>  
           </div>
             <!-- end yacht card Tiara 39 Open -->  
@@ -400,11 +396,11 @@
                 <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1643588316/cygnus%20yachts/pictures/yates/fairline/fairline4_gvf7ep.jpg" alt="">
               </div>
               <div class="yachts-card__body">
-                <h3 class="yachts-card__title">Yacht charter Fairline 50</h3>
+                <h3 class="yachts-card__title"> <span data-i18n="yacht-page.rentYacth1"></span> Fairline 50</h3>
                 <div class="yachts-card__icons">
                   <div class="yachs-card__icon">
                     <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png" alt="boat icon">
-                    <p>Yacht</p>
+                    <p data-i18n="navbar.yachts">Yacht</p>
                   </div>
                   <div class="yachs-card__icon">
                     <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png" alt="people icon">
@@ -419,8 +415,7 @@
                     <p>3</p>
                   </div>    
                 </div>
-                  <button class="button-yacht__btn">Rent Now</button>
-              </div>  
+                <button class="button-yacht__btn" data-i18n="button.Rent-Now">Rent Now</button>              </div>  
             </a>  
           </div>
           <!-- end yacht card Fairline -->
@@ -430,11 +425,11 @@
                 <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1643685381/cygnus%20yachts/pictures/yates/Riva%2065/barc_i5k5tb.jpg" alt="">
               </div>
               <div class="yachts-card__body">
-                <h3 class="yachts-card__title">Yacht charter Riva 65</h3>
+                <h3 class="yachts-card__title"> <span data-i18n="yacht-page.rentYacth1"></span> Riva 65</h3>
                 <div class="yachts-card__icons">
                   <div class="yachs-card__icon">
                     <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png" alt="boat icon">
-                    <p>Yacht</p>
+                    <p data-i18n="navbar.yachts">Yacht</p>
                   </div>
                   <div class="yachs-card__icon">
                     <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png" alt="people icon">
@@ -449,8 +444,7 @@
                     <p>3</p>
                   </div>    
                 </div>
-                  <button class="button-yacht__btn">Rent Now</button>
-              </div>  
+                <button class="button-yacht__btn" data-i18n="button.Rent-Now">Rent Now</button>              </div>  
             </a>  
           </div>
           <!-- end yacht card Riva 65 -->
@@ -464,11 +458,11 @@
                 <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1642018723/cygnus%20yachts/pictures/yates/searay-420/bymatteocrupi-56_2_kw1h4r.jpg" alt="">
               </div>
               <div class="yachts-card__body">
-                <h3 class="yachts-card__title">Yacht charter Sea Ray-420</h3>
+                <h3 class="yachts-card__title"> <span data-i18n="yacht-page.rentYacth1"></span> Sea Ray-420</h3>
                 <div class="yachts-card__icons">
                   <div class="yachs-card__icon">
                     <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png" alt="boat icon">
-                    <p>Yacht</p>
+                    <p data-i18n="navbar.yachts">Yacht</p>
                   </div>
                   <div class="yachs-card__icon">
                     <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png" alt="people icon">
@@ -483,8 +477,7 @@
                     <p>1</p>
                   </div>    
                 </div>
-                  <button class="button-yacht__btn">Rent Now</button>
-              </div>  
+                <button class="button-yacht__btn" data-i18n="button.Rent-Now">Rent Now</button>              </div>  
             </a>  
           </div>
           <!-- end yacht card Sea Ray-420 -->
@@ -494,11 +487,11 @@
                 <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1639346610/cygnus%20yachts/pictures/yates/tiara-3100/bymatteocrupi-41logo_l8s1zf.jpg" alt="">
               </div>
               <div class="yachts-card__body">
-                <h3 class="yachts-card__title">Yacht charter Tiara 3100 Open</h3>
+                <h3 class="yachts-card__title"> <span data-i18n="yacht-page.rentYacth1"></span> Tiara 3100 Open</h3>
                 <div class="yachts-card__icons">
                   <div class="yachs-card__icon">
                     <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png" alt="boat icon">
-                    <p>Yacht</p>
+                    <p data-i18n="navbar.yachts">Yacht</p>
                   </div>
                   <div class="yachs-card__icon">
                     <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png" alt="people icon">
@@ -513,8 +506,7 @@
                     <p>1</p>
                   </div>    
                 </div>
-                  <button class="button-yacht__btn">Rent Now</button>
-              </div>  
+                <button class="button-yacht__btn" data-i18n="button.Rent-Now">Rent Now</button>              </div>  
             </a>  
           </div>
           <!-- end yacht card Tiara 3100 -->
@@ -524,11 +516,11 @@
                 <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1643923175/cygnus%20yachts/pictures/yates/cranchi-50/WhatsApp_Image_2022-01-31_at_17.52.37_vtj2ge.jpg" alt="">
               </div>
               <div class="yachts-card__body">
-                <h3 class="yachts-card__title">Yacht charter Cranchi 50</h3>
+                <h3 class="yachts-card__title"> <span data-i18n="yacht-page.rentYacth1"></span> Cranchi 50</h3>
                 <div class="yachts-card__icons">
                   <div class="yachs-card__icon">
                     <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png" alt="boat icon">
-                    <p>Yacht</p>
+                    <p data-i18n="navbar.yachts">Yacht</p>
                   </div>
                   <div class="yachs-card__icon">
                     <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png" alt="people icon">
@@ -543,8 +535,7 @@
                     <p>3</p>
                   </div>    
                 </div>
-                  <button class="button-yacht__btn">Rent Now</button>
-              </div>  
+                <button class="button-yacht__btn" data-i18n="button.Rent-Now">Rent Now</button>              </div>  
             </a>  
           </div>
         </div>
@@ -557,11 +548,11 @@
                 <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1643947013/cygnus%20yachts/pictures/yates/fairline-43/4_crkpmd.jpg" alt="">
               </div>
               <div class="yachts-card__body">
-                <h3 class="yachts-card__title">Yacht charter Fairline 43</h3>
+                <h3 class="yachts-card__title"> <span data-i18n="yacht-page.rentYacth1"></span> Fairline 43</h3>
                 <div class="yachts-card__icons">
                   <div class="yachs-card__icon">
                     <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png" alt="boat icon">
-                    <p>Yacht</p>
+                    <p data-i18n="navbar.yachts">Yacht</p>
                   </div>
                   <div class="yachs-card__icon">
                     <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png" alt="people icon">
@@ -576,8 +567,7 @@
                     <p>2</p>
                   </div>    
                 </div>
-                  <button class="button-yacht__btn">Rent Now</button>
-              </div>  
+                <button class="button-yacht__btn" data-i18n="button.Rent-Now">Rent Now</button>              </div>  
             </a>  
           </div>
           <!-- end yacht card Fairline 43 -->
@@ -588,11 +578,11 @@
                 <img src="/assets/img/yacht/tiara-39open/1.jpg" alt="">
               </div>
               <div class="yachts-card__body">
-                <h3 class="yachts-card__title">Yacht charter Tiara 39 Open</h3>
+                <h3 class="yachts-card__title"> <span data-i18n="yacht-page.rentYacth1"></span> Tiara 39 Open</h3>
                 <div class="yachts-card__icons">
                   <div class="yachs-card__icon">
                     <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png" alt="boat icon">
-                    <p>Yacht</p>
+                    <p data-i18n="navbar.yachts">Yacht</p>
                   </div>
                   <div class="yachs-card__icon">
                     <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png" alt="people icon">
@@ -607,8 +597,7 @@
                     <p>1</p>
                   </div>    
                 </div>
-                  <button class="button-yacht__btn">Rent Now</button>
-              </div>  
+                <button class="button-yacht__btn" data-i18n="button.Rent-Now">Rent Now</button>              </div>  
             </a>  
           </div>
             <!-- end yacht card Tiara 39 Open -->      
@@ -618,23 +607,22 @@
         </div>
       </main>  
 
-      <!--==================== DISCOVER ====================-->
-      <section class="discover section container grid" id="discover" >
-        <h2 class="section__title"> Other Types of Boats For Rent</h2>
-        <div class="container__yachtsmain">
-            
-          <a href="superyates.html">
-            <div class="superyachts__card">
-                <h2 class="yachts-main__text">Superyachts</h2>
-            </div>
-          </a>
-          <a href="catamarans.html">
-            <div class="catamarans-main__card">
-                <h2  class="yachts-main__text">Catamarans</h2>
-            </div>
-          </a>
+  <!--==================== DISCOVER ====================-->
+  <section class="discover section container grid" id="discover" >
+    <h2 class="section__title" data-i18n="boat-tipe.title">Types Of Yachts Charter</h2>
+    <div class="container__yachtsmain">  
+      <a href="yachts.html">
+        <div class="yachts-main__card">
+            <h2 class="yachts-main__text"  data-i18n="boat-tipe.yachts">Yachts</h2>
         </div>
-      </section>
+      </a>
+      <a href="catamarans.html">
+        <div class="catamarans-main__card">
+            <h2  class="yachts-main__text" data-i18n="boat-tipe.yachts">Catamarans</h2>
+        </div>
+      </a>
+    </div>
+  </section>
 
            <!--==================== FOOTER ====================-->
            <footer class="footer section">
@@ -642,9 +630,9 @@
                 <div class="footer__content grid">
                     <div class="footer__data">
                         <h3 class="footer__title">Cygnus Yachts</h3>
-                        <p class="footer__description">
-                          Yacht charter service, where we give you the opportunity to make all your dreams and wishes come true in the most beautiful and exclusive destinations that can be found in the Caribbean.
-                        </p>
+                        <p class="footer__description" data-i18n="footer.description">
+                            Yacht charter service, where we give you the opportunity to make all your dreams and wishes come true in the most beautiful and exclusive destinations that can be found in the Caribbean.
+                          </p>
                         <div>
                             <a href="https://www.facebook.com/" target="_blank" class="footer__social">
                                 <i class="ri-facebook-box-fill"></i>
@@ -658,53 +646,53 @@
                     </div>
     
                     <div class="footer__data">
-                        <h3 class="footer__subtitle">Quick Links</h3>
+                        <h3 class="footer__subtitle"  data-i18n="footer.quicklinks">Quick Links</h3>
                         <ul>
                             <li class="footer__item">
-                                <a href="index.html" class="footer__link">Home</a>
+                                <a href="index.html" class="footer__link" data-i18n="navbar.home">Home</a>
                             </li>
                             <li class="footer__item">
-                                <a href="about.html" class="footer__link">About Us</a>
+                                <a href="about.html" class="footer__link" data-i18n="navbar.aboutUs">About Us</a>
                             </li>
                             <li class="footer__item">
-                                <a href="destinations.html" class="footer__link">Destinations</a>
+                                <a href="destinations.html" class="footer__link" data-i18n="navbar.destinations">Destinations</a>
                             </li>
                         </ul>
                     </div>
     
                     <div class="footer__data">
-                        <h3 class="footer__subtitle">Barcos</h3>
+                        <h3 class="footer__subtitle" data-i18n="footer.boats">Boats</h3>
                         <ul>
                             <li class="footer__item">
-                                <a href="yachts.html" class="footer__link">Yachts</a>
+                                <a href="yachts.html" class="footer__link" data-i18n="boat-tipe.yachts">Yachts</a>
                             </li>
                             <li class="footer__item">
-                                <a href="catamarans.html" class="footer__link">Catamarans</a>
+                                <a href="catamarans.html" class="footer__link" data-i18n="boat-tipe.catamarans">Catamarans</a>
                             </li>
                             <li class="footer__item">
-                                <a href="superyates.html" class="footer__link">Superyachts</a>
+                                <a href="superyates.html" class="footer__link" data-i18n="boat-tipe.superyachts">Superyachts</a>
                             </li>
                         </ul>
                     </div>
     
                     <div class="footer__data">
-                        <h3 class="footer__subtitle">Contact</h3>
+                        <h3 class="footer__subtitle" data-i18n="footer.boats">Contact</h3>
                         <ul>
                             <li class="footer__item">
-                                <a href="faq.html" class="footer__link">FAQs</a>
+                                <a href="faq.html" class="footer__link" data-i18n="footer.faqs">FAQs</a>
                             </li>
                             <li class="footer__item">
-                                <a href="contact.html" class="footer__link">Contact Us</a>
+                                <a href="contact.html" class="footer__link" data-i18n="footer.contactUs">Contact Us</a>
                             </li>
                         </ul>
                     </div>
                 </div>
-  
+
                 <div class="footer__rights">
                     <p class="footer__copy">&#169; 2021 Cygnus Yachts. All rigths reserved.</p>
                     <div class="footer__terms">
-                        <a href="#" class="footer__terms-link">Terms & Agreements</a>
-                        <a href="#" class="footer__terms-link">Privacy Policy</a>
+                        <a href="#" class="footer__terms-link" data-i18n="footer.terminos">Terms & Agreements</a>
+                        <a href="#" class="footer__terms-link" data-i18n="footer.politica">Privacy Policy</a>
                     </div>
                 </div>
             </div>
