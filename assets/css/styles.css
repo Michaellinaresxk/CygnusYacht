@@ -2073,6 +2073,22 @@ q {font-style: italic;}
   color: var(--text-color-light);
 }
 
+
+.contact-quote-section {
+  display: flex;
+  width: 100vw;
+  height: 250px;
+  align-items: center;
+}
+
+.contact-quote-shape {
+  height: 80px;
+  width: 1px;
+  background-color: #173940;
+  opacity: 0.7;
+  margin: 0 auto;
+}
+
 .contact-form__content {
   display: grid;
   grid-template-columns: repeat(10,1fr);

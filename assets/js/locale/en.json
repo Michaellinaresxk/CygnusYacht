@@ -95,15 +95,18 @@
     "rentYacth5": "Alquiler yate Meridian 42"
   },
   "contact-page": {
+    "slogan": "Tienes alguna pregunta sobre yachts charter en Punta Cana?",
     "address": "Dirección",
     "puntacana": "Punta Cana",
     "phone": "Telefono",
-    "instagram": "Instagram"
+    "instagram": "Instagram",
+    "contactUs": "Contact Us",
+    "keepinTouch": "Keep in Touch"
   },
   "contactForm": {
-    "name": "Nombre",
-    "email": "Correo",
-    "message": "Mensaje",
+    "name": "Name:",
+    "email": "Email:",
+    "message": "Menssage:",
     "placerYourName": "Colocar nombre:",
     "placerYourEmail": "Correo electrónico:",
     "placerYourMessage": "Mensaje:",
