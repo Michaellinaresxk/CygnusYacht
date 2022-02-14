@@ -28,50 +28,54 @@
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
                         <li class="nav__item">
-                            <a href="index.html" class="nav__link active-link">Home</a>
+                            <a href="index.html" class="nav__link active-link" data-i18n="navbar.home">Home</a>
                         </li>
                         <li class="nav__item">
-                            <a href="about.html" class="nav__link">About</a>
+                            <a href="about.html" class="nav__link" data-i18n="navbar.aboutUs">About</a>
                         </li>
                         <li class="nav__item">
-                            <a href="yachts.html" class="nav__link">Yachts</a>
+                            <a href="yachts.html" class="nav__link" data-i18n="navbar.yachts">Yachts</a>
                         </li>
                         <li class="nav__item">
-                            <a href="destinations.html" class="nav__link">Destinations</a>
+                            <a href="destinations.html" class="nav__link" data-i18n="navbar.destinations">Destinations</a>
                         </li>
                         <li class="nav__item">
-                            <a href="contact.html" class="nav__link">Contact</a>
+                            <a href="contact.html" class="nav__link" data-i18n="navbar.contact">Contact</a>
                         </li>
                     </ul>
 
+
                     <i class="ri-close-line nav__close" id="nav-close"></i>
                 </div>
-
+                 <select data-width="fit" id="select-lang" class="select-lang">
+                    <option class="option" name="lang" value="es">Es</option>
+                    <option class="option" name="lang" value="en" selected="selected">En</option>
+                   </select>
                 <div class="nav__toggle" id="nav-toggle">
                     <i class="ri-function-line"></i>
                 </div>
             </nav>
            
         </header>
-        <h1 class="contact-banner__title">Contact Us</h1>
+        <h1 class="contact-banner__title" data-i18n="navbar.contact" >Contact Us</h1>
       </div> 
         <main class="contact-page">
-            <h2 class="contact-page__subtitle">Do you have questions about yacht charter in Punta Cana?</h2>
+            <h2 class="contact-page__subtitle" data-i18n="contact-page.slogan">Do you have questions about yacht charter in Punta Cana?</h2>
           
             <div class="contact-icon__content">
                 <div class="address">
                     <i class="fas fa-map-marker-alt"></i>
-                    <span>Address:</span>
+                    <span data-i18n="contact-page.address">Address:</span>
                     <h5>Punta Cana</h5>
                 </div>
                 <div class="phone">
                     <i class="fas fa-phone"></i>
-                    <span>Phone:</span>
+                    <span data-i18n="contact-page.phone">Phone:</span>
                     <h5>+ 1235 2355 98</h5>
                 </div>
                 <div class="email">
                     <i class="fas fa-paper-plane"></i>
-                    <span>Email: </span>
+                    <span data-i18n="contactForm.email">Email: </span>
                     <h5> info@cygnus</h5>
                 </div>
                 <div class="instagram">
@@ -80,39 +84,43 @@
                     <h5> Cygnus Yachts</h5>
                 </div>
             </div>
-
-            <div class="contact-quote-section container grid">
-                <p>If you do not know exactly what type of boat to rent or you do not have time, fill out this form and tell us how many people will be on board, possible dates, approximate budget and we will send you a proposal by email. Do not forget to leave us your phone number so we can contact you and give you complete information about private boat rentals in Punta Cana.</p>
+           
+            <div class="contact-quote-section container grid mt-5" >
+                
+                <p>If you do not know exactly what type of boat to rent or you do not have time, fill out this form and tell us how many people will be on board, possible dates, approximate budget and we will send you a proposal by email.</p>
+                <p> Do not forget to leave us your phone number so we can contact you and give you complete information about private boat rentals in Punta Cana.</p>   
             </div>
-
+            <div class="contact-quote-shape">
+            </div>
+            <h2  data-i18n="contact-page.contactUs" class="text-center mt-5">Contact</h2>
             <div class="contact-form__content">
                 <div class="contact-form">
-                    <h2 class="contact-form-h2">Keep in Touch</h2>
+                    <h2 class="contact-form-h2" data-i18n="contact-page.keepinTouch">Keep in Touch</h2>
                     <form class="mb-5" action="https://getform.io/f/0a7170a8-b41f-48a6-a847-8e4a2ae5bbec" method="post" id="contactForm" class="contactForm" name="contactForm" >
                         <div class="row">
                           
                           <div class="col-md-12 form-group">
-                            <label for="name" class="col-form-label">Name:</label>
+                            <label for="name" class="col-form-label"  data-i18n="contactForm.name">Name:</label>
                             <input type="text" class="form-control" name="name" id="name">
                           </div>
                         </div>
                         <div class="row">
                           <div class="col-md-12 form-group">
-                            <label for="email" class="col-form-label">Email:</label>
+                            <label for="email" class="col-form-label"  data-i18n="contactForm.email">Email:</label>
                             <input type="text" class="form-control" name="email" id="email">
                           </div>
                         </div>
           
                         <div class="row mb-3">
                           <div class="col-md-12 form-group">
-                            <label for="message" class="col-form-label">Message:</label>
+                            <label for="message" class="col-form-label"  data-i18n="contactForm.message">Message:</label>
                             <textarea class="form-control" name="message" id="message" cols="30" rows="7"></textarea>
                           </div>
                         </div>
                         <div class="row">
                           <div class="form-result" id="formResult"></div><!-- /.form-result -->
                           <div class="col-md-12">
-                              <button type="submit" class="button" id="contact_submitBtn">Send Message</button>
+                              <button type="submit" class="button" id="contact_submitBtn"  data-i18n="button.sendMessage">Send Message</button>
                             <span class="submitting"></span>
                           </div>
                         </div>
@@ -129,7 +137,7 @@
                 <div class="footer__content grid">
                     <div class="footer__data">
                         <h3 class="footer__title">Cygnus Yachts</h3>
-                        <p class="footer__description">
+                        <p class="footer__description" data-i18n="footer.description">
                             Yacht charter service, where we give you the opportunity to make all your dreams and wishes come true in the most beautiful and exclusive destinations that can be found in the Caribbean.
                           </p>
                         <div>
@@ -145,43 +153,43 @@
                     </div>
     
                     <div class="footer__data">
-                        <h3 class="footer__subtitle">Quick Links</h3>
+                        <h3 class="footer__subtitle"  data-i18n="footer.quicklinks">Quick Links</h3>
                         <ul>
                             <li class="footer__item">
-                                <a href="index.html" class="footer__link">Home</a>
+                                <a href="index.html" class="footer__link" data-i18n="navbar.home">Home</a>
                             </li>
                             <li class="footer__item">
-                                <a href="about.html" class="footer__link">About Us</a>
+                                <a href="about.html" class="footer__link" data-i18n="navbar.aboutUs">About Us</a>
                             </li>
                             <li class="footer__item">
-                                <a href="destinations.html" class="footer__link">Destinations</a>
+                                <a href="destinations.html" class="footer__link" data-i18n="navbar.destinations">Destinations</a>
                             </li>
                         </ul>
                     </div>
     
                     <div class="footer__data">
-                        <h3 class="footer__subtitle">Barcos</h3>
+                        <h3 class="footer__subtitle" data-i18n="footer.boats">Boats</h3>
                         <ul>
                             <li class="footer__item">
-                                <a href="yachts.html" class="footer__link">Yachts</a>
+                                <a href="yachts.html" class="footer__link" data-i18n="boat-tipe.yachts">Yachts</a>
                             </li>
                             <li class="footer__item">
-                                <a href="catamarans.html" class="footer__link">Catamarans</a>
+                                <a href="catamarans.html" class="footer__link" data-i18n="boat-tipe.catamarans">Catamarans</a>
                             </li>
                             <li class="footer__item">
-                                <a href="superyates.html" class="footer__link">Superyachts</a>
+                                <a href="superyates.html" class="footer__link" data-i18n="boat-tipe.superyachts">Superyachts</a>
                             </li>
                         </ul>
                     </div>
     
                     <div class="footer__data">
-                        <h3 class="footer__subtitle">Contact</h3>
+                        <h3 class="footer__subtitle" data-i18n="footer.boats">Contact</h3>
                         <ul>
                             <li class="footer__item">
-                                <a href="faq.html" class="footer__link">FAQs</a>
+                                <a href="faq.html" class="footer__link" data-i18n="footer.faqs">FAQs</a>
                             </li>
                             <li class="footer__item">
-                                <a href="contact.html" class="footer__link">Contact Us</a>
+                                <a href="contact.html" class="footer__link" data-i18n="footer.contactUs">Contact Us</a>
                             </li>
                         </ul>
                     </div>
@@ -190,8 +198,8 @@
                 <div class="footer__rights">
                     <p class="footer__copy">&#169; 2021 Cygnus Yachts. All rigths reserved.</p>
                     <div class="footer__terms">
-                        <a href="#" class="footer__terms-link">Terms & Agreements</a>
-                        <a href="#" class="footer__terms-link">Privacy Policy</a>
+                        <a href="#" class="footer__terms-link" data-i18n="footer.terminos">Terms & Agreements</a>
+                        <a href="#" class="footer__terms-link" data-i18n="footer.politica">Privacy Policy</a>
                     </div>
                 </div>
             </div>
