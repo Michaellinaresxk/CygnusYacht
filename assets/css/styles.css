@@ -2184,8 +2184,6 @@ q {font-style: italic;}
     place-items: center;
   }
 
-
-
   .service-info-content {
     padding: 2em;
   }
@@ -2202,6 +2200,7 @@ q {font-style: italic;}
 
   .yacht-banner {
     height: 400px;
+
   }
 
   .slide-container {
