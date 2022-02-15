@@ -94,7 +94,27 @@
     "slogan3": "Yates",
     "ourYachts": "Nuestros Yates",
     "subtitle": "Exclusivos Yates de alquiler en Punta Cana y Caribe.",
-    "rentYacth1": "Alquiler yate"
+    "rentYacth1": "Alquiler yate",
+    "description": "Descripción",
+    "description2": "Yachts Charter Privado en Punta Cana",
+    "details": "Caracteristicas",
+    "length": "Eslora:",
+    "beam": "Manga:",
+    "capacity": "Capacidad:",
+    "motor": "Motor:",
+    "year": "Año:",
+    "model": "Modelo:",
+    "cabins": "Cabinas:",
+    "bathrooms": "Baños:",
+    "quotes": "Si no sabes exactamente que tipo de barco alquilar o no tienes tiempo, rellena este formulario y dinos cuantas personas irán a bordo, posibles fechas, presupuesto aproximado y te enviaremos una propuesta por email.",
+    "banner1": "Si planeas disfrutar de unas vacaciones inolvidables",
+    "banner2": "no dudes en rentar este yate.",
+    "slogan4": "Tenemos una amplia selección yacht charters, superyachts, botes y catamaranes únicos."
+  },
+  "aiconfly": {
+    "p1": "El yate a motor, 'Acion Fly 56' es un buen ejemplo de diseño italiano. Dispone de dos camarotes cuidadosamente dispuestos y una habitación doble para niños o invitados. También tiene una cabina de tripulación, 3 baños/duchas, una sala de estar y comedor y una cocina. Dispone de aire acondicionado en toda la embarcación y sus dos motores diesel CAT de 800Hp le otorgan una gran potencia que te llevará lejos a los lugares con los que has estado soñando.",
+    "p2": "Vive una experiencia inolvidable con tu pareja, familia o amigos y descubre la belleza de República Dominicana a bordo de este magnífico yate de alquiler.",
+    "p3": "Esta lancha está disponible para alquilar con una relación calidad-precio espectacular."
   },
   "destinations": {
     "title": "Nuestros Destinos",
@@ -111,7 +131,6 @@
     "descriptionP": "El Caribe es la zona del mundo donde se encuentran estas maravillosas islas tropicales. Aguas azules cristalinas, sol los 365 días del año, arrecifes de coral y playas bordeadas de palmeras es lo que caracteriza al Caribe, aunque su diversidad es la verdadera cualidad de su encanto. Amplio en tamaño de destino y oportunidades de aventura, puede esperar tener una experiencia diferente en cualquier isla que elija.",
     "descriptionP2":  "La República Dominicana tiene una gran variedad de islas tropicales, entre ellas están: Isla Saona, Isla Catalina, Playa Palmilla y las increíbles piscinas naturales en Playa Juanillo Cap Cana y Punta Cana. Una escapada fantástica para los meses de invierno, siempre puede esperar el sol en el Caribe. Cada parte del Caribe tiene su propio encanto único.",
     "descriptionP3":  "Estas islas son perfectas para una escapada de vacaciones de invierno. Con un clima cálido durante todo el año, República Dominicana te ofrece la oportunidad perfecta para evitar los fríos meses de invierno."
-
   },
   "contact-page": {
     "slogan": "Tienes algun pregunta sobre yacht charter en Punta Cana?",
