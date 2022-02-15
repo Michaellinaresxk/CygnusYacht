@@ -297,8 +297,6 @@ input {
   font-weight: var(--font-medium);
 
 }
-
-
 .home__info {
   background-color: var(--first-color);
   display: flex;
