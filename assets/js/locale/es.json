@@ -109,6 +109,8 @@
     "quotes": "Si no sabes exactamente que tipo de barco alquilar o no tienes tiempo, rellena este formulario y dinos cuantas personas irán a bordo, posibles fechas, presupuesto aproximado y te enviaremos una propuesta por email.",
     "banner1": "Si planeas disfrutar de unas vacaciones inolvidables",
     "banner2": "no dudes en rentar este yate.",
+    "banner3": "no dudes en rentar este superyate.",
+    "banner4": "no dudes en rentar este catamaran.",
     "slogan4": "Tenemos una amplia selección yacht charters, superyachts, botes y catamaranes únicos."
   },
   "aiconfly": {
@@ -120,6 +122,32 @@
     "p1": "Este increíble yate Azimut 55 se caracteriza por sus 3 habitaciones y 2 baños de lujo. Tiene un diseño excepcional que rivaliza con cualquier yate deportivo. Su elegante interior y su increíble aprovechamiento del espacio lo convirtieron en un yate ideal para el charter gracias a su tamaño y capacidad. Este barco es la definición pura de la experiencia de navegar y una vez que subes a sus cubiertas de teca, te sientes como si estuvieras en una obra de arte italiana.",
     "p2": "Este yate de alquiler en Punta Cana surca las aguas con gran estilo y diseño. Lujo, comodidad, espacio y clase para navegar por las islas de República Dominicana.",
     "p3": "No es solo un yate... ¡es un estilo de vida! Este barco te hará vivir una experiencia inolvidable a bordo de tu yate privado de lujo mientras navegas por el Mar Caribe."
+  },
+  "benneti": {
+    "p1": "Este lujoso yate a motor en alquiler está en las mejores condiciones para albergar las próximas vacaciones de su vida. Combine estilo, desempeño y comodidad para tener una experiencia única e inolvidable. Construido en 2008, este yate de alquiler Benetti 120 ofrece cubiertas bellamente proporcionadas para una vida interior y exterior exquisita durante un alquiler de yates de lujo. Tiene una variedad de comodidades centradas en el alquiler para garantizar una experiencia memorable a bordo, sea cual sea el destino.",
+    "p2": "A las familias les encantará especialmente este yate Benetti 120 gracias a su configuración adaptada a los niños. Ofrece alojamiento para hasta 12 pasajeros con una distribución compuesta por una master suite situada en la cubierta principal, dos camarotes dobles y dos camarotes twin. Hay 9 camas en total, incluidas 2 queen, 1 doble, 4 individuales y 2 pullman. También es capaz de llevar a bordo hasta 7 miembros de la tripulación para garantizar una experiencia relajada de alquiler de yates de lujo. Este superyate cuenta con una gran terraza con jacuzzi, una sala de estar y una cómoda área para tomar el sol, que ofrece mucho espacio para que los huéspedes de charter se relajen y disfruten del hermoso entorno durante sus vacaciones en yate.",
+    "p3": "The Benetti 120 motor yacht boasts a plethora of convivial spaces, perfect for renting a luxury yacht with families or friends, offering ample opportunities to relax and enjoy the water on the yacht's variety of water toys.",
+    "p4": "El alquiler de un yate a motor Benetti 120 le ofrecerá una semana de recuerdos familiares inolvidables. Sin duda, el favorito para cualquiera que busque probar el estilo de vida de los superyates."
+  },
+  "cranchi": {
+    "p1": "",
+    "p2": "",
+    "p3": ""
+  },
+  "fairline": {
+    "p1": "",
+    "p2": "",
+    "p3": ""
+  },
+  "fairline43": {
+    "p1": "",
+    "p2": "",
+    "p3": ""
+  },
+  "ferreti": {
+    "p1": "",
+    "p2": "",
+    "p3": ""
   },
   "destinations": {
     "title": "Nuestros Destinos",
