@@ -18,30 +18,36 @@
             <div class="overlay"> 
                 <header class="header" id="header">
                     <nav class="nav container">
-                        <a href="../index.html" class="nav__logo">
+                        <a href="index.html" class="nav__logo">
                             <img src="../assets/img/logocygnus-color.png" class="brand-logo" alt="Cygnus Yachts">
-                          </a>        
+                          </a>
+        
                         <div class="nav__menu" id="nav-menu">
                             <ul class="nav__list">
                                 <li class="nav__item">
-                                    <a href="../index.html" class="nav__link active-link">Home</a>
+                                    <a href="../index.html" class="nav__link active-link" data-i18n="navbar.home">Home</a>
                                 </li>
                                 <li class="nav__item">
-                                    <a href="../about.html" class="nav__link">About</a>
+                                    <a href="../about.html" class="nav__link" data-i18n="navbar.aboutUs">About</a>
                                 </li>
                                 <li class="nav__item">
-                                    <a href="../yachts.html" class="nav__link">Yachts</a>
+                                    <a href="../yachts.html" class="nav__link" data-i18n="navbar.yachts">Yachts</a>
                                 </li>
                                 <li class="nav__item">
-                                    <a href="../destinations.html" class="nav__link">Destinations</a>
+                                    <a href="../destinations.html" class="nav__link" data-i18n="navbar.destinations">Destinations</a>
                                 </li>
                                 <li class="nav__item">
-                                    <a href="../contact.html" class="nav__link">Contact</a>
+                                    <a href="../contact.html" class="nav__link" data-i18n="navbar.contact">Contact</a>
                                 </li>
                             </ul>
+        
+        
                             <i class="ri-close-line nav__close" id="nav-close"></i>
                         </div>
-        
+                         <select data-width="fit" id="select-lang" class="select-lang">
+                            <option class="option" name="lang" value="es">Es</option>
+                            <option class="option" name="lang" value="en" selected="selected">En</option>
+                           </select>
                         <div class="nav__toggle" id="nav-toggle">
                             <i class="ri-function-line"></i>
                         </div>
@@ -54,7 +60,7 @@
             <div class="yachts-card__icons">
               <div class="yachs-card__icon">
                 <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png" alt="boat icon">
-                <p>Yacht</p>
+                <p data-i18n="navbar.yachts">Yacht</p>
               </div>
               <div class="yachs-card__icon">
                 <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png" alt="people icon">
@@ -127,31 +133,31 @@
     
         <main class="main-yachts-description container grid">
             <div class="yacht__description">
-                <h2 class="yacth-title__main1">Description</h2>
+                <h2 class="yacth-title__main1" data-i18n="yacht-page.description">Description</h2>
                   <div class="yachts-description__paragrh">
-                    <h4>Private Yachts Charter in Punta Cana</h4>
-                    <p>This Punta Cana Meridian 42 charter yacht is a magnificent motor charter boat designed for superior comfort with spacious open areas. With a length of 12.49 m and a width of 4.21 meters, this rental yacht in Punta Cana offers the necessary comfort to enjoy a yacht excursion along the most impressive transparent waters of the Caribbean Sea.</p >                 
-                    <p>This beautiful yacht also offers to spend the night on board for those clients (maximum 2 people) who wish to spend their vacations in the Caribbean Sea. This impressive charter yacht in Punta Cana opens the doors to the possibility of falling asleep under the full moon and waking up on the virgin and beautiful Palmilla Beach.</p>
+                    <h4 data-i18n="yacht-page.description2">Private Yachts Charter in Punta Cana</h4>
+                    <p data-i18n="meridian.p1">This Punta Cana Meridian 42 charter yacht is a magnificent motor charter boat designed for superior comfort with spacious open areas. With a length of 12.49 m and a width of 4.21 meters, this rental yacht in Punta Cana offers the necessary comfort to enjoy a yacht excursion along the most impressive transparent waters of the Caribbean Sea.</p >                 
+                    <p data-i18n="meridian.p2">This beautiful yacht also offers to spend the night on board for those clients (maximum 2 people) who wish to spend their vacations in the Caribbean Sea. This impressive charter yacht in Punta Cana opens the doors to the possibility of falling asleep under the full moon and waking up on the virgin and beautiful Palmilla Beach.</p>
                    </div>
                 </div>
         </main>
 
         <div class="yachts-main container grid">
             <div class="yacht__caracteristic">
-                <h2 class="yacth-title__main2">Characteristics</h2>
-                  <div class="yachts-caracteristic__paragrh">
-                      <div class="yachts-caracteristic__list1">
-                        <ul>
-                            <li><h5><strong>Length: </strong></h5></li>
-                            <li><h5><strong>Beam:: </strong></h5></li>
-                            <li><h5><strong>Capacity: </strong></h5></li>
-                            <li><h5><strong>Motor: </strong></h5></li>
-                            <li><h5><strong>Year: </strong></h5></li>
-                            <li><h5><strong>Model: </strong></h5></li>
-                            <li><h5><strong>Cabins: </strong></h5></li>
-                            <li><h5><strong>Toilet: </strong></h5></li>
-                        </ul>
-                      </div>
+                <h2 class="yacth-title__main2"  data-i18n="yacht-page.details">Characteristics</h2>
+                <div class="yachts-caracteristic__paragrh">
+                    <div class="yachts-caracteristic__list1">
+                      <ul>
+                          <li><h5><strong data-i18n="yacht-page.length">Length: </strong></h5></li>
+                          <li><h5><strong data-i18n="yacht-page.beam">Beam: </strong></h5></li>
+                          <li><h5><strong data-i18n="yacht-page.capacity">Capacity: </strong></h5></li>
+                          <li><h5><strong data-i18n="yacht-page.motor">Motor: </strong></h5></li>
+                          <li><h5><strong data-i18n="yacht-page.year">Year: </strong></h5></li>
+                          <li><h5><strong data-i18n="yacht-page.model">Model: </strong></h5></li>
+                          <li><h5><strong data-i18n="yacht-page.cabins">Cabins: </strong></h5></li>
+                          <li><h5><strong data-i18n="yacht-page.bathrooms">Toilet: </strong></h5></li>
+                      </ul>
+                    </div>
                   
                     <div class="yachts-description__list2">
                         <ul>
@@ -169,145 +175,156 @@
                   </div>
             </div>
             
-                <article class="contact__quotes">
-                    <div class="overlay__quotes">
-                        <section class="contact-quotes__info">
-                            <h4>Contact us</h4>
-                            <p class="mb-5"> If you do not know exactly what type of boat to rent or you do not have time, fill out this form and tell us how many people will be on board, possible dates, approximate budget and we will send you a proposal by email. </p>
-                        </section>
-                            <section class="contact-quotes__card">
-                            <div class="container">
-                                <div class="card">
-                                    <a href="https://api.whatsapp.com/send?phone=18292963529&text=¡Bienvenido%20a%20bordo!%20¿Cómo%20podemos%20ayudarte?" target="_blank" class="contact-qoute-whatsapp">
-                                        <i class="fab fa-whatsapp"></i>
-                                    <h4>WHATSAPP</h4>
-                                </a>
-                                <a href="tel:+18097710202" class="contact-qoute-call">
-                                    <i class="fas fa-phone-alt"></i>
-                                    <h4>Contact us</h4>
-                                </a>
-                                </div>
+               
+            <article class="contact__quotes">
+                <div class="overlay__quotes">
+                    <section class="contact-quotes__info">
+                        <h4 data-i18n="button.ContactUs">Contact us</h4>
+                        <p class="mb-5" data-i18n="yacht-page.quotes"> If you do not know exactly what type of boat to rent or you do not have time, fill out this form and tell us how many people will be on board, possible dates, approximate budget and we will send you a proposal by email. </p>
+                    </section>
+                        <section class="contact-quotes__card">
+                        <div class="container">
+                            <div class="card">
+                                <a href="https://api.whatsapp.com/send?phone=18292963529&text=¡Bienvenido%20a%20bordo!%20¿Cómo%20podemos%20ayudarte?" target="_blank" class="contact-qoute-whatsapp">
+                                    <i class="fab fa-whatsapp"></i>
+                                <h4>Whatsapp</h4>
+                            </a>
+                            <a href="tel:+18097710202" class="contact-qoute-call">
+                                <i class="fas fa-phone-alt"></i>
+                                <h4 data-i18n="button.ContactUs">Contact us</h4>
+                            </a>
                             </div>
+                        </div>
                         </section>
-                    </div>
-                </article>
-            </div> 
-
-            <section class="yachts-banner-template">
-                <div class="banner-overlay">
-                    <h2>If you want to take <strong>unique</strong> and unforgettable</h2>
-                    <h2>vacation do not hesitate to rent this <strong>yacht.</strong> </h2>
                 </div>
-            </section>
+            </article>
+    </div> 
 
-        <section class="discover section container grid" id="discover" >
-            <h2 class="section__title">Yachts Charter Types:</h2>
-            <p class="video__description">We have a wide selection of yacht charters, super yachts, boats and unique catamarans.</p>
-            <div class="container__yachtsmain">
-              <a href="yachts.html">
-                <div class="yachts-main__card">
-                    <h2 class="yachts-main__text">Yachts</h2>
+    <section class="yachts-banner-template">
+        <div class="banner-overlay">
+            <h2 data-i18n="yacht-page.banner1">If you want to take <strong>unique</strong> and unforgettable</h2>
+            <h2 data-i18n="yacht-page.banner2">vacation do not hesitate to rent this <strong>yacht.</strong> </h2>
+        </div>
+    </section>
+
+
+    <section class="discover section container grid" id="discover" >
+        <h2 class="section__title"  data-i18n="boat-tipe.title">Yachts Charter Types:</h2>
+        <p class="video__description" data-i18n="yacht-page.slogan4">We have a wide selection of yacht charters, super yachts, boats and unique catamarans.</p>
+        <div class="container__yachtsmain">
+            
+          <a href="../yachts.html">
+            <div class="yachts-main__card">
+                <h2 class="yachts-main__text" data-i18n="boat-tipe.yachts">Yachts</h2>
+            </div>
+          </a>
+          <a href="../catamarans.html">
+            <div class="catamarans-main__card">
+                <h2  class="yachts-main__text" data-i18n="boat-tipe.catamarans">Catamarans</h2>
+            </div>
+          </a>
+        </div>
+        <div class="superyachts">
+            <a href="../superyates.html">
+                <div class="superyachts-main__card">
+                    <h2  class="yachts-main__text" data-i18n="boat-tipe.superyachts">Superyachts</h2>
                 </div>
               </a>
-              <a href="catamarans.html">
-                <div class="catamarans-main__card">
-                    <h2  class="yachts-main__text">Catamarans</h2>
-                </div>
-              </a>
-            </div>
-            <div class="superyachts">
-                <a href="superyates.html">
-                    <div class="superyachts-main__card">
-                        <h2  class="yachts-main__text">Superyachts</h2>
-                    </div>
-                  </a>
-            </div>
-        </section>
-    
-        <!--==================== FOOTER ====================-->
-        <footer class="footer section">
-          <div class="footer__container container grid">
-              <div class="footer__content grid">
-                  <div class="footer__data">
+        </div>
+    </section>
+  
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div class="footer__content grid">
+                <div class="footer__data">
                     <h3 class="footer__title">Cygnus Yachts</h3>
-                    <p class="footer__description">
+                    <p class="footer__description" data-i18n="footer.description">
                         Yacht charter service, where we give you the opportunity to make all your dreams and wishes come true in the most beautiful and exclusive destinations that can be found in the Caribbean.
                       </p>
-                      <div>
-                          <a href="https://www.facebook.com/" target="_blank" class="footer__social">
-                              <i class="ri-facebook-box-fill"></i>
-                          </a>
-                          
-                          <a href="https://www.instagram.com/puntacanayachtrentals/" target="_blank" class="footer__social">
-                              <i class="ri-instagram-fill"></i>
-                          </a>
-                      </div>
-                  </div>
-  
-                  <div class="footer__data">
-                      <h3 class="footer__subtitle">Quick Links</h3>
-                      <ul>
-                          <li class="footer__item">
-                              <a href="../index.html" class="footer__link">Home</a>
-                          </li>
-                          <li class="footer__item">
-                              <a href="../about.html" class="footer__link">About Us</a>
-                          </li>
-                          <li class="footer__item">
-                              <a href="../destinations.html" class="footer__link">Destinations</a>
-                          </li>
-                      </ul>
-                  </div>
-  
-                  <div class="footer__data">
-                      <h3 class="footer__subtitle">Boats</h3>
-                      <ul>
-                          <li class="footer__item">
-                              <a href="../yachts.html" class="footer__link">Yachts</a>
-                          </li>
-                          <li class="footer__item">
-                              <a href="../catamarans.html" class="footer__link">Catamarans</a>
-                          </li>
-                          <li class="footer__item">
-                            <a href="../superyates.html" class="footer__link">Superyachts</a>
+                    <div>
+                        <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                            <i class="ri-facebook-box-fill"></i>
+                        </a>
+                        
+                        <a href="https://www.instagram.com/puntacanayachtrentals/" target="_blank" class="footer__social">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        
+                    </div>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle"  data-i18n="footer.quicklinks">Quick Links</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="../index.html" class="footer__link" data-i18n="navbar.home">Home</a>
                         </li>
-                      </ul>
-                  </div>
+                        <li class="footer__item">
+                            <a href="../about.html" class="footer__link" data-i18n="navbar.aboutUs">About Us</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="../destinations.html" class="footer__link" data-i18n="navbar.destinations">Destinations</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle" data-i18n="footer.boats">Boats</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="../yachts.html" class="footer__link" data-i18n="boat-tipe.yachts">Yachts</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="../catamarans.html" class="footer__link" data-i18n="boat-tipe.catamarans">Catamarans</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="../superyates.html" class="footer__link" data-i18n="boat-tipe.superyachts">Superyachts</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle" data-i18n="footer.boats">Contact</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="../faq.html" class="footer__link" data-i18n="footer.faqs">FAQs</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="../contact.html" class="footer__link" data-i18n="footer.contactUs">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer__rights">
+                <p class="footer__copy">&#169; 2021 Cygnus Yachts. All rigths reserved.</p>
+                <div class="footer__terms">
+                    <a href="#" class="footer__terms-link" data-i18n="footer.terminos">Terms & Agreements</a>
+                    <a href="#" class="footer__terms-link" data-i18n="footer.politica">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+   <!--========== SCROLL UP ==========-->
+  <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line scrollup__icon"></i>
+  </a>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  <!--=============== SCROLL REVEAL===============-->
+  <script src="../assets/js/scrollreveal.min.js"></script>
   
-                  <div class="footer__data">
-                      <h3 class="footer__subtitle">Contact</h3>
-                      <ul>
-                          <li class="footer__item">
-                              <a href="../faq.html" class="footer__link">FAQs</a>
-                          </li>
-                          <li class="footer__item">
-                              <a href="../contact.html" class="footer__link">Contact Us</a>
-                          </li>
-                      </ul>
-                  </div>
-              </div>
+  <!--=============== SWIPER JS ===============-->
+  <script src="../assets/js/swiper-bundle.min.js"></script>
 
-              <div class="footer__rights">
-                  <p class="footer__copy">&#169; 2021 Cygnus Yachts. All rigths reserved.</p>
-                  <div class="footer__terms">
-                      <a href="#" class="footer__terms-link">Terms & Agreements</a>
-                      <a href="#" class="footer__terms-link">Privacy Policy</a>
-                  </div>
-              </div>
-          </div>
-      </footer>
+  <!--=============== MAIN JS ===============-->
+  <script src="../assets/js/main.js"></script>
+ 
 
-       <!--========== SCROLL UP ==========-->
-      <a href="#" class="scrollup" id="scroll-up">
-          <i class="ri-arrow-up-line scrollup__icon"></i>
-      </a>
-
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-      <!--=============== SCROLL REVEAL===============-->
-      <script src="../assets/js/scrollreveal.min.js"></script>
-      <!--=============== SWIPER JS ===============-->
-      <script src="../assets/js/swiper-bundle.min.js"></script>
-      <!--=============== MAIN JS ===============-->
-      <script src="../assets/js/main.js"></script>
-  </body>
+</body>
 </html>
