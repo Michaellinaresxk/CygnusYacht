@@ -111,6 +111,8 @@
     "banner2": "no dudes en rentar este yate.",
     "banner3": "no dudes en rentar este superyate.",
     "banner4": "no dudes en rentar este catamaran.",
+    "bannerDestination": "Sube a bordo con Cygnus Yachts y",
+    "bannerDestination2": "convierte tus vacaciones en una experiencia única.",
     "slogan4": "Tenemos una amplia selección yacht charters, superyachts, botes y catamaranes únicos."
   },
   "aiconfly": {
@@ -228,6 +230,29 @@
     "descriptionP": "El Caribe es la zona del mundo donde se encuentran estas maravillosas islas tropicales. Aguas azules cristalinas, sol los 365 días del año, arrecifes de coral y playas bordeadas de palmeras es lo que caracteriza al Caribe, aunque su diversidad es la verdadera cualidad de su encanto. Amplio en tamaño de destino y oportunidades de aventura, puede esperar tener una experiencia diferente en cualquier isla que elija.",
     "descriptionP2":  "La República Dominicana tiene una gran variedad de islas tropicales, entre ellas están: Isla Saona, Isla Catalina, Playa Palmilla y las increíbles piscinas naturales en Playa Juanillo Cap Cana y Punta Cana. Una escapada fantástica para los meses de invierno, siempre puede esperar el sol en el Caribe. Cada parte del Caribe tiene su propio encanto único.",
     "descriptionP3":  "Estas islas son perfectas para una escapada de vacaciones de invierno. Con un clima cálido durante todo el año, República Dominicana te ofrece la oportunidad perfecta para evitar los fríos meses de invierno."
+  },
+  "catalina": {
+    "title": "Isla Catalina",
+    "p1": "Ubicada a 1.5 millas del continente en la esquina sureste de la República Dominicana, cerca de las provincias de La Altagracia y La Romana. Es un Parque Natural protegido con una superficie aproximada de 9,6 kilómetros cuadrados y totalmente deshabitado. Esta isla descubierta por los españoles, bautizada por el navegante Cristóbal Colón, posee paisajes verdaderamente pintorescos y de una belleza incomparable.",
+    "p2": "Por sus aguas cristalinas y cálidas, es el hogar ideal para infinidad de especies marinas. Isla Catalina es uno de los mejores lugares de la República Dominicana para hacer esnórquel, con su increíble vida marina y arrecifes de coral vírgenes."
+  },
+  "bayahibe": {
+    "title": "Bayahibe",
+    "p1": "Ubicada al sureste de La Romana y formada por playas tranquilas e íntimas alejadas de los lugares concurridos. Rodeada de cocoteros y palmeras, la playa se encuentra a unos 2 kilómetros del pueblo, donde encontrarás restaurantes y bares.",
+    "p2": "Este encantador pueblito se vuelve tranquilo una vez que los turistas que visitan las islas de Saona y Catalina parten de allí, en ese momento, la playa se convierte en un pequeño paraíso caribeño."
+  },
+  "palmilla": {
+    "title": "Playa Palmilla",
+    "p1": "Palmilla es una playa virgen que forma parte del Parque Nacional del Este, en el municipio de Bayahibe, ubicado en el oriente peninsular, justo frente a Isla Saona. Un entorno idílico de aguas turquesas, arena blanca y fina, abundante selva tropical y piscinas naturales de un metro de profundidad situadas a 200 metros de la costa."
+  },
+  "puntacana": {
+    "title": "Punta Cana",
+    "p1": "Punta Cana, en el extremo este de la República Dominicana, limita con el Mar Caribe y el Océano Atlántico. Es una región conocida por sus 48 km de largas playas y aguas cristalinas. Las áreas de Bávaro y Punta Cana se combinan para formar lo que se conoce como La Costa del Coco, un área con atracciones turísticas exclusivas todo incluido.",
+    "p2": "La famosa Playa Bávaro, declarada una de las mejores playas del mundo por la UNESCO, se encuentra entre las playas de arena blanca más largas del Caribe, con 32 kilómetros de extensión y rodeada de arrecifes de coral."
+  },
+  "saona": {
+    "title": "Isla Saona",
+    "p1": "Ubicadas a 19 kilómetros al sur del continente, las hermosas playas de Isla Saona atraen a más visitantes que todos los parques nacionales dominicanos juntos. Un área protegida de 110 km2 y parte del Parque Nacional Cotubanamá, Saona es un escape tropical de ensueño, donde largas playas de arena blanca y brillante y sus cocoteros gigantes parecen fundirse en aguas turquesas iridiscentes."
   },
   "contact-page": {
     "slogan": "Tienes algun pregunta sobre yacht charter en Punta Cana?",
