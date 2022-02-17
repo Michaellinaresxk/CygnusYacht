@@ -30,26 +30,29 @@
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
                         <li class="nav__item">
-                            <a href="index.html" class="nav__link active-link">Home</a>
+                            <a href="index.html" class="nav__link active-link" data-i18n="navbar.home">Home</a>
                         </li>
                         <li class="nav__item">
-                            <a href="about.html" class="nav__link">About</a>
+                            <a href="about.html" class="nav__link" data-i18n="navbar.aboutUs">About</a>
                         </li>
                         <li class="nav__item">
-                            <a href="yachts.html" class="nav__link">Yachts</a>
+                            <a href="yachts.html" class="nav__link" data-i18n="navbar.yachts">Yachts</a>
                         </li>
                         <li class="nav__item">
-                            <a href="destinations.html" class="nav__link">Destinations</a>
+                            <a href="destinations.html" class="nav__link" data-i18n="navbar.destinations">Destinations</a>
                         </li>
                         <li class="nav__item">
-                            <a href="contact.html" class="nav__link">Contact</a>
+                            <a href="contact.html" class="nav__link" data-i18n="navbar.contact">Contact</a>
                         </li>
                     </ul>
-          
+
 
                     <i class="ri-close-line nav__close" id="nav-close"></i>
                 </div>
-
+                 <select data-width="fit" id="select-lang" class="select-lang">
+                    <option class="option" name="lang" value="es">Es</option>
+                    <option class="option" name="lang" value="en" selected="selected">En</option>
+                   </select>
                 <div class="nav__toggle" id="nav-toggle">
                     <i class="ri-function-line"></i>
                 </div>
@@ -58,7 +61,7 @@
           </header>
           <div class="faq-data__container">
             <div class="faq__data">
-              <h1 class="faq__data-title">Answering <strong>your questions</strong> </h1>
+              <h1 class="faq__data-title" data-i18n="faqs.banner"> </h1>
             </div>
           </div>
         </div>
@@ -77,7 +80,7 @@
                   <div class="col-xl-8 col-lg-8 text-center">
                       <div class="section-title">
                           <h4>FAQ's</h4>
-                          <h2>Frequently Asking <span>Question’s</span></h2>
+                          <h2 data-i18n="faqs.subtitle">Frequently Asking <span>Question’s</span></h2>
                       </div>
                   </div>
               </div>
@@ -91,7 +94,7 @@
                                       <div class="card-header">
                                           <h5 class="mb-0">
                                               <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                                  data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                                  data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne"  data-i18n="faqs.Ask1">
                                                   Duration of the Charter?
                                               </button>
                                           </h5>
@@ -99,7 +102,7 @@
       
                                       <div id="collapseOne" class="collapse" data-parent="#accordionExample">
                                           <div class="card-body">
-                                            <p>From 9:00 am to 5:00 pm (8 hours).</p> 
+                                            <p data-i18n="faqs.Answer1">From 9:00 am to 5:00 pm (8 hours).</p> 
                                           </div>
                                       </div>
                                   </div>
@@ -108,14 +111,14 @@
                                       <div class="card-header">
                                           <h5 class="mb-0">
                                               <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                                  data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                  data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" data-i18n="faqs.Ask2">
                                                   Do all yacht rentals <br> include catering services?
                                               </button>
                                           </h5>
                                       </div>
                                       <div id="collapseTwo" class="collapse" data-parent="#accordionExample">
                                           <div class="card-body">
-                                              <p>No. However, the catering services can be added to any rental boat for a small fee.</p>   
+                                              <p data-i18n="faqs.Answer2">No. However, the catering services can be added to any rental boat for a small fee.</p>   
                                           </div>
                                       </div>
                                   </div>
@@ -124,14 +127,14 @@
                                       <div class="card-header">
                                           <h5 class="mb-0">
                                               <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                                  data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                  data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" data-i18n="faqs.Ask3">
                                                    Is transportation included?
                                               </button>
                                           </h5>
                                       </div>
                                       <div id="collapseThree" class="collapse" data-parent="#accordionExample">
                                           <div class="card-body">
-                                              <p>No, but we provide round trip transportation por your trip under quote.
+                                              <p data-i18n="faqs.Answer3">No, but we provide round trip transportation por your trip under quote.
                                             </p>
                                           </div>
                                       </div>
@@ -141,14 +144,14 @@
                                       <div class="card-header">
                                           <h5 class="mb-0">
                                               <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                                  data-target="#collapse4" aria-expanded="false" aria-controls="collapseThree">
+                                                  data-target="#collapse4" aria-expanded="false" aria-controls="collapseThree" data-i18n="faqs.Ask4">
                                                   Can i take my own food <br> and drink on board?
                                               </button>
                                           </h5>
                                       </div>
                                       <div id="collapse4" class="collapse" data-parent="#accordionExample">
                                           <div class="card-body">
-                                            <p>Yes. Let us know if you need any special utensils and if an extra fee is added at the end.</p>  
+                                            <p data-i18n="faqs.Answer4">Yes. Let us know if you need any special utensils and if an extra fee is added at the end.</p>  
                                           </div>
                                       </div>
                                   </div>
@@ -160,7 +163,7 @@
                                       <div class="card-header">
                                           <h5 class="mb-0">
                                               <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                                  data-target="#collapse5" aria-expanded="false" aria-controls="collapseOne">
+                                                  data-target="#collapse5" aria-expanded="false" aria-controls="collapseOne" data-i18n="faqs.Ask5">
                                                   What is included in the price?
                                               </button>
                                           </h5>
@@ -169,11 +172,11 @@
                                       <div id="collapse5" class="collapse" data-parent="#accordionExample">
                                           <div class="card-body">
                                              <ul>
-                                                 <li>- Crew (Captain and Sailor).</li>
-                                                 <li>- Fuel</li>
-                                                 <li>- Snorkeling equipment</li>
-                                                 <li>- Bebidas de cortesía</li>
-                                                 <li>- Beverages (16 beers, 12 water bottles, 
+                                                 <li data-i18n="faqs.Answer5">- Crew (Captain and Sailor).</li>
+                                                 <li  data-i18n="faqs.Answer5-1">- Fuel</li>
+                                                 <li  data-i18n="faqs.Answer5-2">- Snorkeling equipment</li>
+                                                 <li  data-i18n="faqs.Answer5-3">- Bebidas de cortesía</li>
+                                                 <li data-i18n="faqs.Answer5-4">- Beverages (16 beers, 12 water bottles, 
                                                        12 soft drinks, ice).</li>   
                                              </ul>
                                           </div>
@@ -184,14 +187,14 @@
                                       <div class="card-header">
                                           <h5 class="mb-0">
                                               <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                                  data-target="#collapse6" aria-expanded="false" aria-controls="collapseTwo">
+                                                  data-target="#collapse6" aria-expanded="false" aria-controls="collapseTwo" data-i18n="faqs.Ask6">
                                                   What happens if there is bad weather? 
                                               </button>
                                           </h5>
                                       </div>
                                       <div id="collapse6" class="collapse" data-parent="#accordionExample">
                                           <div class="card-body">
-                                              <p>In the event that weather conditions prevent the celebration of the excursion and we cannot find an alternative date, nor can we offer a comfortable and safe alternative route, the total of the amounts paid in advance will be returned. The return will be made within 48 hours, by bank transfer to the account indicated by the client.</p>
+                                              <p data-i18n="faqs.Answer6">In the event that weather conditions prevent the celebration of the excursion and we cannot find an alternative date, nor can we offer a comfortable and safe alternative route, the total of the amounts paid in advance will be returned. The return will be made within 48 hours, by bank transfer to the account indicated by the client.</p>
                                           </div>
                                       </div>
                                   </div>
@@ -200,14 +203,14 @@
                                       <div class="card-header">
                                           <h5 class="mb-0">
                                               <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                                  data-target="#collapse7" aria-expanded="false" aria-controls="collapseThree">
+                                                  data-target="#collapse7" aria-expanded="false" aria-controls="collapseThree" data-i18n="faqs.Ask7">
                                                   What is the cacellation policy due <br> to COVID-19?
                                               </button>
                                           </h5>
                                       </div>
                                       <div id="collapse7" class="collapse" data-parent="#accordionExample">
                                           <div class="card-body">
-                                           <p>In the event that the client cannot make the excursion due to having Covid-19, the reservation will be kept for 18 months. If in those 18 months the client cannot make the excursion, the total amount paid in advance will not be returned.</p>   
+                                           <p data-i18n="faqs.Answer7">In the event that the client cannot make the excursion due to having Covid-19, the reservation will be kept for 18 months. If in those 18 months the client cannot make the excursion, the total amount paid in advance will not be returned.</p>   
                                           </div>
                                       </div>
                                   </div>
@@ -215,14 +218,14 @@
                                       <div class="card-header">
                                           <h5 class="mb-0">
                                               <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                                  data-target="#collapse8" aria-expanded="false" aria-controls="collapseThree">
+                                                  data-target="#collapse8" aria-expanded="false" aria-controls="collapseThree" data-i18n="faqs.Ask8">
                                                    Can i bring children on board?
                                               </button>
                                           </h5>
                                       </div>
                                       <div id="collapse8" class="collapse" data-parent="#accordionExample">
                                           <div class="card-body">
-                                             <p>Yes, safety is the most important aspect on boats. We advise that you let us know well in advance the age and height of the children so we can ensure the boat has the appropriate life jackets. Babysitting services can be hired if the client would like so.</p> 
+                                             <p data-i18n="faqs.Answer8">Yes, safety is the most important aspect on boats. We advise that you let us know well in advance the age and height of the children so we can ensure the boat has the appropriate life jackets. Babysitting services can be hired if the client would like so.</p> 
                                           </div>
                                       </div>
                                   </div>
@@ -242,13 +245,14 @@
 
 
 
-           <!--==================== FOOTER ====================-->
-           <footer class="footer section">
+      
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
             <div class="footer__container container grid">
                 <div class="footer__content grid">
                     <div class="footer__data">
                         <h3 class="footer__title">Cygnus Yachts</h3>
-                        <p class="footer__description">
+                        <p class="footer__description" data-i18n="footer.description">
                             Yacht charter service, where we give you the opportunity to make all your dreams and wishes come true in the most beautiful and exclusive destinations that can be found in the Caribbean.
                           </p>
                         <div>
@@ -264,43 +268,43 @@
                     </div>
     
                     <div class="footer__data">
-                        <h3 class="footer__subtitle">Quick Links</h3>
+                        <h3 class="footer__subtitle"  data-i18n="footer.quicklinks">Quick Links</h3>
                         <ul>
                             <li class="footer__item">
-                                <a href="index.html" class="footer__link">Home</a>
+                                <a href="index.html" class="footer__link" data-i18n="navbar.home">Home</a>
                             </li>
                             <li class="footer__item">
-                                <a href="about.html" class="footer__link">About Us</a>
+                                <a href="about.html" class="footer__link" data-i18n="navbar.aboutUs">About Us</a>
                             </li>
                             <li class="footer__item">
-                                <a href="destinations.html" class="footer__link">Destinations</a>
+                                <a href="destinations.html" class="footer__link" data-i18n="navbar.destinations">Destinations</a>
                             </li>
                         </ul>
                     </div>
     
                     <div class="footer__data">
-                        <h3 class="footer__subtitle">Barcos</h3>
+                        <h3 class="footer__subtitle" data-i18n="footer.boats">Boats</h3>
                         <ul>
                             <li class="footer__item">
-                                <a href="yachts.html" class="footer__link">Yachts</a>
+                                <a href="yachts.html" class="footer__link" data-i18n="boat-tipe.yachts">Yachts</a>
                             </li>
                             <li class="footer__item">
-                                <a href="catamarans.html" class="footer__link">Catamarans</a>
+                                <a href="catamarans.html" class="footer__link" data-i18n="boat-tipe.catamarans">Catamarans</a>
                             </li>
                             <li class="footer__item">
-                                <a href="superyates.html" class="footer__link">Superyachts</a>
+                                <a href="superyates.html" class="footer__link" data-i18n="boat-tipe.superyachts">Superyachts</a>
                             </li>
                         </ul>
                     </div>
     
                     <div class="footer__data">
-                        <h3 class="footer__subtitle">Contact</h3>
+                        <h3 class="footer__subtitle" data-i18n="footer.boats">Contact</h3>
                         <ul>
                             <li class="footer__item">
-                                <a href="faq.html" class="footer__link">FAQs</a>
+                                <a href="faq.html" class="footer__link" data-i18n="footer.faqs">FAQs</a>
                             </li>
                             <li class="footer__item">
-                                <a href="contact.html" class="footer__link">Contact Us</a>
+                                <a href="contact.html" class="footer__link" data-i18n="footer.contactUs">Contact Us</a>
                             </li>
                         </ul>
                     </div>
@@ -309,8 +313,8 @@
                 <div class="footer__rights">
                     <p class="footer__copy">&#169; 2021 Cygnus Yachts. All rigths reserved.</p>
                     <div class="footer__terms">
-                        <a href="#" class="footer__terms-link">Terms & Agreements</a>
-                        <a href="#" class="footer__terms-link">Privacy Policy</a>
+                        <a href="#" class="footer__terms-link" data-i18n="footer.terminos">Terms & Agreements</a>
+                        <a href="#" class="footer__terms-link" data-i18n="footer.politica">Privacy Policy</a>
                     </div>
                 </div>
             </div>
