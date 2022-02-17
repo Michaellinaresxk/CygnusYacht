@@ -248,6 +248,31 @@
     "title": "Saona Island",
     "p1": "Located 19 kilometers south of the mainland, the beautiful beaches of Isla Saona attract more visitors than all the Dominican national parks combined. A protected area of 110 km2 and part of the Cotubanamá National Park, Saona is a dreamlike tropical escape, where long beaches of sparkling white sand and its giant coconut trees seem to melt into iridescent turquoise waters."
   },
+  "faqs": {
+    "banner": "Answering your questions",
+    "title": "FAQs",
+    "subtitle": "Frequently Asked Questions",
+    "Ask1":"Duration of the Charter?",
+    "Answer1":"From 9:00 am to 5:00 pm (8 hours).",
+    "Ask2":"Do all yacht rentals <br> include catering services?",
+    "Answer2":"No. However, the catering services can be added to any rental boat for a small fee.",
+    "Ask3":"Is transportation included?",
+    "Answer3":"No, but we provide round trip transportation por your trip under quote.",
+    "Ask4": "Can i take my own food <br> and drink on board?",
+    "Answer4": "Yes. Let us know if you need any special utensils and if an extra fee is added at the end.",
+    "Ask5": "What is included in the price?",
+    "Answer5": "- Crew (Captain and Sailor).",
+    "Answer5-1": "- Fuel.",
+    "Answer5-2": "- Snorkeling equipment.",
+    "Answer5-3": "- Courtesy drinks.",
+    "Answer5-4": "- Beverages (16 beers, 12 water bottles, <br> 12 soft drinks, ice).",
+    "Ask6": "What happens if there is bad weather?",
+    "Answer6": "In the event that weather conditions prevent the celebration of the excursion and we cannot find an alternative date, nor can we offer a comfortable and safe alternative route, the total of the amounts paid in advance will be returned. The return will be made within 48 hours, by bank transfer to the account indicated by the client.",
+    "Ask7": "What is the cacellation policy due <br> to COVID-19?",
+    "Answer7": "In the event that the client cannot make the excursion due to having Covid-19, the reservation will be kept for 18 months. If in those 18 months the client cannot make the excursion, the total amount paid in advance will not be returned.",
+    "Ask8": "Can i bring children on board?",
+    "Answer8": "Yes, safety is the most important aspect on boats. We advise that you let us know well in advance the age and height of the children so we can ensure the boat has the appropriate life jackets. Babysitting services can be hired if the client would like so."
+  },
   "contact-page": {
     "slogan": "Do you have questions about yacht charter in Punta Cana?",
     "address": "address",
@@ -258,7 +283,6 @@
     "keepinTouch": "Keep in Touch",
     "description1": "If you do not know exactly what type of boat to rent or you do not have time, fill out this form and tell us how many people will be on board, possible dates, approximate budget and we will send you a proposal by email.",
     "description2": "Do not forget to leave us your phone number so we can contact you and give you complete information about private boat rentals in Punta Cana."
-
   },
   "contactForm": {
     "name": "Name:",
