@@ -304,8 +304,8 @@ class Translator {
   get defaultConfig() {
     return {
       persist: false,
-      languages: ["es"],
-      defaultLanguage: "es",
+      languages: ["en"],
+      defaultLanguage: "en",
       detectLanguage: true,
       filesLocation: "/assets/js/locale"
     };
@@ -340,7 +340,7 @@ function setLangInLocalStorage(language) {
 (function() {
   if(localStorage.getItem('langChosen') === null || localStorage.getItem('langChosen') === undefined) {
    
-    localStorage.setItem('langChosen', "es")
+    localStorage.setItem('langChosen', "en")
   }
 })();
 
