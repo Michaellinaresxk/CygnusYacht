@@ -131,6 +131,8 @@ input {
   overflow-x: hidden;
 }
 
+
+
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section {
   padding: 4.5rem 0 2.5rem;
@@ -360,6 +362,24 @@ input {
 
 .button--link:hover {
   background: none;
+}
+
+.social-network-absolute {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 1;
+}
+.social-network-absolute a {
+  margin-top: 4px;
+}
+.social-network-absolute img {
+  width: 60px;
+  padding: 4px;
+  cursor: pointer;
 }
 
 /*=============== MAIN ABOUT ===============*/
@@ -2136,6 +2156,12 @@ q {font-style: italic;}
   margin-top: 1em;
   text-align: center;
 }
+
+.contact-btn-disabled {
+  opacity: 0.5; 
+  cursor: not-allowed;
+}
+
 
 .enviado-correctamente {
  padding: .5em;

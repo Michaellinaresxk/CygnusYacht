@@ -1,20 +1,22 @@
 
 // variables
 
-let contact_submitBtn = document.getElementById('contact_submitBtn');
-const message =  document.getElementById('message');
+const contactForm = document.getElementById('contactForm');
 const name =  document.getElementById('name');
 const email =  document.getElementById('email');
+const message =  document.getElementById('message');
+let contact_submitBtn = document.getElementById('contact_submitBtn');
 const formResult = document.getElementById('formResult');
 const er = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-const contactForm = document.getElementById('contactForm');
 
 // events listeners 
+
 eventlisteners();
 function eventlisteners() {
   document.addEventListener('DOMContentLoaded', webInit);
 
-  // campos del formulario
+// campos del formulario
+
   email.addEventListener('blur', FormValidation);
   message.addEventListener('blur', FormValidation);
   sendName.addEventListener('blur', FormValidation);
@@ -23,9 +25,10 @@ function eventlisteners() {
 }
 
 // funciones 
+
 function webInit() {
   // botonSubmit_contact.disabled = true;
-  btnSubmit_contact.classList.add('contact-btn-disabled');
+  contact_submitBtn.classList.add('contact-btn-disabled');
 }
 
 // valida el formulario 
@@ -36,7 +39,6 @@ function FormValidation(e) {
 
     // Elimar errores 
     const error = document.querySelector('p.error');
-   
     if(error) {
       error.remove();
     }
@@ -56,10 +58,9 @@ function FormValidation(e) {
       if(error) {
         error.remove();
       }
-  
       e.target.classList.remove('input-error');
       e.target.classList.add('input-valido');
-      
+
     } else {
       e.target.classList.remove('input-valido');
       e.target.classList.add('input-error');
