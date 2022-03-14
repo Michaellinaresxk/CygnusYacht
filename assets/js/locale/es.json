@@ -19,7 +19,8 @@
     "subtitle": "Disponemos de una amplia selección de alquiler de yates, super yates, lanchas y catamaranes únicos.",
     "yachts": "Yates",
     "catamarans": "Catamaranes",
-    "superyachts": "Superyates"
+    "superyachts": "Superyates",
+    "charter": "Catamaranes <br><strong>Charter</strong>"
   },
   "places": {
     "title": "Elije un destino",
@@ -71,8 +72,8 @@
     "destinations": "Destinos",
     "destinations2": "Turísticos",
     "yachtSelection": "Selección de yates",
-    "yachtSelection-text1": "En Elysium Yachts ponemos a su disposición una gran variedad de experiencias: salidas diurnas o por semanas, veladas románticas o gastronómicas, cualquier actividad relacionada con bodas en barco y recién casados, barcos para eventos de empresa… y todo aquello que desee.",
-    "yachtSelection-text2": "Disponemos de una amplia selección de yates únicos de alquiler en Punta Cana y un servicio totalmente personalizado, diseñado para cubrir todas sus necesidades y para que su experiencia con Elysium Yachts sea inolvidable.",
+    "yachtSelection-text1": "En Cygnus Yachts ponemos a su disposición una gran variedad de experiencias: salidas diurnas o por semanas, veladas románticas o gastronómicas, cualquier actividad relacionada con bodas en barco y recién casados, barcos para eventos de empresa… y todo aquello que desee.",
+    "yachtSelection-text2": "Disponemos de una amplia selección de yates únicos de alquiler en Punta Cana y un servicio totalmente personalizado, diseñado para cubrir todas sus necesidades y para que su experiencia con Cygnus Yachts sea inolvidable.",
     "bannerText-title": "Bienvenido a bordo!",
     "bannerText": "Todos nuestros yates de alquiler y servicios han sido escogidos cuidadosamente por el equipo de Elysium Yachts para ofrecerle los más altos niveles de calidad.",
     "bannerText2": "Disponemos de una amplia selección de yates únicos de alquiler en Punta Cana y un servicio totalmente personalizado, diseñado para cubrir todas sus necesidades y para que su experiencia con Elysium Yachts sea inolvidable.",
@@ -214,6 +215,15 @@
     "p1": "El yate Tiara 3100 Open es uno de esos barcos excepcionales cuya perdurable popularidad lo convierte en un clásico del diseño. Aparte de su construcción de calidad y su perfil deportivo, el atractivo tiene mucho que ver con su gran cabina de pesca y su cómodo interior con detalles de madera de teca. Las características notables incluyen cubiertas laterales anchas, un techo rígido, placas protectoras excelentes y motores diesel.",
     "p2": "Este yate de alquiler en Punta Cana es el barco perfecto para pasar tiempo de calidad en el agua con familiares y amigos, navegar un día, pasar un fin de semana pescando o navegar de puerto en puerto.",
     "p3": "Si buscas un barco privado a buen precio en Punta Cana, este Tiara 3100 Open es una fantástica opción de alquiler de yate en Punta Cana."
+  },
+  "catamarans-page": {
+    "catamarans": "Catamaran",
+    "yachts": "Yate",
+    "slogan":"Catamaranes exclusivos en Punta Cana y el Caribe."
+  },
+  "superyacht-page": {
+    "title": "Nuestros Superyates",
+    "slogan":"Superyates exclusivos en Punta Cana y el Caribe."
   },
   "destinations": {
     "title": "Nuestros Destinos",

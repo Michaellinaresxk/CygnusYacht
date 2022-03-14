@@ -19,7 +19,8 @@
     "subtitle": "We have a wide selection of unique yacht, super yacht, boat and catamaran rentals.",
     "yachts": "Yachts",
     "catamarans": "Catamarans",
-    "superyachts": "Superyachts"
+    "superyachts": "Superyachts",
+    "charter": "Catamarans <br><strong>Charter</strong>"
   },
   "places": {
     "title": "Choose Your Place",
@@ -66,7 +67,7 @@
     "destinations2": "Destination",
     "yachtSelection": "Yachts Selection",
     "yachtSelection-text1": "At Cygnus Yachts we offer you a wide variety of experiences: daytime or weekly outings, romantic or gastronomic evenings, any activity related to boat weddings and honeymooners, boats for company events ... and whatever you want.",
-    "yachtSelection-text2": "We have a wide selection of unique yachts for rent in Punta Cana and a totally personalized service, designed to cover all your needs and to make your experience with Elysium Yachts unforgettable.",
+    "yachtSelection-text2": "We have a wide selection of unique yachts for rent in Punta Cana and a totally personalized service, designed to cover all your needs and to make your experience with Cygnus Yachts unforgettable.",
     "bannerText-title": "Welcome Aboard!",
     "bannerText": "All of our yachts charters and services have been carefully chosen by the Cygnus Yachts team to offer you the highest levels of quality.",
     "bannerText2": "We have a wide selection of unique yachts for rent in Punta Cana and a totally personalized service, designed to cover all your needs and to make your experience with Cygnus Yachts unforgettable.",
@@ -86,7 +87,7 @@
     "slogan1": "Leading company in",
     "slogan2": "Alquiler de",
     "slogan3": "Yates",
-    "ourYachts": "Our Yachsts",
+    "ourYachts": "Our Yachts",
     "subtitle": "Exclusive Yachts for rent in Punta Cana and the Caribbean.",
     "rentYacth1": "Yacht Charter",
     "description": "Description",
@@ -208,6 +209,15 @@
     "p1": "The Tiara 3100 Open yacht is one of those exceptional boats whose enduring popularity makes her a design classic. Aside from her quality construction and sporty profile, the appeal has a lot to do with her large fishing cabin and comfortable teakwood-trimmed interior. Notable features include wide side covers, a hardtop, excellent skid plates, and diesel engines.",
     "p2": "This Punta Cana charter yacht is the perfect boat for spending quality time on the water with family and friends, sailing for a day, spending a weekend fishing, or sailing from port to port.",
     "p3": "If you are looking for a private boat at a good price in Punta Cana, this Tiara 3100 Open is a fantastic yacht rental option in Punta Cana."
+  },
+  "catamarans-page": {
+    "catamarans": "Catamarans",
+    "yachts": "Yacht",
+    "slogan":"Exclusives catamarans charter in Punta Cana and the Caribbean."
+  },
+  "superyacht-page": {
+    "title": "Our Superyachts",
+    "slogan":"Exclusives superyachts charter in Punta Cana and the Caribbean."
   },
   "destinations": {
     "title": "Our Destinations",
