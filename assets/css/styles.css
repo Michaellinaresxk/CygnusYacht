@@ -2108,11 +2108,14 @@ q {font-style: italic;}
 }
 
 
+
 .contact-quote-section {
   display: flex;
-  width: 100vw;
+  width: 50vw;
   height: 250px;
   align-items: center;
+  margin: 0 auto;
+  margin-top: 5em;
 }
 
 .contact-quote-shape {
@@ -2330,6 +2333,13 @@ q {font-style: italic;}
     flex-direction: column;
   }
 
+  .contact-quote-section {
+    width: 80vw;
+    height: 250px;
+    margin: 0 auto;
+    margin-top: 5em;
+    margin-bottom: 5em;
+  }
 
 /* .contact-form__imgtop {
   display: block;
