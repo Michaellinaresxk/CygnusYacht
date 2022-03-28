@@ -119,6 +119,11 @@ input {
   font-size: var(--normal-font-size);
 }
 
+.button--contact_submitBtn {
+  opacity: 0.5; 
+  cursor: not-allowed;
+}
+
 button {
   cursor: pointer;
 }
@@ -202,6 +207,9 @@ input {
     box-shadow: -1px 0 4px rgba(14, 55, 63, 0.15);
     padding: 3rem;
     transition: .4s;
+  }
+  .section__title {
+    margin-top: 3em;
   }
 }
 
@@ -1868,7 +1876,8 @@ q {font-style: italic;}
   background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1635954445/cygnus%20yachts/pictures/destinations/home/CATALINA_u0a5hs.jpg);
 }
 .palmilla-banner {
-  background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1635954420/cygnus%20yachts/pictures/destinations/pages/palmilla/3_svnvh7.jpg);
+  background-image: url(../img/destination-main/11.jpg);
+  background-position: center;
 }
 .puntacana-banner {
   background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1635954416/cygnus%20yachts/pictures/destinations/pages/puntacana/puntacana-card_fsfsef.jpg);
@@ -2140,6 +2149,13 @@ q {font-style: italic;}
   background-position: center;
 }
 
+.spinner-border {
+  display: none;
+}
+
+@keyframes spinner-border {
+  to { transform: rotate(360deg); }
+}
 
 .input-error {
   outline: 1px solid red;
