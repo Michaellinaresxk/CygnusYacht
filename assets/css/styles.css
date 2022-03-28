@@ -289,6 +289,10 @@ input {
   row-gap: 3rem;
 }
 
+.home__data {
+  margin-bottom: 3em;
+}
+
 .home__data-subtitle, 
 .home__data-title, 
 .home__social-link, 
