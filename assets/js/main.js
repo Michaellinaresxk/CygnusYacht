@@ -33,9 +33,19 @@ navLink.forEach(n => n.addEventListener('click', linkAction))
 /*==================== CHANGE BACKGROUND HEADER ====================*/
 function scrollHeader(){
     const header = document.getElementById('header')
-    // When the scroll is greater than 100 viewport height, add the scroll-header class to the header tag
-    if(this.scrollY >= 70) header.classList.add('scroll-header'); else header.classList.remove('scroll-header')
+    const nav_logoWhite = document.getElementById('nav_logoWhite')
+    const nav_logoColor = document.getElementById('nav_logoColor')
 
+    // When the scroll is greater than 100 viewport height, add the scroll-header class to the header tag
+    if(this.scrollY >= 70) {
+      header.classList.add('scroll-header');
+      nav_logoWhite.style.display = 'none' 
+      nav_logoColor.style.display = 'block';
+    }  else {
+      header.classList.remove('scroll-header')
+      nav_logoColor.style.display = 'none';
+      nav_logoWhite.style.display = 'block' 
+    }
 }
 window.addEventListener('scroll', scrollHeader)
 

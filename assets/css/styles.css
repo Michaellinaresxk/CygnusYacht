@@ -196,6 +196,12 @@ input {
   width: 150px;
 }
 
+.nav__logo--color {
+  display: none;
+}
+
+
+
 @media screen and (max-width: 767px) {
   .nav__menu {
     position: fixed;
