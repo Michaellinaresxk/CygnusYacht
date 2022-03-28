@@ -131,10 +131,17 @@
                             <textarea class="form-control" name="message" id="message" cols="30" rows="7"></textarea>
                           </div>
                         </div>
-                        <div class="row">_
+                          <!--spiner para envio de formulario-->
+                          <div class="d-flex justify-content-center">
+                            <div class="spinner-border text-success mb-3" role="status" id="spinner">
+                              <span class="visually-hidden" data-i18n="contactForm.sendingEmail" >Enviando Correo...</span>
+                            </div>
+                          </div>  
+                          <!-- fin spiner-->
+                        <div class="row">
                           <div class="form-result" id="formResult"></div><!-- /.form-result -->
                           <div class="col-md-12">
-                              <button type="submit" class="button" id="contact_submitBtn"  data-i18n="button.sendMessage">Send Message</button>
+                              <button type="submit" class="button button--contact_submitBtn" id="contact_submitBtn"  data-i18n="button.sendMessage">Send Message</button>
                             <span class="submitting"></span>
                           </div>
                         </div>
@@ -235,19 +242,18 @@
      
       <script type="module">
         import {
-          message, 
-          name, 
-          email,
-          contactForm, 
-          formResult, 
-          contact_submitBtn,
-          er,
-          eventlisteners,
-          iniciarWeb,
-          validarFormulario,
-          mostrarError,
-          enviarFormulario,
-          resetearFormulario } from "./js/validation.js";
+            message, 
+            name1, 
+            email,
+            contactForm, 
+            formResult, 
+            contact_submitBtn,
+            er,
+            eventlisteners,
+            FormValidation,
+            showError,
+            sendForm,
+            resetForm } from "./assets/js/validation.js";
       </script>
   </body>
 </html>

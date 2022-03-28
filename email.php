@@ -4,8 +4,8 @@ $email = $_POST['email'];
 // $asunto = $_POST['asunto'];
 $message = $_POST['message'];
  
-$to = "booking@cygnusyachts.com"; 
-$subject = $name. " envio un mensaje"; 
+$to = "linares.michael@gmail.com"; 
+$subject = $name. " Send a message"; 
 $body = ' 
 <html> 
 <head> 

@@ -2,7 +2,7 @@
 // variables
 
 const contactForm = document.getElementById('contactForm');
-const name =  document.getElementById('name');
+const name1 =  document.getElementById('name');
 const email =  document.getElementById('email');
 const message =  document.getElementById('message');
 let contact_submitBtn = document.getElementById('contact_submitBtn');
@@ -10,26 +10,22 @@ const formResult = document.getElementById('formResult');
 const er = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
 // events listeners 
-
 eventlisteners();
 function eventlisteners() {
-  document.addEventListener('DOMContentLoaded', webInit);
 
-// campos del formulario
-
+  // campos del formulario
   email.addEventListener('blur', FormValidation);
   message.addEventListener('blur', FormValidation);
-  sendName.addEventListener('blur', FormValidation);
+  name1.addEventListener('blur', FormValidation);
 
-  contact_submitBtn.addEventListener('submit', sendForm);
+  contactForm.addEventListener('submit', sendForm);
 }
 
-// funciones 
-
-function webInit() {
-  // botonSubmit_contact.disabled = true;
-  contact_submitBtn.classList.add('contact-btn-disabled');
-}
+// // funciones 
+// function webInit() {
+//   // contact_submitBtn.disabled = true;
+//   contact_submitBtn.classList.add('contact-btn-disabled');
+// }
 
 // valida el formulario 
 function FormValidation(e) {
@@ -39,6 +35,7 @@ function FormValidation(e) {
 
     // Elimar errores 
     const error = document.querySelector('p.error');
+   
     if(error) {
       error.remove();
     }
@@ -48,7 +45,7 @@ function FormValidation(e) {
     e.target.classList.remove('input-valido');
     e.target.classList.add('input-error');
 
-    showError(`Todos los campos son obligatorios`);
+    showError(`Every field is required`);
   }
 
   if(e.target.type === 'email') {
@@ -58,19 +55,20 @@ function FormValidation(e) {
       if(error) {
         error.remove();
       }
+  
       e.target.classList.remove('input-error');
       e.target.classList.add('input-valido');
-
+      
     } else {
       e.target.classList.remove('input-valido');
       e.target.classList.add('input-error');
-      showError('Este correo no es válido');
+      showError('This email is not valid');
     }
   }
 
-    if(er.test(email.value) && message.value !== '' && sendName !== '') {
+    if(email.value && message.value && name1 !== '') {
     // botonSubmit_contact.disabled = false;
-    btnSubmit_contact.classList.remove('contact-btn-disabled');
+    contact_submitBtn.classList.remove('button--contact_submitBtn');
   }
 }
 
@@ -88,13 +86,54 @@ function showError(message) {
 // enviar email 
 
 function sendForm(e) {
-e.preventDefault(); 
+e.preventDefault();
+
+// mostrar spinner
+
+const spinner = document.getElementById('spinner');
+spinner.style.display = 'block';
   
+   // despues de 3 seg. ocultar el spiner 
+  setTimeout(() => {
+    spinner.style.display = 'none';
+
+    // se envio correctamente
+
+    const paragraph = document.createElement('p');
+    paragraph.textContent = 'Thank you for your message';
+    paragraph.classList.add('enviado-correctamente');
+
+    // contactForm.insertBefore(paragraph, contact_submitBtn);
+    contactForm.appendChild(paragraph)
+
+    setTimeout(() => {
+      paragraph.remove();
+    },5000);
+
+    resetForm();
+
+  }, 3000 );
 } 
 
 // resetear formulario 
 function resetForm() {
-  contactForm.reset();
+  document.getElementById('contactForm').reset();
+  contact_submitBtn.classList.add('button--contact_submitBtn');
+}
 
-  webInit();
+
+
+export { 
+  message, 
+  name1, 
+  email,
+  contactForm, 
+  formResult, 
+  contact_submitBtn,
+  er,
+  eventlisteners,
+  FormValidation,
+  showError,
+  sendForm,
+  resetForm
 }
