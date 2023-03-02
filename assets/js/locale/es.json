@@ -4,7 +4,7 @@
     "aboutUs": "Quienes Somos",
     "yachts": "Yates",
     "destinations": "Destinos",
-    "contact": "Contácto",
+    "contact": "Contáctanos",
     "faq": "Preguntas Frecuentes"
   },
   "home-banner": {
@@ -35,20 +35,8 @@
   "testimonials": {
     "happyClientes": "Clientes Felices",
     "testimonial-1": "Mi novio y yo estuvimos en Punta Cana hace un mes y contratamos los servicios de esta empresa para ir en un yate privado hasta isla Saona, la experiencia fue súper divertida e increíble, hicimos snorkel, nos bañamos en las piscinas naturales, la comida fue muy buena y la tripulación son personas muy amables y profesionales. Vamos a repetir seguro el año que viene.",
-    "name1": "Anna",
-    "from1": "from Glasgow, Scotland",
     "testimonial-2": "Celebré mi cumpleaños con mis amigos en un yate en playa Palmilla, una experiencia inolvidable. La playa es hermosa, el yate que reservamos era espectacular y el servicio fue atento y excelente. No tuve que preocuparme de nada durante mi cumpleaños, y mis amigos y yo nos divertimos muchísimo. Recomendado 100%.",
-    "name2": "Ella Mentree",
-    "from2": "from United States",
-    "testimonial-3": "Si desean disfrutar de una experiencia única e inolvidable les recomiendo esta empresa. Me recomendaron esta empresa en el Hotel, son muy profesionales y ofrecen un servicio personalizado. Navegar en un yate por el mar Caribe con mis seres queridos es una experiencia que jamás olvidaré, un recuerdo para toda la vida.",
-    "name3": "Rannynm",
-    "from3": "from Indonesia"
-  },
-  "subscribe": {
-    "title": "Suscribete para recibir boletines",
-    "subtitle": "Suscribete con tu correo y asi podras recibir informacion, sobre descuentos y mas",
-    "inputText": "Escribe tu correo",
-    "subscribe": "Suscribete"
+    "testimonial-3": "Si desean disfrutar de una experiencia única e inolvidable les recomiendo esta empresa. Me recomendaron esta empresa en el Hotel, son muy profesionales y ofrecen un servicio personalizado. Navegar en un yate por el mar Caribe con mis seres queridos es una experiencia que jamás olvidaré, un recuerdo para toda la vida."
   },
   "footer": {
     "description": "Servicio de alquiler de yates, donde le brindamos la oportunidad de hacer realidad todos sus sueños y deseos en los destinos más bellos y exclusivos que se pueden encontrar en el Caribe.",
@@ -62,7 +50,7 @@
   "about-page": {
     "title": "Quienes Somos",
     "slogan1": "Siempre a tu servicio",
-    "description": "En Elysium Yachts, estamos orgullosos de presentarle nuestro servicio de alquiler de yates, donde le brindamos la oportunidad de hacer realidad todos sus sueños y deseos en los destinos más bellos y exclusivos que se pueden encontrar en el Caribe.",
+    "description": "En Cygnus Yachts, estamos orgullosos de presentarle nuestro servicio de alquiler de yates, donde le brindamos la oportunidad de hacer realidad todos sus sueños y deseos en los destinos más bellos y exclusivos que se pueden encontrar en el Caribe.",
     "experienceTitle": "Con nuestra experiencia",
     "experienceTitle2": "Te servimos",
     "year1": "Años",
@@ -75,19 +63,19 @@
     "yachtSelection-text1": "En Cygnus Yachts ponemos a su disposición una gran variedad de experiencias: salidas diurnas o por semanas, veladas románticas o gastronómicas, cualquier actividad relacionada con bodas en barco y recién casados, barcos para eventos de empresa… y todo aquello que desee.",
     "yachtSelection-text2": "Disponemos de una amplia selección de yates únicos de alquiler en Punta Cana y un servicio totalmente personalizado, diseñado para cubrir todas sus necesidades y para que su experiencia con Cygnus Yachts sea inolvidable.",
     "bannerText-title": "Bienvenido a bordo!",
-    "bannerText": "Todos nuestros yates de alquiler y servicios han sido escogidos cuidadosamente por el equipo de Elysium Yachts para ofrecerle los más altos niveles de calidad.",
-    "bannerText2": "Disponemos de una amplia selección de yates únicos de alquiler en Punta Cana y un servicio totalmente personalizado, diseñado para cubrir todas sus necesidades y para que su experiencia con Elysium Yachts sea inolvidable.",
-    "bannerText3": "Desde su solicitud de alquiler hasta el final de su experiencia Elysium Yachts en un alquiler de yates en Punta Cana Republica Dominicana, usted tendrá uno de nuestros especialistas como interlocutor respaldado por un equipo de profesionales altamente cualificados, juntos velarán para cubrir todas sus necesidades y darle el mejor servicio posible durante su experiencia Elysium Yachts en un alquiler de yate.",
-    "bannerText4": "Si desea alquilar un yate en Punta Cana póngase en contacto con Elysium Yachts, permítanos asesorarle a personalizar sus vacaciones o eventos de empresa y nos encargaremos de todos los detalles.",
+    "bannerText": "Todos nuestros yates de alquiler y servicios han sido escogidos cuidadosamente por el equipo de Cygnus Yachts para ofrecerle los más altos niveles de calidad.",
+    "bannerText2": "Disponemos de una amplia selección de yates únicos de alquiler en Punta Cana y un servicio totalmente personalizado, diseñado para cubrir todas sus necesidades y para que su experiencia con Cygnus Yachts sea inolvidable.",
+    "bannerText3": "Desde su solicitud de alquiler hasta el final de su experiencia Cygnus Yachts en un alquiler de yates en Punta Cana Republica Dominicana, usted tendrá uno de nuestros especialistas como interlocutor respaldado por un equipo de profesionales altamente cualificados, juntos velarán para cubrir todas sus necesidades y darle el mejor servicio posible durante su experiencia Cygnus Yachts en un alquiler de yate.",
+    "bannerText4": "Si desea alquilar un yate en Punta Cana póngase en contacto con Cygnus Yachts, permítanos asesorarle a personalizar sus vacaciones o eventos de empresa y nos encargaremos de todos los detalles.",
     "split-title": "Confort",
-    "split-subtitle": "En Elysium Yachts somos conscientes de la importancia del confort, del bienestar y de los pequeños detalles.",
+    "split-subtitle": "En Cygnus Yachts somos conscientes de la importancia del confort, del bienestar y de los pequeños detalles.",
     "split-text": "Por esta razón le ofrecemos un servicio totalmente personalizado pensado exclusivamente para cubrir todas sus necesidades antes, durante y después del alquiler de un yate, donde usted podrá encontrar todo lo que necesita para hacer de su estancia a bordo, un espacio a su medida.",
     "split-title2": "Satisfacción",
     "split-subtitle2": "Un trabajo bien hecho, la satisfacción de nuestros clientes…",
-    "split-text2": "es el reflejo de la pasión y del entusiasmo que ponemos en todo lo que hacemos en Elysium Yachts, por ello hallará con nosotros la tranquilidad, discreción y seguridad que le ofrece tener el mejor equipo de profesionales a su disposición antes, durante y después de su alquiler de yate.",
+    "split-text2": "es el reflejo de la pasión y del entusiasmo que ponemos en todo lo que hacemos en Cygnus Yachts, por ello hallará con nosotros la tranquilidad, discreción y seguridad que le ofrece tener el mejor equipo de profesionales a su disposición antes, durante y después de su alquiler de yate.",
     "split-title3": "Confianza",
     "split-subtitle3": "Permítanos asesorarle a personalizar sus vacaciones o eventos de empresa y nos encargaremos de todos los detalles.",
-    "split-text3": "Desde su solicitud de alquiler hasta el final de su experiencia Elysium Yachts en un alquiler de yates en Punta Cana Republica Dominicana, usted tendrá uno de nuestros especialistas como interlocutor respaldado por un equipo de profesionales altamente cualificados, juntos velarán para cubrir todas sus necesidades y darle el mejor servicio posible durante su experiencia Elysium Yachts en un alquiler de yate."
+    "split-text3": "Desde su solicitud de alquiler hasta el final de su experiencia Cygnus Yachts en un alquiler de yates en Punta Cana Republica Dominicana, usted tendrá uno de nuestros especialistas como interlocutor respaldado por un equipo de profesionales altamente cualificados, juntos velarán para cubrir todas sus necesidades y darle el mejor servicio posible durante su experiencia Cygnus Yachts en un alquiler de yate."
   },
   "yacht-page": {
     "slogan1": "Somos la empresa lider en",
@@ -97,7 +85,7 @@
     "subtitle": "Exclusivos Yates de alquiler en Punta Cana y Caribe.",
     "rentYacth1": "Alquiler yate",
     "description": "Descripción",
-    "description2": "Yachts Charter Privado en Punta Cana",
+    "description2": "Alquiler de yates Privados en Punta Cana",
     "details": "Caracteristicas",
     "length": "Eslora:",
     "beam": "Manga:",
@@ -152,15 +140,15 @@
     "p2": "Con sus increíbles espacios y abundancia de áreas para disfrutar, este yate lleva la experiencia de navegación a un nivel completamente nuevo. Este yate de charter en Punta Cana tiene una capacidad de hasta 14 personas para day charter y 8 para night charter.",
     "p3": "Un barco privado que se está convirtiendo en un referente a la hora de elegir un yate de alquiler en República Dominicana."
   },
-  "lagoon420":{
+  "lagoon420": {
     "p1": "El catamarán Lagoon 420 es una excelente opción a la hora de alquilar un catamarán en Punta Cana. Con una eslora de 42 pies (12,80 metros) y una manga de 25,3 pies (7,70 metros), este hermoso charter ofrece una superficie de 100 m2. El diseño invita a la vida exterior. La zona interior del barco queda ahora completamente integrada y comunicada con la parte exterior. Con este catamarán de alquiler podrás disfrutar de una cómoda navegación y fondeo con total comodidad.",
     "p2": "Este precioso catamarán está totalmente equipado para navegar durante varios días y descubrir las playas y rincones más bonitos de República Dominicana. Dispone de cuatro camarotes con camas de matrimonio, dos baños y un salón interior muy luminoso.",
     "p3": "Ofrecemos todo tipo de charters e itinerarios;",
     "p4": "Charters de día completo, para grupos de amigos, despedidas de soltera, grupos empresariales, familias, propuestas de matrimonio y mucho más.",
-    "p5": "Ofrecemos varios itinerarios recorriendo los diferentes puntos de las islas. La excursión entre Isla Saona, Isla Catalina y la maravillosa Playa Palmilla es sin duda la más popular!",  
+    "p5": "Ofrecemos varios itinerarios recorriendo los diferentes puntos de las islas. La excursión entre Isla Saona, Isla Catalina y la maravillosa Playa Palmilla es sin duda la más popular!",
     "p6": "Alquiler de un barco de lujo en Punta Cana."
   },
-  "lagoon440":{
+  "lagoon440": {
     "p1": "Con este alquiler de catamarán Lagoon 440 en Punta Cana tendrás todo el confort que puedas necesitar en una embarcación. Es una elección segura y adecuada para pasar unas magníficas vacaciones tanto para un day charter como para un alquiler semanal. Un catamarán de gran capacidad. Por sus prestaciones y equipamiento te encontrarás en un hotel flotante de lujo.",
     "p2": "En los barcos de alquiler, la mayor parte del tiempo se suele pasar en áreas al aire libre, y este barco tiene muchas de estas áreas. Su (terraza) de popa está diseñada para pasar momentos agradables, tanto durante el fondeo como durante la navegación.",
     "p3": "Es probablemente el catamarán de charter más demandado de todo el sector del alquiler de barcos en Punta Cana.",
@@ -219,17 +207,19 @@
   "catamarans-page": {
     "catamarans": "Catamaran",
     "yachts": "Yate",
-    "slogan":"Catamaranes exclusivos en Punta Cana y el Caribe."
+    "slogan": "Catamaranes exclusivos en Punta Cana y el Caribe.",
+    "description2": "Alquiler de catamaranes Privados en Punta Cana"
   },
   "superyacht-page": {
     "title": "Nuestros Superyates",
-    "slogan":"Superyates exclusivos en Punta Cana y el Caribe."
+    "slogan": "Superyates exclusivos en Punta Cana y el Caribe.",
+    "description2": "Alquiler de superyate Privados en Punta Cana"
   },
   "destinations": {
     "title": "Nuestros Destinos",
     "subtitle": "Elige tu destino",
     "subtitle2": "Elige uno de los destinos que tenemos para ti.",
-    "description": "Disfruta de los destinos más exclusivos del Caribe. Tenemos acceso a más de 10 yates de renta en 4 destinos diferentes - renta un yate en Casa de Campo la Romana, visita las increíbles islas que tenemos para ti, renta un Yate en Punta Cana o renta un yate en La Marina de Cap Cana - todo es posible con nuestro servicio de alquiler de barcos a medida.",
+    "description": "Disfruta de los destinos más exclusivos del Caribe. Tenemos acceso a más de 10 yates de renta en 4 destinos diferentes. Renta un yate en Casa de Campo la Romana, visita las increíbles islas que tenemos para ti, renta un Yate en Punta Cana o renta un yate en La Marina de Cap Cana, todo es posible con nuestro servicio de alquiler de barcos a medida.",
     "place1": "Isla Saona",
     "place2": "Punta Cana",
     "place3": "Bayahibe",
@@ -238,8 +228,8 @@
     "recomended": "Recomendado",
     "title2": "Islas Tropicales",
     "descriptionP": "El Caribe es la zona del mundo donde se encuentran estas maravillosas islas tropicales. Aguas azules cristalinas, sol los 365 días del año, arrecifes de coral y playas bordeadas de palmeras es lo que caracteriza al Caribe, aunque su diversidad es la verdadera cualidad de su encanto. Amplio en tamaño de destino y oportunidades de aventura, puede esperar tener una experiencia diferente en cualquier isla que elija.",
-    "descriptionP2":  "La República Dominicana tiene una gran variedad de islas tropicales, entre ellas están: Isla Saona, Isla Catalina, Playa Palmilla y las increíbles piscinas naturales en Playa Juanillo Cap Cana y Punta Cana. Una escapada fantástica para los meses de invierno, siempre puede esperar el sol en el Caribe. Cada parte del Caribe tiene su propio encanto único.",
-    "descriptionP3":  "Estas islas son perfectas para una escapada de vacaciones de invierno. Con un clima cálido durante todo el año, República Dominicana te ofrece la oportunidad perfecta para evitar los fríos meses de invierno."
+    "descriptionP2": "La República Dominicana tiene una gran variedad de islas tropicales, entre ellas están: Isla Saona, Isla Catalina, Playa Palmilla y las increíbles piscinas naturales en Playa Juanillo Cap Cana y Punta Cana. Una escapada fantástica para los meses de invierno, siempre puede esperar el sol en el Caribe. Cada parte del Caribe tiene su propio encanto único.",
+    "descriptionP3": "Estas islas son perfectas para una escapada de vacaciones de invierno. Con un clima cálido durante todo el año, República Dominicana te ofrece la oportunidad perfecta para evitar los fríos meses de invierno."
   },
   "catalina": {
     "title": "Isla Catalina",
@@ -268,12 +258,12 @@
     "banner": "Respondiendo tus preguntas",
     "title": "FAQs",
     "subtitle": "Preguntas Frecuentes",
-    "Ask1":"Duración del Charter",
-    "Answer1":"De 9:00 am a 5:00 pm (8 horas).",
-    "Ask2":"Todos los alquileres de yates <br> incluyen servicios de caterin?",
-    "Answer2":"No. Sin embargo, el servicio de catering se puede agregar en cualquier alquiler de embarcación por una pequeña tarifa.",
-    "Ask3":"El transporte esta incluido?",
-    "Answer3":"No, proporcionamos transporte de ida y vuelta para su recorrido bajo cotización.",
+    "Ask1": "Duración del Charter",
+    "Answer1": "De 9:00 am a 5:00 pm (8 horas).",
+    "Ask2": "Todos los alquileres de yates <br> incluyen servicios de caterin?",
+    "Answer2": "No. Sin embargo, el servicio de catering se puede agregar en cualquier alquiler de embarcación por una pequeña tarifa.",
+    "Ask3": "El transporte esta incluido?",
+    "Answer3": "No, proporcionamos transporte de ida y vuelta para su recorrido bajo cotización.",
     "Ask4": "Puedo llevar mi propia comida <br> y bebida a bordo?",
     "Answer4": "Si, consúltanos si necesitáis algún menaje especial y si se aplica un cargo extra final.",
     "Ask5": "Que está incluido en el precio?",
@@ -295,7 +285,7 @@
     "puntacana": "Punta Cana",
     "phone": "Telefono",
     "instagram": "Instagram",
-    "contactUs": "Contactanos",
+    "contactUs": "Contáctanos",
     "keepinTouch": "Nos mantenemos en contácto",
     "description1": "Si no sabes exactamente que tipo de barco alquilar o no tienes tiempo, rellena este formulario y dinos cuantas personas irán a bordo, posibles fechas, presupuesto aproximado y te enviaremos una propuesta por email.",
     "description2": "No olvides dejarnos tu número de teléfono para que podamos contactar contigo y darte información completa sobre el alquiler de barcos privados en Punta Cana.",

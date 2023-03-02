@@ -1,674 +1,845 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
 
-        <link rel="shortcut icon" href="assets/img/favicon.jpg" type="image/png">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!--=============== REMIXICONS ===============-->
-        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-        
-        <!--=============== SWIPER CSS ===============-->
-        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+  <link rel="shortcut icon" href="assets/img/favicon.jpg" type="image/png">
+  <meta name="description"
+    content="Yachts charter and boats in Punta Cana and Casa de Campo. Luxury yachts charters Punta Cana. We have the best prices, private yachts and boats charters. Private excurtions to Saona island. Catalina island private tour. We are Punta Cana Yacht Charter">
 
-        <!--=============== CSS ===============-->
-        <link rel="stylesheet" href="assets/css/styles.css">
+  <!--=============== REMIXICONS ===============-->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+  <!--=============== SWIPER CSS ===============-->
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <title>Yacht Rentals</title>
+</head>
+
+<body>
+
+  <div class="yacht-banner">
+    <!-- <video class="video__img yacht-video__banner"
+      src="https://res.cloudinary.com/michaelxk-com/video/upload/v1635955107/cygnus%20yachts/videos/yates_da9kkn.mp4"
+      muted loop autoplay></video> -->
+    <div class="overlay">
+      <header class="header" id="header">
+        <nav class="nav container">
+          <a href="index.html" class="nav__logo  nav__logo--color" id="nav_logoColor">
+            <img src="assets/img/logocygnus-color.png" class="brand-logo" alt="Cygnus Yachts">
+          </a>
+          <a href="index.html" class="nav__logo nav__logo--white" id="nav_logoWhite">
+            <img src="assets/img/logoCygnus.png" class="brand-logo" alt="Cygnus Yachts">
+          </a>
+
+          <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="index.html" class="nav__link active-link" data-i18n="navbar.home">Home</a>
+              </li>
+              <li class="nav__item">
+                <a href="about.html" class="nav__link" data-i18n="navbar.aboutUs">About</a>
+              </li>
+              <li class="nav__item">
+                <a href="yachts.html" class="nav__link" data-i18n="navbar.yachts">Yachts</a>
+              </li>
+              <li class="nav__item">
+                <a href="destinations.html" class="nav__link" data-i18n="navbar.destinations">Destinations</a>
+              </li>
+              <li class="nav__item">
+                <a href="contact.html" class="nav__link" data-i18n="navbar.contact">Contact</a>
+              </li>
+            </ul>
 
 
-        <title>Cygnus Yachts</title>
-    </head>
-    <body> 
-
-      <div class="yacht-banner">
-        <video class="video__img yacht-video__banner" src="https://res.cloudinary.com/michaelxk-com/video/upload/v1635955107/cygnus%20yachts/videos/yates_da9kkn.mp4" muted loop autoplay></video>
-        <div class="overlay">
-          <header class="header" id="header">
-            <nav class="nav container">
-              <a href="index.html" class="nav__logo  nav__logo--color" id="nav_logoColor">
-                <img src="assets/img/logocygnus-color.png" class="brand-logo" alt="Cygnus Yachts">
-              </a>
-              <a href="index.html" class="nav__logo nav__logo--white" id="nav_logoWhite">
-                <img src="assets/img/logoCygnus.png" class="brand-logo" alt="Cygnus Yachts">
-              </a>
-
-              <div class="nav__menu" id="nav-menu">
-                  <ul class="nav__list">
-                      <li class="nav__item">
-                          <a href="index.html" class="nav__link active-link" data-i18n="navbar.home">Home</a>
-                      </li>
-                      <li class="nav__item">
-                          <a href="about.html" class="nav__link" data-i18n="navbar.aboutUs">About</a>
-                      </li>
-                      <li class="nav__item">
-                          <a href="yachts.html" class="nav__link" data-i18n="navbar.yachts">Yachts</a>
-                      </li>
-                      <li class="nav__item">
-                          <a href="destinations.html" class="nav__link" data-i18n="navbar.destinations">Destinations</a>
-                      </li>
-                      <li class="nav__item">
-                          <a href="contact.html" class="nav__link" data-i18n="navbar.contact">Contact</a>
-                      </li>
-                  </ul>
-
-
-                  <i class="ri-close-line nav__close" id="nav-close"></i>
-              </div>
-               <select data-width="fit" id="select-lang" class="select-lang">
-                  <option class="option" name="lang" value="es">Es</option>
-                  <option class="option" name="lang" value="en" selected="selected">En</option>
-                 </select>
-              <div class="nav__toggle" id="nav-toggle">
-                  <i class="ri-function-line"></i>
-              </div>
-          </nav>
-
-          </header>
-        </div> 
-          <div class="yacht-data__container">
-            <div class="yacht__data">
-              <span class="yacht__data-subtitle" data-i18n="yacht-page.slogan1">Leading company in</span>
-              <h1 class="yacht__data-title">Yacht<br><strong>Charter</strong> </h1>
-              <a href="about.html" class="button" data-i18n="button.aboutUs">About Us</a>
-            </div>
+            <i class="ri-close-line nav__close" id="nav-close"></i>
           </div>
+          <select data-width="fit" id="select-lang" class="select-lang">
+            <option class="option" name="lang" value="es">Es</option>
+            <option class="option" name="lang" value="en" selected="selected">En</option>
+          </select>
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-function-line"></i>
+          </div>
+        </nav>
+
+      </header>
+    </div>
+    <div class="yacht-data__container">
+      <div class="yacht__data">
+        <span class="yacht__data-subtitle" data-i18n="yacht-page.slogan1">Leading company in</span>
+        <h1 class="yacht__data-title">Yacht <strong>Charter</strong> </h1>
+        <a href="about.html" class="button" data-i18n="button.aboutUs">About Us</a>
       </div>
-      <div class="social-network-absolute">
-        <a href="https://api.whatsapp.com/send?phone=18292963529&text=¡Bienvenido%20a%20bordo!%20¿Cómo%20podemos%20ayudarte?" target="_blank">
-          <img src="./assets/img/whatsapp.png" alt="whatsapp-icon">
+    </div>
+  </div>
+  <div class="social-network-absolute">
+    <a href="https://api.whatsapp.com/send?phone=18494483434&text=¡Bienvenido%20a%20bordo!%20¿Cómo%20podemos%20ayudarte?"
+      target="_blank">
+      <img src="./assets/img/whatsapp.png" alt="whatsapp-icon">
+    </a>
+  </div>
+
+  <main class="yachts-container">
+    <div class="container grid">
+      <h2 data-i18n="yacht-page.ourYachts">Our Yachts</h2>
+      <h3 data-i18n="boat-tipe.subtitle">Exclusive Yachts for rent in Punta Cana and the Caribbean.</h3>
+    </div>
+
+    <div class="yacht-card__container">
+      <div class="yachts-card">
+        <a href="yachts/aiconfly.html">
+          <div class="yachts-card__img">
+            <img
+              src="https://res.cloudinary.com/michaelxk-com/image/upload/v1637088644/cygnus%20yachts/pictures/yates/Aicon-Fly-56/bg1_pdewyb.jpg"
+              alt="Alquiler de yate Aicon Fly 56">
+          </div>
+          <div class="yachts-card__body">
+            <h3 class="yachts-card__title"> <span data-i18n="yacht-page.rentYacth1"></span> Aicon Fly 56</h3>
+            <div class="yachts-card__icons">
+              <div class="yachs-card__icon">
+                <img
+                  src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png"
+                  alt="boat icon">
+                <p data-i18n="navbar.yachts">Yacht</p>
+              </div>
+              <div class="yachs-card__icon">
+                <img
+                  src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png"
+                  alt="people icon">
+                <p>18</p>
+              </div>
+              <div class="yachs-card__icon">
+                <img
+                  src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/measure_cf74dx.png"
+                  alt="measure icon">
+                <p>17,06 m</p>
+              </div>
+              <div class="yachs-card__icon">
+                <img
+                  src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/bed_ddzqac.png"
+                  alt="bed icon">
+                <p>3</p>
+              </div>
+            </div>
+            <button class="button-yacht__btn" data-i18n="button.Rent-Now">Rent Now</button>
+          </div>
+        </a>
+      </div>
+      <!-- end yacht card Aicon fly -->
+
+      <div class="yachts-card">
+        <a href="./yachts/meridian42.html">
+          <div class="yachts-card__img">
+            <img
+              src="https://res.cloudinary.com/michaelxk-com/image/upload/v1637091985/cygnus%20yachts/pictures/yates/Meridian-42/1_uiic5j.jpg"
+              alt="">
+          </div>
+          <div class="yachts-card__body">
+            <h3 class="yachts-card__title"> <span data-i18n="yacht-page.rentYacth1"></span> Meridian 42</h3>
+            <div class="yachts-card__icons">
+              <div class="yachs-card__icon">
+                <img
+                  src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png"
+                  alt="boat icon">
+                <p data-i18n="navbar.yachts">Yacht</p>
+              </div>
+              <div class="yachs-card__icon">
+                <img
+                  src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png"
+                  alt="people icon">
+                <p>14</p>
+              </div>
+              <div class="yachs-card__icon">
+                <img
+                  src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/measure_cf74dx.png"
+                  alt="measure icon">
+                <p>12,49 m</p>
+              </div>
+              <div class="yachs-card__icon">
+                <img
+                  src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/bed_ddzqac.png"
+                  alt="bed icon">
+                <p>2</p>
+              </div>
+            </div>
+            <button class="button-yacht__btn" data-i18n="button.Rent-Now">Rent Now</button>
+          </div>
+        </a>
+      </div>
+      <!-- end yacht card meridian -->
+
+      <div class="yachts-card">
+        <a href="./yachts/majestic.html">
+          <div class="yachts-card__img">
+            <img
+              src="https://res.cloudinary.com/michaelxk-com/image/upload/v1637125146/cygnus%20yachts/pictures/yates/Majestic-56/1_firuqj.jpg"
+              alt="">
+          </div>
+          <div class="yachts-card__body">
+            <h3 class="yachts-card__title"> <span data-i18n="yacht-page.rentYacth1"></span> Majesty 56</h3>
+            <div class="yachts-card__icons">
+              <div class="yachs-card__icon">
+                <img
+                  src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png"
+                  alt="boat icon">
+                <p data-i18n="navbar.yachts">Yacht</p>
+              </div>
+              <div class="yachs-card__icon">
+                <img
+                  src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png"
+                  alt="people icon">
+                <p>18</p>
+              </div>
+              <div class="yachs-card__icon">
+                <img
+                  src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/measure_cf74dx.png"
+                  alt="measure icon">
+                <p>17,30 m</p>
+              </div>
+              <div class="yachs-card__icon">
+                <img
+                  src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/bed_ddzqac.png"
+                  alt="bed icon">
+                <p>3</p>
+              </div>
+            </div>
+            <button class="button-yacht__btn" data-i18n="button.Rent-Now">Rent Now</button>
+          </div>
+        </a>
+      </div>
+      <!-- end yacht card majesty 56 -->
+    </div>
+    <!-- end container - yacht -->
+
+    <div class="yacht-card__container">
+      <div class="yachts-card">
+        <a href="./yachts/prestige.html">
+          <div class="yachts-card__img">
+            <img
+              src="https://res.cloudinary.com/michaelxk-com/image/upload/v1637179377/cygnus%20yachts/pictures/yates/prestige/bg1_t2pyw8.jpg"
+              alt="Alquiler de yate Aicon Fly 56">
+          </div>
+          <div class="yachts-card__body">
+            <h3 class="yachts-card__title"> <span data-i18n="yacht-page.rentYacth1"></span> Prestige 44</h3>
+            <div class="yachts-card__icons">
+              <div class="yachs-card__icon">
+                <img
+                  src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png"
+                  alt="boat icon">
+                <p data-i18n="navbar.yachts">Yacht</p>
+              </div>
+              <div class="yachs-card__icon">
+                <img
+                  src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png"
+                  alt="people icon">
+                <p>14</p>
+              </div>
+              <div class="yachs-card__icon">
+                <img
+                  src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/measure_cf74dx.png"
+                  alt="measure icon">
+                <p>13,06 m</p>
+              </div>
+              <div class="yachs-card__icon">
+                <img
+                  src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/bed_ddzqac.png"
+                  alt="bed icon">
+                <p>2</p>
+              </div>
+            </div>
+            <button class="button-yacht__btn" data-i18n="button.Rent-Now">Rent Now</button>
+          </div>
+        </a>
+      </div>
+      <!-- end yacht card prestige 420 -->
+
+      <div class="yachts-card">
+        <a href="./yachts/ferriti.html">
+          <div class="yachts-card__img">
+            <img
+              src="https://res.cloudinary.com/michaelxk-com/image/upload/v1643482208/cygnus%20yachts/pictures/yates/ferreti/bg_iyizif.jpg"
+              alt="">
+          </div>
+          <div class="yachts-card__body">
+            <h3 class="yachts-card__title"> <span data-i18n="yacht-page.rentYacth1"></span> Ferreti 731</h3>
+            <div class="yachts-card__icons">
+              <div class="yachs-card__icon">
+                <img
+                  src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png"
+                  alt="boat icon">
+                <p data-i18n="navbar.yachts">Yacht</p>
+              </div>
+              <div class="yachs-card__icon">
+                <img
+                  src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png"
+                  alt="people icon">
+                <p>18</p>
+              </div>
+              <div class="yachs-card__icon">
+                <img
+                  src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/measure_cf74dx.png"
+                  alt="measure icon">
+                <p>22,68 m</p>
+              </div>
+              <div class="yachs-card__icon">
+                <img
+                  src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/bed_ddzqac.png"
+                  alt="bed icon">
+                <p>4</p>
+              </div>
+            </div>
+            <button class="button-yacht__btn" data-i18n="button.Rent-Now">Rent Now</button>
+          </div>
+        </a>
+      </div>
+      <!-- end yacht card ferreti 731 -->
+
+      <div class="yachts-card">
+        <a href="./yachts/tiara-39open.html">
+          <div class="yachts-card__img">
+            <img src="/assets/img/yacht/tiara-39open/1.jpg" alt="">
+          </div>
+          <div class="yachts-card__body">
+            <h3 class="yachts-card__title"> <span data-i18n="yacht-page.rentYacth1"></span> Tiara 39 Open</h3>
+            <div class="yachts-card__icons">
+              <div class="yachs-card__icon">
+                <img
+                  src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png"
+                  alt="boat icon">
+                <p data-i18n="navbar.yachts">Yacht</p>
+              </div>
+              <div class="yachs-card__icon">
+                <img
+                  src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png"
+                  alt="people icon">
+                <p>10</p>
+              </div>
+              <div class="yachs-card__icon">
+                <img
+                  src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/measure_cf74dx.png"
+                  alt="measure icon">
+                <p>11,88 m</p>
+              </div>
+              <div class="yachs-card__icon">
+                <img
+                  src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/bed_ddzqac.png"
+                  alt="bed icon">
+                <p>1</p>
+              </div>
+            </div>
+            <button class="button-yacht__btn" data-i18n="button.Rent-Now">Rent Now</button>
+          </div>
+        </a>
+      </div>
+      <!-- end yacht card fairline 50-->
+    </div>
+    <!-- end yacht cards -->
+
+    <div class="yacht-card__container">
+
+      <div class="yachts-card">
+        <a href="./yachts/oceanFast.html">
+          <div class="yachts-card__img">
+            <img src="./assets/img/yacht/ocean-fast/1.jpg" alt="">
+          </div>
+          <div class="yachts-card__body">
+            <h3 class="yachts-card__title"> <span data-i18n="yacht-page.rentYacth1"></span> Oceanfast 90</h3>
+            <div class="yachts-card__icons">
+              <div class="yachs-card__icon">
+                <img
+                  src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png"
+                  alt="boat icon">
+                <p data-i18n="navbar.yachts">Yacht</p>
+              </div>
+              <div class="yachs-card__icon">
+                <img
+                  src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png"
+                  alt="people icon">
+                <p>20</p>
+              </div>
+              <div class="yachs-card__icon">
+                <img
+                  src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/measure_cf74dx.png"
+                  alt="measure icon">
+                <p>28 m</p>
+              </div>
+              <div class="yachs-card__icon">
+                <img
+                  src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/bed_ddzqac.png"
+                  alt="bed icon">
+                <p>4</p>
+              </div>
+            </div>
+            <button class="button-yacht__btn" data-i18n="button.Rent-Now">Rent Now</button>
+          </div>
+        </a>
+      </div>
+      <!-- end yacht card Ocean Fast 90 -->
+
+      <div class="yachts-card">
+        <a href="./yachts/fairline43.html">
+          <div class="yachts-card__img">
+            <img
+              src="https://res.cloudinary.com/michaelxk-com/image/upload/v1643947013/cygnus%20yachts/pictures/yates/fairline-43/4_crkpmd.jpg"
+              alt="">
+          </div>
+          <div class="yachts-card__body">
+            <h3 class="yachts-card__title"> <span data-i18n="yacht-page.rentYacth1"></span> Fairline 43</h3>
+            <div class="yachts-card__icons">
+              <div class="yachs-card__icon">
+                <img
+                  src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png"
+                  alt="boat icon">
+                <p data-i18n="navbar.yachts">Yacht</p>
+              </div>
+              <div class="yachs-card__icon">
+                <img
+                  src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png"
+                  alt="people icon">
+                <p>10</p>
+              </div>
+              <div class="yachs-card__icon">
+                <img
+                  src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/measure_cf74dx.png"
+                  alt="measure icon">
+                <p>14,75 m</p>
+              </div>
+              <div class="yachs-card__icon">
+                <img
+                  src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/bed_ddzqac.png"
+                  alt="bed icon">
+                <p>2</p>
+              </div>
+            </div>
+            <button class="button-yacht__btn" data-i18n="button.Rent-Now">Rent Now</button>
+          </div>
         </a>
       </div>
 
-      <main class="yachts-container">
-        <div class="container grid">
-          <h2 data-i18n="yacht-page.ourYachts">Our Yachts</h2>
-          <h3 data-i18n="boat-tipe.subtitle">Exclusive Yachts for rent in Punta Cana and the Caribbean.</h3>
-        </div>
 
-        <div class="yacht-card__container">
-          <div class="yachts-card">
-            <a href="yachts/aiconfly.html">
-              <div class="yachts-card__img">
-                <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1637088644/cygnus%20yachts/pictures/yates/Aicon-Fly-56/bg1_pdewyb.jpg" alt="Alquiler de yate Aicon Fly 56">
-              </div>
-              <div class="yachts-card__body">
-                <h3 class="yachts-card__title"> <span data-i18n="yacht-page.rentYacth1"></span> Aicon Fly 56</h3>
-                <div class="yachts-card__icons">
-                  <div class="yachs-card__icon">
-                    <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png" alt="boat icon">
-                    <p data-i18n="navbar.yachts">Yacht</p>
-                  </div>
-                  <div class="yachs-card__icon">
-                    <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png" alt="people icon">
-                    <p>18</p>
-                  </div>
-                  <div class="yachs-card__icon">
-                    <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/measure_cf74dx.png" alt="measure icon">
-                    <p>17,06 m</p>
-                  </div>
-                  <div class="yachs-card__icon">
-                    <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/bed_ddzqac.png" alt="bed icon">
-                    <p>3</p>
-                  </div>
-                </div>
-                <button class="button-yacht__btn" data-i18n="button.Rent-Now">Rent Now</button>
-              </div>
-            </a>     
-          </div>
-          <!-- end yacht card Aicon fly --> 
-          
-          <div class="yachts-card">
-            <a href="./yachts/meridian42.html">  
-              <div class="yachts-card__img">
-                <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1637091985/cygnus%20yachts/pictures/yates/Meridian-42/1_uiic5j.jpg" alt="">
-              </div>
-              <div class="yachts-card__body">
-                <h3 class="yachts-card__title"> <span data-i18n="yacht-page.rentYacth1"></span> Meridian 42</h3>
-                <div class="yachts-card__icons">
-                  <div class="yachs-card__icon">
-                    <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png" alt="boat icon">
-                    <p data-i18n="navbar.yachts">Yacht</p>
-                  </div>
-                  <div class="yachs-card__icon">
-                    <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png" alt="people icon">
-                    <p>14</p>
-                  </div>
-                  <div class="yachs-card__icon">
-                    <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/measure_cf74dx.png" alt="measure icon">
-                    <p>12,49 m</p>
-                  </div>
-                  <div class="yachs-card__icon">
-                    <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/bed_ddzqac.png" alt="bed icon">
-                    <p>2</p>
-                  </div>
-                </div>
-                <button class="button-yacht__btn" data-i18n="button.Rent-Now">Rent Now</button>              </div>  
-            </a>      
-          </div>
-           <!-- end yacht card meridian -->  
-           
-          <div class="yachts-card">
-            <a href="./yachts/majestic.html">  
-              <div class="yachts-card__img">
-                <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1637125146/cygnus%20yachts/pictures/yates/Majestic-56/1_firuqj.jpg" alt="">
-              </div>
-              <div class="yachts-card__body">
-                <h3 class="yachts-card__title"> <span data-i18n="yacht-page.rentYacth1"></span> Majesty 56</h3>
-                <div class="yachts-card__icons">
-                  <div class="yachs-card__icon">
-                    <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png" alt="boat icon">
-                    <p data-i18n="navbar.yachts">Yacht</p>
-                  </div>
-                  <div class="yachs-card__icon">
-                    <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png" alt="people icon">
-                    <p>18</p>
-                  </div>
-                  <div class="yachs-card__icon">
-                    <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/measure_cf74dx.png" alt="measure icon">
-                    <p>17,30 m</p>
-                  </div>
-                  <div class="yachs-card__icon">
-                    <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/bed_ddzqac.png" alt="bed icon">
-                    <p>3</p>
-                  </div>
-                </div>
-                <button class="button-yacht__btn" data-i18n="button.Rent-Now">Rent Now</button>              </div>
-            </a>
-          </div> 
-          <!-- end yacht card majesty 56 -->   
-        </div> 
-        <!-- end container - yacht -->
 
-        <div class="yacht-card__container">
-          <div class="yachts-card">
-            <a href="./yachts/prestige.html">  
-            <div class="yachts-card__img">
-              <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1637179377/cygnus%20yachts/pictures/yates/prestige/bg1_t2pyw8.jpg" alt="Alquiler de yate Aicon Fly 56">
+
+
+
+
+
+
+
+
+
+
+      <!-- end yacht card Power Cat Marine 57 -->
+
+      <div class="yachts-card">
+        <a href="./yachts/azimut-55.html">
+          <div class="yachts-card__img">
+            <img
+              src="https://res.cloudinary.com/michaelxk-com/image/upload/v1643669266/cygnus%20yachts/pictures/yates/Azimut/bymatteocrupi-60_bgwhme.jpg"
+              alt="">
+          </div>
+          <div class="yachts-card__body">
+            <h3 class="yachts-card__title"> <span data-i18n="yacht-page.rentYacth1"></span> Azimut 55</h3>
+            <div class="yachts-card__icons">
+              <div class="yachs-card__icon">
+                <img
+                  src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png"
+                  alt="boat icon">
+                <p data-i18n="navbar.yachts">Yacht</p>
+              </div>
+              <div class="yachs-card__icon">
+                <img
+                  src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png"
+                  alt="people icon">
+                <p>25</p>
+              </div>
+              <div class="yachs-card__icon">
+                <img
+                  src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/measure_cf74dx.png"
+                  alt="measure icon">
+                <p>17,37 m</p>
+              </div>
+              <div class="yachs-card__icon">
+                <img
+                  src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/bed_ddzqac.png"
+                  alt="bed icon">
+                <p>4</p>
+              </div>
             </div>
-            <div class="yachts-card__body">
-              <h3 class="yachts-card__title"> <span data-i18n="yacht-page.rentYacth1"></span> Prestige 420</h3>
-              <div class="yachts-card__icons">
-                <div class="yachs-card__icon">
-                  <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png" alt="boat icon">
-                  <p data-i18n="navbar.yachts">Yacht</p>
-                </div>
-                <div class="yachs-card__icon">
-                  <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png" alt="people icon">
-                  <p>14</p>
-                </div>
-                <div class="yachs-card__icon">
-                  <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/measure_cf74dx.png" alt="measure icon">
-                  <p>13,06 m</p>
-                </div>
-                <div class="yachs-card__icon">
-                  <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/bed_ddzqac.png" alt="bed icon">
-                  <p>2</p>
-                </div>
-              </div>
-              <button class="button-yacht__btn" data-i18n="button.Rent-Now">Rent Now</button>            </div> 
-           </a>
+            <button class="button-yacht__btn" data-i18n="button.Rent-Now">Rent Now</button>
           </div>
-          <!-- end yacht card prestige 420 -->
+        </a>
+      </div>
+      <!-- end yacht card Power Azimut -->
+    </div>
+    <!-- end container - yacht -->
+    <div class="yacht-card__container">
 
-          <div class="yachts-card">
-            <a href="./yachts/ferriti.html">  
-              <div class="yachts-card__img">
-                <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1643482208/cygnus%20yachts/pictures/yates/ferreti/bg_iyizif.jpg" alt="">
-              </div>
-              <div class="yachts-card__body">
-                <h3 class="yachts-card__title"> <span data-i18n="yacht-page.rentYacth1"></span> Ferreti 731</h3>
-                <div class="yachts-card__icons">
-                  <div class="yachs-card__icon">
-                    <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png" alt="boat icon">
-                    <p data-i18n="navbar.yachts">Yacht</p>
-                  </div>
-                  <div class="yachs-card__icon">
-                    <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png" alt="people icon">
-                    <p>18</p>
-                  </div>
-                  <div class="yachs-card__icon">
-                    <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/measure_cf74dx.png" alt="measure icon">
-                    <p>22,68 m</p>
-                  </div>
-                  <div class="yachs-card__icon">
-                    <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/bed_ddzqac.png" alt="bed icon">
-                    <p>4</p>
-                  </div>
-                </div>
-                <button class="button-yacht__btn" data-i18n="button.Rent-Now">Rent Now</button>              </div>
-            </a>
-          </div>    
-          <!-- end yacht card ferreti 731 -->
-
-          <div class="yachts-card">
-            <a href="./yachts/tiara-39open.html">  
-              <div class="yachts-card__img">
-                <img src="/assets/img/yacht/tiara-39open/1.jpg" alt="">
-              </div>
-              <div class="yachts-card__body">
-                <h3 class="yachts-card__title"> <span data-i18n="yacht-page.rentYacth1"></span> Tiara 39 Open</h3>
-                <div class="yachts-card__icons">
-                  <div class="yachs-card__icon">
-                    <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png" alt="boat icon">
-                    <p data-i18n="navbar.yachts">Yacht</p>
-                  </div>
-                  <div class="yachs-card__icon">
-                    <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png" alt="people icon">
-                    <p>10</p>
-                  </div>
-                  <div class="yachs-card__icon">
-                    <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/measure_cf74dx.png" alt="measure icon">
-                    <p>11,88 m</p>
-                  </div>
-                  <div class="yachs-card__icon">
-                    <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/bed_ddzqac.png" alt="bed icon">
-                    <p>1</p>
-                  </div>    
-                </div>
-                <button class="button-yacht__btn" data-i18n="button.Rent-Now">Rent Now</button>              </div>  
-            </a>  
+      <div class="yachts-card">
+        <a href="./yachts/tiara-43sovran.html">
+          <div class="yachts-card__img">
+            <img src="/assets/img/yacht/Tiara43-Sovran/bymc-4.jpg" alt="">
           </div>
-          <!-- end yacht card fairline 50-->
-        </div>  
-        <!-- end yacht cards -->
-
-        <div class="yacht-card__container">
-
-          <div class="yachts-card">
-            <a href="./yachts/oceanFast.html">  
-              <div class="yachts-card__img">
-                <img src="./assets/img/yacht/ocean-fast/1.jpg" alt="">
+          <div class="yachts-card__body">
+            <h3 class="yachts-card__title"> <span data-i18n="yacht-page.rentYacth1"></span> Tiara 43 Sovran</h3>
+            <div class="yachts-card__icons">
+              <div class="yachs-card__icon">
+                <img
+                  src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png"
+                  alt="boat icon">
+                <p data-i18n="navbar.yachts">Yacht</p>
               </div>
-              <div class="yachts-card__body">
-                <h3 class="yachts-card__title"> <span data-i18n="yacht-page.rentYacth1"></span> Ocean Fast 90</h3>
-                <div class="yachts-card__icons">
-                  <div class="yachs-card__icon">
-                    <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png" alt="boat icon">
-                    <p data-i18n="navbar.yachts">Yacht</p>
-                  </div>
-                  <div class="yachs-card__icon">
-                    <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png" alt="people icon">
-                    <p>20</p>
-                  </div>
-                  <div class="yachs-card__icon">
-                    <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/measure_cf74dx.png" alt="measure icon">
-                    <p>28 m</p>
-                  </div>
-                  <div class="yachs-card__icon">
-                    <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/bed_ddzqac.png" alt="bed icon">
-                    <p>4</p>
-                  </div>    
-                </div>
-                <button class="button-yacht__btn" data-i18n="button.Rent-Now">Rent Now</button>              </div>  
-            </a>  
-          </div> 
-           <!-- end yacht card Ocean Fast 90 -->
-
-           <div class="yachts-card">
-            <a href="./yachts/fairline43.html">  
-              <div class="yachts-card__img">
-                <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1643947013/cygnus%20yachts/pictures/yates/fairline-43/4_crkpmd.jpg" alt="">
+              <div class="yachs-card__icon">
+                <img
+                  src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png"
+                  alt="people icon">
+                <p>12</p>
               </div>
-              <div class="yachts-card__body">
-                <h3 class="yachts-card__title"> <span data-i18n="yacht-page.rentYacth1"></span> Fairline 43</h3>
-                <div class="yachts-card__icons">
-                  <div class="yachs-card__icon">
-                    <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png" alt="boat icon">
-                    <p data-i18n="navbar.yachts">Yacht</p>
-                  </div>
-                  <div class="yachs-card__icon">
-                    <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png" alt="people icon">
-                    <p>10</p>
-                  </div>
-                  <div class="yachs-card__icon">
-                    <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/measure_cf74dx.png" alt="measure icon">
-                    <p>14,75 m</p>
-                  </div>
-                  <div class="yachs-card__icon">
-                    <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/bed_ddzqac.png" alt="bed icon">
-                    <p>2</p>
-                  </div>    
-                </div>
-                <button class="button-yacht__btn" data-i18n="button.Rent-Now">Rent Now</button>              </div>  
-            </a>  
+              <div class="yachs-card__icon">
+                <img
+                  src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/measure_cf74dx.png"
+                  alt="measure icon">
+                <p>13,10 m</p>
+              </div>
+              <div class="yachs-card__icon">
+                <img
+                  src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/bed_ddzqac.png"
+                  alt="bed icon">
+                <p>2</p>
+              </div>
+            </div>
+            <button class="button-yacht__btn" data-i18n="button.Rent-Now">Rent Now</button>
           </div>
+        </a>
+      </div>
+      <!-- end yacht card Tiara 39 Open -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-           <!-- end yacht card Power Cat Marine 57 -->
-   
-           <div class="yachts-card">
-            <a href="./yachts/azimut-55.html">  
-              <div class="yachts-card__img">
-                <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1643669266/cygnus%20yachts/pictures/yates/Azimut/bymatteocrupi-60_bgwhme.jpg" alt="">
-              </div>
-              <div class="yachts-card__body">
-                <h3 class="yachts-card__title"> <span data-i18n="yacht-page.rentYacth1"></span> Azimut 55</h3>
-                <div class="yachts-card__icons">
-                  <div class="yachs-card__icon">
-                    <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png" alt="boat icon">
-                    <p data-i18n="navbar.yachts">Yacht</p>
-                  </div>
-                  <div class="yachs-card__icon">
-                    <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png" alt="people icon">
-                    <p>25</p>
-                  </div>
-                  <div class="yachs-card__icon">
-                    <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/measure_cf74dx.png" alt="measure icon">
-                    <p>17,37 m</p>
-                  </div>
-                  <div class="yachs-card__icon">
-                    <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/bed_ddzqac.png" alt="bed icon">
-                    <p>4</p>
-                  </div>    
-                </div>
-                <button class="button-yacht__btn" data-i18n="button.Rent-Now">Rent Now</button>              </div>  
-            </a>  
-          </div> 
-         <!-- end yacht card Power Azimut -->
-        </div>
- <!-- end container - yacht -->
-        <div class="yacht-card__container">
-
-          <div class="yachts-card">
-            <a href="./yachts/tiara-43sovran.html">  
-              <div class="yachts-card__img">
-                <img src="/assets/img/yacht/Tiara43-Sovran/bymc-4.jpg" alt="">
-              </div>
-              <div class="yachts-card__body">
-                <h3 class="yachts-card__title"> <span data-i18n="yacht-page.rentYacth1"></span> Tiara 43 Sovran</h3>
-                <div class="yachts-card__icons">
-                  <div class="yachs-card__icon">
-                    <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png" alt="boat icon">
-                    <p data-i18n="navbar.yachts">Yacht</p>
-                  </div>
-                  <div class="yachs-card__icon">
-                    <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png" alt="people icon">
-                    <p>12</p>
-                  </div>
-                  <div class="yachs-card__icon">
-                    <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/measure_cf74dx.png" alt="measure icon">
-                    <p>13,10 m</p>
-                  </div>
-                  <div class="yachs-card__icon">
-                    <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/bed_ddzqac.png" alt="bed icon">
-                    <p>2</p>
-                  </div>    
-                </div>
-                <button class="button-yacht__btn" data-i18n="button.Rent-Now">Rent Now</button>              </div>  
-            </a>  
+      <div class="yachts-card">
+        <a href="./yachts/fairline.html">
+          <div class="yachts-card__img">
+            <img
+              src="https://res.cloudinary.com/michaelxk-com/image/upload/v1643588316/cygnus%20yachts/pictures/yates/fairline/fairline4_gvf7ep.jpg"
+              alt="">
           </div>
-            <!-- end yacht card Tiara 39 Open -->  
-            
-          <div class="yachts-card">
-            <a href="./yachts/fairline.html">  
-              <div class="yachts-card__img">
-                <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1643588316/cygnus%20yachts/pictures/yates/fairline/fairline4_gvf7ep.jpg" alt="">
+          <div class="yachts-card__body">
+            <h3 class="yachts-card__title"> <span data-i18n="yacht-page.rentYacth1"></span> Fairline 50</h3>
+            <div class="yachts-card__icons">
+              <div class="yachs-card__icon">
+                <img
+                  src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png"
+                  alt="boat icon">
+                <p data-i18n="navbar.yachts">Yacht</p>
               </div>
-              <div class="yachts-card__body">
-                <h3 class="yachts-card__title"> <span data-i18n="yacht-page.rentYacth1"></span> Fairline 50</h3>
-                <div class="yachts-card__icons">
-                  <div class="yachs-card__icon">
-                    <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png" alt="boat icon">
-                    <p data-i18n="navbar.yachts">Yacht</p>
-                  </div>
-                  <div class="yachs-card__icon">
-                    <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png" alt="people icon">
-                    <p>11</p>
-                  </div>
-                  <div class="yachs-card__icon">
-                    <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/measure_cf74dx.png" alt="measure icon">
-                    <p>14,75 m</p>
-                  </div>
-                  <div class="yachs-card__icon">
-                    <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/bed_ddzqac.png" alt="bed icon">
-                    <p>3</p>
-                  </div>    
-                </div>
-                <button class="button-yacht__btn" data-i18n="button.Rent-Now">Rent Now</button>              </div>  
-            </a>  
-          </div>
-          <!-- end yacht card Fairline -->
-          <div class="yachts-card">
-            <a href="./yachts/riva65.html">  
-              <div class="yachts-card__img">
-                <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1643685381/cygnus%20yachts/pictures/yates/Riva%2065/barc_i5k5tb.jpg" alt="">
+              <div class="yachs-card__icon">
+                <img
+                  src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png"
+                  alt="people icon">
+                <p>11</p>
               </div>
-              <div class="yachts-card__body">
-                <h3 class="yachts-card__title"> <span data-i18n="yacht-page.rentYacth1"></span> Riva 65</h3>
-                <div class="yachts-card__icons">
-                  <div class="yachs-card__icon">
-                    <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png" alt="boat icon">
-                    <p data-i18n="navbar.yachts">Yacht</p>
-                  </div>
-                  <div class="yachs-card__icon">
-                    <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png" alt="people icon">
-                    <p>11</p>
-                  </div>
-                  <div class="yachs-card__icon">
-                    <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/measure_cf74dx.png" alt="measure icon">
-                    <p>19,80 m</p>
-                  </div>
-                  <div class="yachs-card__icon">
-                    <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/bed_ddzqac.png" alt="bed icon">
-                    <p>3</p>
-                  </div>    
-                </div>
-                <button class="button-yacht__btn" data-i18n="button.Rent-Now">Rent Now</button>              </div>  
-            </a>  
+              <div class="yachs-card__icon">
+                <img
+                  src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/measure_cf74dx.png"
+                  alt="measure icon">
+                <p>14,75 m</p>
+              </div>
+              <div class="yachs-card__icon">
+                <img
+                  src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/bed_ddzqac.png"
+                  alt="bed icon">
+                <p>3</p>
+              </div>
+            </div>
+            <button class="button-yacht__btn" data-i18n="button.Rent-Now">Rent Now</button>
           </div>
-          <!-- end yacht card Riva 65 -->
-        </div>
-<!-- end container - yacht -->  
+        </a>
+      </div>
+      <!-- end yacht card Fairline -->
+      <div class="yachts-card">
+        <a href="./yachts/riva65.html">
+          <div class="yachts-card__img">
+            <img
+              src="https://res.cloudinary.com/michaelxk-com/image/upload/v1643685381/cygnus%20yachts/pictures/yates/Riva%2065/barc_i5k5tb.jpg"
+              alt="">
+          </div>
+          <div class="yachts-card__body">
+            <h3 class="yachts-card__title"> <span data-i18n="yacht-page.rentYacth1"></span> Riva 65</h3>
+            <div class="yachts-card__icons">
+              <div class="yachs-card__icon">
+                <img
+                  src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png"
+                  alt="boat icon">
+                <p data-i18n="navbar.yachts">Yacht</p>
+              </div>
+              <div class="yachs-card__icon">
+                <img
+                  src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png"
+                  alt="people icon">
+                <p>11</p>
+              </div>
+              <div class="yachs-card__icon">
+                <img
+                  src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/measure_cf74dx.png"
+                  alt="measure icon">
+                <p>19,80 m</p>
+              </div>
+              <div class="yachs-card__icon">
+                <img
+                  src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/bed_ddzqac.png"
+                  alt="bed icon">
+                <p>3</p>
+              </div>
+            </div>
+            <button class="button-yacht__btn" data-i18n="button.Rent-Now">Rent Now</button>
+          </div>
+        </a>
+      </div>
+      <!-- end yacht card Riva 65 -->
+    </div>
+    <!-- end container - yacht -->
 
-        <div class="yacht-card__container">
-          <div class="yachts-card">
-            <a href="./yachts/searay_420.htm">  
-              <div class="yachts-card__img">
-                <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1642018723/cygnus%20yachts/pictures/yates/searay-420/bymatteocrupi-56_2_kw1h4r.jpg" alt="">
-              </div>
-              <div class="yachts-card__body">
-                <h3 class="yachts-card__title"> <span data-i18n="yacht-page.rentYacth1"></span> Sea Ray-420</h3>
-                <div class="yachts-card__icons">
-                  <div class="yachs-card__icon">
-                    <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png" alt="boat icon">
-                    <p data-i18n="navbar.yachts">Yacht</p>
-                  </div>
-                  <div class="yachs-card__icon">
-                    <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png" alt="people icon">
-                    <p>12</p>
-                  </div>
-                  <div class="yachs-card__icon">
-                    <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/measure_cf74dx.png" alt="measure icon">
-                    <p>13,71 m</p>
-                  </div>
-                  <div class="yachs-card__icon">
-                    <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/bed_ddzqac.png" alt="bed icon">
-                    <p>1</p>
-                  </div>    
-                </div>
-                <button class="button-yacht__btn" data-i18n="button.Rent-Now">Rent Now</button>              </div>  
-            </a>  
+    <div class="yacht-card__container">
+      <div class="yachts-card">
+        <a href="./yachts/searay_420.htm">
+          <div class="yachts-card__img">
+            <img
+              src="https://res.cloudinary.com/michaelxk-com/image/upload/v1642018723/cygnus%20yachts/pictures/yates/searay-420/bymatteocrupi-56_2_kw1h4r.jpg"
+              alt="">
           </div>
-          <!-- end yacht card Sea Ray-420 -->
-          <div class="yachts-card">
-            <a href="./yachts/tiara-3100.html">  
-              <div class="yachts-card__img">
-                <img src="./assets/img/yacht/tiara31open/tiara31open.jpg" alt="yate tiara 31 open">
+          <div class="yachts-card__body">
+            <h3 class="yachts-card__title"> <span data-i18n="yacht-page.rentYacth1"></span> Sea Ray-420</h3>
+            <div class="yachts-card__icons">
+              <div class="yachs-card__icon">
+                <img
+                  src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png"
+                  alt="boat icon">
+                <p data-i18n="navbar.yachts">Yacht</p>
               </div>
-              <div class="yachts-card__body">
-                <h3 class="yachts-card__title"> <span data-i18n="yacht-page.rentYacth1"></span> Tiara 3100 Open</h3>
-                <div class="yachts-card__icons">
-                  <div class="yachs-card__icon">
-                    <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png" alt="boat icon">
-                    <p data-i18n="navbar.yachts">Yacht</p>
-                  </div>
-                  <div class="yachs-card__icon">
-                    <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png" alt="people icon">
-                    <p>7</p>
-                  </div>
-                  <div class="yachs-card__icon">
-                    <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/measure_cf74dx.png" alt="measure icon">
-                    <p>9,45 m</p>
-                  </div>
-                  <div class="yachs-card__icon">
-                    <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/bed_ddzqac.png" alt="bed icon">
-                    <p>1</p>
-                  </div>    
-                </div>
-                <button class="button-yacht__btn" data-i18n="button.Rent-Now">Rent Now</button>              </div>  
-            </a>  
-          </div>
-          <!-- end yacht card Tiara 3100 -->
-          <div class="yachts-card">
-            <a href="./yachts/cranchi-50.html">  
-              <div class="yachts-card__img">
-                <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1643923175/cygnus%20yachts/pictures/yates/cranchi-50/WhatsApp_Image_2022-01-31_at_17.52.37_vtj2ge.jpg" alt="">
+              <div class="yachs-card__icon">
+                <img
+                  src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png"
+                  alt="people icon">
+                <p>12</p>
               </div>
-              <div class="yachts-card__body">
-                <h3 class="yachts-card__title"> <span data-i18n="yacht-page.rentYacth1"></span> Cranchi 50</h3>
-                <div class="yachts-card__icons">
-                  <div class="yachs-card__icon">
-                    <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png" alt="boat icon">
-                    <p data-i18n="navbar.yachts">Yacht</p>
-                  </div>
-                  <div class="yachs-card__icon">
-                    <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png" alt="people icon">
-                    <p>16</p>
-                  </div>
-                  <div class="yachs-card__icon">
-                    <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/measure_cf74dx.png" alt="measure icon">
-                    <p>15,01 m</p>
-                  </div>
-                  <div class="yachs-card__icon">
-                    <img src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/bed_ddzqac.png" alt="bed icon">
-                    <p>3</p>
-                  </div>    
-                </div>
-                <button class="button-yacht__btn" data-i18n="button.Rent-Now">Rent Now</button>              </div>  
-            </a>  
+              <div class="yachs-card__icon">
+                <img
+                  src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/measure_cf74dx.png"
+                  alt="measure icon">
+                <p>13,71 m</p>
+              </div>
+              <div class="yachs-card__icon">
+                <img
+                  src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/bed_ddzqac.png"
+                  alt="bed icon">
+                <p>1</p>
+              </div>
+            </div>
+            <button class="button-yacht__btn" data-i18n="button.Rent-Now">Rent Now</button>
           </div>
-        </div>
-<!-- end container - yacht --> 
+        </a>
+      </div>
+      <!-- end yacht card Sea Ray-420 -->
+      <div class="yachts-card">
+        <a href="./yachts/tiara-3100.html">
+          <div class="yachts-card__img">
+            <img src="./assets/img/yacht/tiara31open/tiara31open.jpg" alt="yate tiara 31 open">
+          </div>
+          <div class="yachts-card__body">
+            <h3 class="yachts-card__title"> <span data-i18n="yacht-page.rentYacth1"></span> Tiara 3100 Open</h3>
+            <div class="yachts-card__icons">
+              <div class="yachs-card__icon">
+                <img
+                  src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png"
+                  alt="boat icon">
+                <p data-i18n="navbar.yachts">Yacht</p>
+              </div>
+              <div class="yachs-card__icon">
+                <img
+                  src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png"
+                  alt="people icon">
+                <p>7</p>
+              </div>
+              <div class="yachs-card__icon">
+                <img
+                  src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/measure_cf74dx.png"
+                  alt="measure icon">
+                <p>9,45 m</p>
+              </div>
+              <div class="yachs-card__icon">
+                <img
+                  src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/bed_ddzqac.png"
+                  alt="bed icon">
+                <p>1</p>
+              </div>
+            </div>
+            <button class="button-yacht__btn" data-i18n="button.Rent-Now">Rent Now</button>
+          </div>
+        </a>
+      </div>
+      <!-- end yacht card Tiara 3100 -->
+      <div class="yachts-card">
+        <a href="./yachts/cranchi-50.html">
+          <div class="yachts-card__img">
+            <img
+              src="https://res.cloudinary.com/michaelxk-com/image/upload/v1643923175/cygnus%20yachts/pictures/yates/cranchi-50/WhatsApp_Image_2022-01-31_at_17.52.37_vtj2ge.jpg"
+              alt="">
+          </div>
+          <div class="yachts-card__body">
+            <h3 class="yachts-card__title"> <span data-i18n="yacht-page.rentYacth1"></span> Cranchi 50</h3>
+            <div class="yachts-card__icons">
+              <div class="yachs-card__icon">
+                <img
+                  src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/boat-icon_nrofox.png"
+                  alt="boat icon">
+                <p data-i18n="navbar.yachts">Yacht</p>
+              </div>
+              <div class="yachs-card__icon">
+                <img
+                  src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/people_cxqr2b.png"
+                  alt="people icon">
+                <p>16</p>
+              </div>
+              <div class="yachs-card__icon">
+                <img
+                  src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954332/cygnus%20yachts/pictures/icons/measure_cf74dx.png"
+                  alt="measure icon">
+                <p>15,01 m</p>
+              </div>
+              <div class="yachs-card__icon">
+                <img
+                  src="https://res.cloudinary.com/michaelxk-com/image/upload/v1635954331/cygnus%20yachts/pictures/icons/bed_ddzqac.png"
+                  alt="bed icon">
+                <p>3</p>
+              </div>
+            </div>
+            <button class="button-yacht__btn" data-i18n="button.Rent-Now">Rent Now</button>
+          </div>
+        </a>
+      </div>
+    </div>
+    <!-- end container - yacht -->
 
-    
-      </main>  
+
+  </main>
 
   <!--==================== DISCOVER ====================-->
-  <section class="discover section container grid" id="discover" >
-    <h2 class="section__title" data-i18n="boat-tipe.title">Types Of Yachts Charter</h2>
-    <div class="container__yachtsmain">  
-      <a href="yachts.html">
-        <div class="yachts-main__card">
-            <h2 class="yachts-main__text"  data-i18n="boat-tipe.yachts">Yachts</h2>
-        </div>
-      </a>
+  <section class="discover section container grid" id="discover">
+    <h2 class="section__title" data-i18n="boat-tipe.title">Yachts Charter Types:</h2>
+    <p class="video__description" data-i18n="boat-tipe.subtitle">We have a wide selection of yacht charters, super
+      yachts, boats and unique catamarans.</p>
+    <div class="container__yachtsmain">
+
       <a href="catamarans.html">
         <div class="catamarans-main__card">
-            <h2  class="yachts-main__text" data-i18n="boat-tipe.catamarans">Catamarans</h2>
+          <h2 class="yachts-main__text" data-i18n="boat-tipe.catamarans">catamarans</h2>
+        </div>
+      </a>
+      <a href="superyates.html">
+        <div class="superyachts__card">
+          <h2 class="yachts-main__text" data-i18n="boat-tipe.superyachts">Superyatchs</h2>
         </div>
       </a>
     </div>
   </section>
 
-           <!--==================== FOOTER ====================-->
-           <footer class="footer section">
-            <div class="footer__container container grid">
-                <div class="footer__content grid">
-                    <div class="footer__data">
-                        <h3 class="footer__title">Cygnus Yachts</h3>
-                        <p class="footer__description" data-i18n="footer.description">
-                            Yacht charter service, where we give you the opportunity to make all your dreams and wishes come true in the most beautiful and exclusive destinations that can be found in the Caribbean.
-                          </p>
-                        <div>
-                            <a href="https://www.facebook.com/" target="_blank" class="footer__social">
-                                <i class="ri-facebook-box-fill"></i>
-                            </a>
-                            
-                            <a href="https://www.instagram.com/puntacanayachtrentals/" target="_blank" class="footer__social">
-                                <i class="ri-instagram-fill"></i>
-                            </a>
-                            
-                        </div>
-                    </div>
-    
-                    <div class="footer__data">
-                        <h3 class="footer__subtitle"  data-i18n="footer.quicklinks">Quick Links</h3>
-                        <ul>
-                            <li class="footer__item">
-                                <a href="index.html" class="footer__link" data-i18n="navbar.home">Home</a>
-                            </li>
-                            <li class="footer__item">
-                                <a href="about.html" class="footer__link" data-i18n="navbar.aboutUs">About Us</a>
-                            </li>
-                            <li class="footer__item">
-                                <a href="destinations.html" class="footer__link" data-i18n="navbar.destinations">Destinations</a>
-                            </li>
-                        </ul>
-                    </div>
-    
-                    <div class="footer__data">
-                        <h3 class="footer__subtitle" data-i18n="footer.boats">Boats</h3>
-                        <ul>
-                            <li class="footer__item">
-                                <a href="yachts.html" class="footer__link" data-i18n="boat-tipe.yachts">Yachts</a>
-                            </li>
-                            <li class="footer__item">
-                                <a href="catamarans.html" class="footer__link" data-i18n="boat-tipe.catamarans">Catamarans</a>
-                            </li>
-                            <li class="footer__item">
-                                <a href="superyates.html" class="footer__link" data-i18n="boat-tipe.superyachts">Superyachts</a>
-                            </li>
-                        </ul>
-                    </div>
-    
-                    <div class="footer__data">
-                        <h3 class="footer__subtitle" data-i18n="footer.boats">Contact</h3>
-                        <ul>
-                            <li class="footer__item">
-                                <a href="faq.html" class="footer__link" data-i18n="footer.faqs">FAQs</a>
-                            </li>
-                            <li class="footer__item">
-                                <a href="contact.html" class="footer__link" data-i18n="footer.contactUs">Contact Us</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
 
-                <div class="footer__rights">
-                    <p class="footer__copy">&#169; 2021 Cygnus Yachts. All rigths reserved.</p>
-                    <div class="footer__terms">
-                        <a href="#" class="footer__terms-link" data-i18n="footer.terminos">Terms & Agreements</a>
-                        <a href="#" class="footer__terms-link" data-i18n="footer.politica">Privacy Policy</a>
-                    </div>
-                </div>
-            </div>
-        </footer>
-  
-         <!--========== SCROLL UP ==========-->
-        <a href="#" class="scrollup" id="scroll-up">
-            <i class="ri-arrow-up-line scrollup__icon"></i>
-        </a>
-  
-        <!--=============== SCROLL REVEAL===============-->
-        <script src="assets/js/scrollreveal.min.js"></script>
-        
-        <!--=============== SWIPER JS ===============-->
-        <script src="assets/js/swiper-bundle.min.js"></script>
-  
-        <!--=============== MAIN JS ===============-->
-        <script src="assets/js/main.js"></script>
-       
-      
-    </body>
-  </html>
+  <h2 class="section__title">Yacht Rentals</h2>
+
+
+  <!--==================== FOOTER ====================-->
+  <footer class="footer section">
+    <div class="footer__container container grid">
+      <div class="footer__content grid">
+        <div class="footer__data">
+          <h3 class="footer__title">Cygnus Yachts</h3>
+          <p class="footer__description" data-i18n="footer.description">
+            Yacht charter service, where we give you the opportunity to make all your dreams and wishes come true in the
+            most beautiful and exclusive destinations that can be found in the Caribbean.
+          </p>
+          <div>
+            <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+              <i class="ri-facebook-box-fill"></i>
+            </a>
+
+            <a href="https://www.instagram.com/puntacanayachtrentals/" target="_blank" class="footer__social">
+              <i class="ri-instagram-fill"></i>
+            </a>
+
+          </div>
+        </div>
+
+        <div class="footer__data">
+          <h3 class="footer__subtitle" data-i18n="footer.quicklinks">Quick Links</h3>
+          <ul>
+            <li class="footer__item">
+              <a href="index.html" class="footer__link" data-i18n="navbar.home">Home</a>
+            </li>
+            <li class="footer__item">
+              <a href="about.html" class="footer__link" data-i18n="navbar.aboutUs">About Us</a>
+            </li>
+            <li class="footer__item">
+              <a href="destinations.html" class="footer__link" data-i18n="navbar.destinations">Destinations</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__data">
+          <h3 class="footer__subtitle" data-i18n="footer.boats">Boats</h3>
+          <ul>
+            <li class="footer__item">
+              <a href="yachts.html" class="footer__link" data-i18n="boat-tipe.yachts">Yachts</a>
+            </li>
+            <li class="footer__item">
+              <a href="catamarans.html" class="footer__link" data-i18n="boat-tipe.catamarans">Catamarans</a>
+            </li>
+            <li class="footer__item">
+              <a href="superyates.html" class="footer__link" data-i18n="boat-tipe.superyachts">Superyachts</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__data">
+          <h3 class="footer__subtitle" data-i18n="footer.boats">Contact</h3>
+          <ul>
+            <li class="footer__item">
+              <a href="faq.html" class="footer__link" data-i18n="footer.faqs">FAQs</a>
+            </li>
+            <li class="footer__item">
+              <a href="contact.html" class="footer__link" data-i18n="footer.contactUs">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__rights">
+        <p class="footer__copy">&#169; 2021 Cygnus Yachts. All rigths reserved.</p>
+        <div class="footer__terms">
+          <a href="#" class="footer__terms-link" data-i18n="footer.terminos">Terms & Agreements</a>
+          <a href="#" class="footer__terms-link" data-i18n="footer.politica">Privacy Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!--========== SCROLL UP ==========-->
+  <a href="#" class="scrollup" id="scroll-up">
+    <i class="ri-arrow-up-line scrollup__icon"></i>
+  </a>
+
+  <!--=============== SCROLL REVEAL===============-->
+  <script src="assets/js/scrollreveal.min.js"></script>
+
+  <!--=============== SWIPER JS ===============-->
+  <script src="assets/js/swiper-bundle.min.js"></script>
+
+  <!--=============== MAIN JS ===============-->
+  <script src="assets/js/main.js"></script>
+
+
+</body>
+
+</html>

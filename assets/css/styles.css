@@ -92,7 +92,9 @@ body {
   color: var(--text-color);
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: var(--title-color);
   font-weight: var(--font-semi-bold);
   font-family: var(--title-font);
@@ -120,7 +122,7 @@ input {
 }
 
 .button--contact_submitBtn {
-  opacity: 0.5; 
+  opacity: 0.5;
   cursor: not-allowed;
 }
 
@@ -149,6 +151,7 @@ input {
   text-align: center;
   text-transform: capitalize;
 }
+
 .section__title:nth-child(2) {
   margin-bottom: 2em;
 }
@@ -214,6 +217,7 @@ input {
     padding: 3rem;
     transition: .4s;
   }
+
   .section__title {
     margin-top: 3em;
   }
@@ -277,14 +281,14 @@ input {
 
 
 /*=============== HOME ===============*/
-.video__img {
-  position: absolute;
-  top: 0;
-  left: 0;
+.main__img {
+  background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1650458498/cygnus%20yachts/pictures/home/1_c46kfa.jpg);
   width: 100%;
   height: 100vh;
   object-fit: cover;
-  object-position: 83%;
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
 }
 
 .home__container {
@@ -296,12 +300,13 @@ input {
 }
 
 .home__data {
-  margin-bottom: 3em;
+  position: absolute;
+  top: 20%;
 }
 
-.home__data-subtitle, 
-.home__data-title, 
-.home__social-link, 
+.home__data-subtitle,
+.home__data-title,
+.home__social-link,
 .home__info {
   color: var(--white-color);
 }
@@ -317,6 +322,7 @@ input {
   font-weight: var(--font-medium);
 
 }
+
 .home__info {
   background-color: var(--first-color);
   display: flex;
@@ -391,9 +397,11 @@ input {
   justify-content: center;
   z-index: 1;
 }
+
 .social-network-absolute a {
   margin-top: 4px;
 }
+
 .social-network-absolute img {
   width: 60px;
   padding: 4px;
@@ -432,12 +440,12 @@ input {
   width: 180px;
 }
 
-.about__img-one, 
+.about__img-one,
 .about__img-two {
   transition: var(--img-transition);
 }
 
-.about__img-one:hover, 
+.about__img-one:hover,
 .about__img-two:hover {
   transform: var(--img-scale);
 }
@@ -517,7 +525,7 @@ input {
   left: 1rem;
 }
 
-.discover__title, 
+.discover__title,
 .discover__description {
   color: var(--white-color);
 }
@@ -574,12 +582,12 @@ input {
   padding-bottom: 2rem;
 }
 
-.experience__img-one, 
+.experience__img-one,
 .experience__img-two {
   transition: var(--img-transition);
 }
 
-.experience__img-one:hover, 
+.experience__img-one:hover,
 .experience__img-two:hover {
   transform: var(--img-scale);
 }
@@ -626,7 +634,8 @@ input {
 }
 
 /*=============== PLACES ===============*/
-.place__card, .place__img {
+.place__card,
+.place__img {
   height: 230px;
 }
 
@@ -648,7 +657,8 @@ input {
   transition: var(--img-transition);
 }
 
-.place__content, .place__title {
+.place__content,
+.place__title {
   color: var(--white-color);
 }
 
@@ -680,7 +690,8 @@ input {
   font-size: var(--small-font-size);
 }
 
-.place__subtitle, .place__price {
+.place__subtitle,
+.place__price {
   display: block;
 }
 
@@ -744,7 +755,8 @@ input {
 }
 
 /* Next & previous buttons */
-.prev, .next {
+.prev,
+.next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -766,55 +778,24 @@ input {
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
+.prev:hover,
+.next:hover {
   background-color: var(--first-color);
   color: white;
 }
 
 
 /* Add an italic font style to all quotes */
-q {font-style: italic;}
+q {
+  font-style: italic;
+}
 
 /* Add a blue color to the author */
 .author {
   color: cornflowerblue;
   margin-top: 1em;
-  }
-
-
-/*=============== SUBSCRIBE ===============*/
-.subscribe__bg {
-  background-color: var(--first-color-second);
-  padding: 2.5rem 0;
 }
 
-.subscribe__title, 
-.subscribe__description {
-  color: var(--white-color);
-}
-
-.subscribe__description {
-  text-align: center;
-  margin-bottom: var(--mb-2-5);
-}
-
-.subscribe__form {
-  background-color: var(--input-color);
-  padding: .5rem;
-  display: flex;
-  justify-content: space-between;
-}
-
-.subscribe__input {
-  width: 70%;
-  padding-right: .5rem;
-  background-color: var(--input-color);
-  color: var(--text-color);
-}
-
-.subscribe__input::placeholder {
-  color: var(--text-color);
-}
 
 
 /*=============== FOOTER ===============*/
@@ -827,7 +808,7 @@ q {font-style: italic;}
   row-gap: 2rem;
 }
 
-.footer__title, 
+.footer__title,
 .footer__subtitle {
   font-size: var(--h3-font-size);
 }
@@ -869,7 +850,8 @@ q {font-style: italic;}
   text-align: center;
 }
 
-.footer__copy, .footer__terms-link {
+.footer__copy,
+.footer__terms-link {
   font-size: var(--small-font-size);
   color: var(--text-color-light);
 }
@@ -933,19 +915,24 @@ q {font-style: italic;}
     grid-template-columns: max-content;
     justify-content: center;
   }
+
   .experience__content {
     padding: 0;
   }
+
   .experience__overlay:nth-child(1) {
     width: 190px;
   }
+
   .experience__overlay:nth-child(2) {
     width: 80px;
   }
+
   .home__info {
     width: 190px;
     padding: 1rem;
   }
+
   .experience__img,
   .video__container {
     padding: 0;
@@ -959,12 +946,9 @@ q {font-style: italic;}
     grid-template-columns: .6fr;
     justify-content: center;
   }
+
   .place__container {
     grid-template-columns: repeat(3, max-content);
-  }
-  .subscribe__form {
-    width: 470px;
-    margin: 0 auto;
   }
 }
 
@@ -972,110 +956,142 @@ q {font-style: italic;}
   body {
     margin: 0;
   }
+
   .nav {
     height: calc(var(--header-height) + 1.5rem);
   }
+
   .nav__link {
     color: var(--white-color);
     text-transform: initial;
   }
+
   .nav__link:hover {
     color: var(--white-color);
   }
+
   .nav__dark {
     position: initial;
   }
+
   .nav__menu {
     display: flex;
     column-gap: 1rem;
   }
+
   .nav__list {
     flex-direction: row;
     column-gap: 4rem;
   }
-  .nav__toggle, .nav__close {
+
+  .nav__toggle,
+  .nav__close {
     display: none;
   }
+
   .change-theme-name {
     display: none;
   }
+
   .change-theme {
     color: var(--white-color);
   }
+
   .active-link::before {
     background-color: var(--white-color);
   }
+
   .scroll-header .nav__link {
     color: var(--text-color);
   }
+
   .scroll-header .active-link {
     color: var(--title-color);
   }
+
   .scroll-header .active-link::before {
     background-color: var(--title-color);
   }
+
   .scroll-header .change-theme {
     color: var(--text-color);
   }
+
   .section {
     padding: 7rem 0 2rem;
   }
+
   .home__container {
     height: 100vh;
     grid-template-rows: 1.8fr .5fr;
   }
-  .home__data {
+
+  /* .home__data {
     align-self: flex-end;
-  }
+  } */
   .home__social {
     flex-direction: row;
     align-self: flex-end;
     margin-bottom: 3rem;
     column-gap: 2.5rem;
   }
+
   .home__info {
     bottom: 3rem;
   }
+
   .about__container {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
   }
-  .about__data, .about__title {
+
+  .about__data,
+  .about__title {
     text-align: initial;
   }
+
   .about__title {
     margin-bottom: var(--mb-1-5);
   }
+
   .about__description {
     margin-bottom: var(--mb-2);
   }
+
   .discover__container {
     width: 610px;
     margin-left: auto;
     margin-right: auto;
   }
+
   .discover__container,
   .place__container {
     padding-top: 2rem;
   }
+
   .experience__overlay:nth-child(1) {
     width: 363px;
     margin-right: 4rem;
   }
+
   .experience__overlay:nth-child(2) {
     width: 160px;
   }
+
   .subscribe__bg {
     background: none;
     padding: 0;
   }
+
   .subscribe__container {
     background-color: var(--first-color-second);
     padding: 3.5rem 0;
   }
+
   .subscribe__input {
     padding: 0 .5rem;
   }
+
   .footer__rights {
     flex-direction: row;
     justify-content: space-between;
@@ -1088,63 +1104,82 @@ q {font-style: italic;}
     margin-left: auto;
     margin-right: auto;
   }
+
   .home__container {
     grid-template-rows: 2fr .5fr;
   }
+
   .home__info {
     width: 328px;
     grid-template-columns: 1fr 2fr;
     column-gap: 2rem;
   }
+
   .home__info-title {
     font-size: var(--normal-font-size);
   }
+
   .home__info-img {
     width: 240px;
   }
+
   .about__img-one {
     width: 230px;
   }
+
   .about__img-two {
     width: 290px;
   }
+
   .discover__card {
     width: 237px;
   }
+
   .discover__container {
     width: 700px;
   }
+
   .discover__data {
     left: 1.5rem;
     bottom: 2rem;
   }
+
   .discover__title {
     font-size: var(--h2-font-size);
   }
+
   .experience__content {
     margin: var(--mb-1) 0;
     column-gap: 3.5rem;
   }
+
   .experience__overlay:nth-child(1) {
     width: 463px;
     margin-right: 7rem;
   }
+
   .experience__overlay:nth-child(2) {
     width: 220px;
     top: 3rem;
   }
+
   .video__container {
     grid-template-columns: .7fr;
   }
+
   .video__description {
     padding: 0 8rem;
   }
+
   .place__container {
     gap: 3rem 2rem;
   }
-  .place__card, .place__img {
+
+  .place__card,
+  .place__img {
     height: 263px;
   }
+
   .footer__content {
     justify-items: center;
   }
@@ -1161,7 +1196,9 @@ q {font-style: italic;}
   body {
     margin: 0;
   }
-  .home__container, .home__img {
+
+  .home__container,
+  .home__img {
     height: 640px;
   }
 }
@@ -1171,8 +1208,8 @@ q {font-style: italic;}
 /*=============== ABOUT PAGE ===============*/
 
 .about-banner,
-.yacht-banner{
-  background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1636314110/cygnus%20yachts/pictures/home/home1_i9ypjb_2_hb8cex.jpg); 
+.yacht-banner {
+  background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1636314110/cygnus%20yachts/pictures/home/home1_i9ypjb_2_hb8cex.jpg);
   background-size: cover;
   background-position: center;
   width: 100vw;
@@ -1182,6 +1219,7 @@ q {font-style: italic;}
   justify-content: center;
   align-items: center;
 }
+
 .about__overlay {
   top: 0;
   left: 0;
@@ -1191,14 +1229,14 @@ q {font-style: italic;}
 
 .about-banner__title,
 .destination-banner-title {
-  color: var( --white-color);
-  font-size: var(--biggest-font-size)  
+  color: var(--white-color);
+  font-size: var(--biggest-font-size)
 }
 
 .about-banner__subtitle {
-  color: var( --white-color);
+  color: var(--white-color);
   font-size: var(--h2-font-size);
-} 
+}
 
 .container-about-info {
   margin-top: 5em;
@@ -1247,8 +1285,9 @@ q {font-style: italic;}
 
 .service-section {
   padding-top: 3em;
-  
+
 }
+
 .about-title_yacths {
   margin-top: 1.5em;
 }
@@ -1257,6 +1296,7 @@ q {font-style: italic;}
 .article-about .about__description {
   color: #FFF;
 }
+
 .article-about .about__description {
   font-size: 1.1em;
 }
@@ -1268,7 +1308,7 @@ q {font-style: italic;}
 
 .service-section .services-info {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   margin-bottom: 2em;
   gap: 2em;
 }
@@ -1283,7 +1323,7 @@ q {font-style: italic;}
   margin-left: -2em;
 }
 
- .services-info-img1 {
+.services-info-img1 {
   height: 300px;
 }
 
@@ -1302,6 +1342,7 @@ q {font-style: italic;}
 .service-info-content h2 {
   font-size: 2em;
 }
+
 .service-info-content p:nth-child(2) {
   margin-top: .5em;
   font-size: 1.1em;
@@ -1318,13 +1359,17 @@ q {font-style: italic;}
 
 .yacht-banner,
 .destination-banner {
-  height: 500px;
+  width: 100vw;
 }
 
-.yacht-video__banner,
+
 .destination-video__banner {
-  height: 500px;
+  width: 100vw;
+  max-width: 100%;
+  height: auto;
   position: absolute;
+  top: 0;
+  margin-top: -3em;
 }
 
 .yacht-data__container {
@@ -1332,7 +1377,6 @@ q {font-style: italic;}
   display: flex;
   position: relative;
   /* height: calc(100vh - var(--header-height)); */
-  justify-content: flex-end;
   align-items: center;
   row-gap: 3rem;
 }
@@ -1340,13 +1384,13 @@ q {font-style: italic;}
 
 .yacht__data,
 .faq__data {
-  padding: 6em 5em ;
+  padding: 6em 5em;
 }
 
 
-.yacht__data-subtitle, 
-.yacht__data-title, 
-.yacht__social-link, 
+.yacht__data-subtitle,
+.yacht__data-title,
+.yacht__social-link,
 .yacht__info {
   color: var(--white-color);
 }
@@ -1386,6 +1430,7 @@ q {font-style: italic;}
   width: 300px;
   border: 1px solid hsla(190, 64%, 22%, 0.5);
 }
+
 .yachts-card__img {
   width: 100%;
   height: 200px;
@@ -1412,13 +1457,15 @@ q {font-style: italic;}
   padding: .5em;
 }
 
-.yachts-card__title, .yachs-card__icon {
+.yachts-card__title,
+.yachs-card__icon {
   text-align: center;
   padding-top: .5em;
   padding-bottom: 1em;
 }
 
-.yachts-card__icons, .yachts-card__details {
+.yachts-card__icons,
+.yachts-card__details {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -1465,8 +1512,9 @@ q {font-style: italic;}
 }
 
 .aiconfly-banner {
-  background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1637088644/cygnus%20yachts/pictures/yates/Aicon-Fly-56/bg1_pdewyb.jpg); 
+  background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1637088644/cygnus%20yachts/pictures/yates/Aicon-Fly-56/bg1_pdewyb.jpg);
 }
+
 .majestic-banner {
   background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1637125146/cygnus%20yachts/pictures/yates/Majestic-56/1_firuqj.jpg)
 }
@@ -1481,7 +1529,6 @@ q {font-style: italic;}
 
 .searay-420-banner {
   background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1642018723/cygnus%20yachts/pictures/yates/searay-420/bymatteocrupi-56_2_kw1h4r.jpg)
- 
 }
 
 .ferreti-banner {
@@ -1495,24 +1542,31 @@ q {font-style: italic;}
 .oceanFast-banner {
   background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1643591760/cygnus%20yachts/pictures/yates/ocean-fast/ocean1_ksckd3.jpg)
 }
+
 .tiara3100-banner {
   background-image: url(../img/yacht/tiara31open/tiara31open.jpg)
 }
+
 .bennety-banner {
   background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1643601583/cygnus%20yachts/pictures/yates/benetti/bg_x3h03m.jpg)
 }
+
 .azimut55-banner {
-  background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1643669266/cygnus%20yachts/pictures/yates/Azimut/bymatteocrupi-60_bgwhme.jpg) 
+  background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1643669266/cygnus%20yachts/pictures/yates/Azimut/bymatteocrupi-60_bgwhme.jpg)
 }
+
 .powercatmarine-banner {
   background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1643684661/cygnus%20yachts/pictures/yates/power%20cat%20marine/WhatsApp_Image_2021-02-19_at_12.48.04_owyega.jpg);
 }
+
 .riva65-banner {
   background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1643685381/cygnus%20yachts/pictures/yates/Riva%2065/barc_i5k5tb.jpg)
 }
+
 .cranchi-banner {
   background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1643923175/cygnus%20yachts/pictures/yates/cranchi-50/WhatsApp_Image_2022-01-31_at_17.52.37_vtj2ge.jpg)
 }
+
 .fairline43-banner {
   background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1643947013/cygnus%20yachts/pictures/yates/fairline-43/4_crkpmd.jpg)
 }
@@ -1520,13 +1574,16 @@ q {font-style: italic;}
 .tiara39-11-banner {
   background-image: url(../img/yacht/tiara-39open/1.jpg);
 }
+
 .tiara43-sovran-banner {
   background-image: url(../img/yacht/Tiara43-Sovran/bymc-4.jpg);
 }
+
 .lagoon440-banner {
   background-image: url(../img/CATAMARANS/Lagoon440Power/bg.jpg);
 
 }
+
 .lagoon420-banner {
   background-image: url(../img/CATAMARANS/Lagoon420TPI/8.jpeg);
 
@@ -1540,41 +1597,41 @@ q {font-style: italic;}
 }
 
 .slide-container {
-	width: 50vw;
-	height: 70vh;
+  width: 50vw;
+  height: 70vh;
   margin: 0 auto;
 }
 
 .swiper {
-	width: 100%;
-	height: 100%;
+  width: 100%;
+  height: 100%;
   overflow: hidden;
 }
 
 .swiper-slide {
-	text-align: center;
-	font-size: 18px;
-	background: #fff;
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
 
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
-	-webkit-justify-content: center;
-	justify-content: center;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	-webkit-align-items: center;
-	align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
 }
 
 .swiper-slide img {
-	display: block;
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   max-width: 100%;
   overflow: hidden;
 }
@@ -1582,20 +1639,20 @@ q {font-style: italic;}
 
 
 .swiper {
-	width: 100%;
-	height: 300px;
-	margin-left: auto;
-	margin-right: auto;
+  width: 100%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .swiper-slide {
-	background-size: cover;
-	background-position: center;
+  background-size: cover;
+  background-position: center;
 }
 
 .mySwiper2 {
-	height: 80%;
-	width: 100%;
+  height: 80%;
+  width: 100%;
 }
 
 
@@ -1606,26 +1663,26 @@ q {font-style: italic;}
 
 
 .mySwiper {
-	height: 20%;
-	box-sizing: border-box;
-	padding: 10px 0;
+  height: 20%;
+  box-sizing: border-box;
+  padding: 10px 0;
 }
 
 .mySwiper .swiper-slide {
-	width: 25%;
-	height: 100%;
-	opacity: 0.4;
+  width: 25%;
+  height: 100%;
+  opacity: 0.4;
 }
 
 .mySwiper .swiper-slide-thumb-active {
-	opacity: 1;
+  opacity: 1;
 }
 
 .swiper-slide img {
-	display: block;
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .yachts__details {
@@ -1656,6 +1713,7 @@ q {font-style: italic;}
   align-items: center;
   flex-direction: column;
 }
+
 .contact-quotes__info {
   padding: 2em 2em 0em;
 }
@@ -1664,6 +1722,7 @@ q {font-style: italic;}
   font-size: var(--h2-font-size);
   margin-bottom: .5em;
 }
+
 .contact-quotes__info p {
   font-size: var(--font-medium);
 }
@@ -1683,7 +1742,7 @@ q {font-style: italic;}
 
 .contact-quotes__card a:hover {
   background-color: rgba(30, 48, 86, 0.8);
-} 
+}
 
 .contact-quotes__card {
   padding: 2em;
@@ -1692,7 +1751,7 @@ q {font-style: italic;}
 .contact-quotes__card .fas,
 .contact-quotes__card .fab {
   font-size: var(--h2-font-size);
-  margin-right:20px;
+  margin-right: 20px;
 }
 
 
@@ -1713,7 +1772,7 @@ q {font-style: italic;}
 
 .yachts-description__paragrh,
 .yachts-caracteristic__paragrh {
-   border: 1px solid rgba(23, 57, 64, .2);
+  border: 1px solid rgba(23, 57, 64, .2);
   padding: 2em;
 }
 
@@ -1725,6 +1784,7 @@ q {font-style: italic;}
   display: flex;
   justify-content: space-evenly;
 }
+
 .yachts-caracteristic__paragrh li {
   margin-bottom: 1em;
 }
@@ -1742,7 +1802,7 @@ q {font-style: italic;}
 }
 
 .banner-overlay {
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   height: 100%;
   width: 100%;
   display: flex;
@@ -1756,6 +1816,7 @@ q {font-style: italic;}
   color: #FFF;
 
 }
+
 .yachts-banner-template h2:nth-child(2) {
   padding-bottom: 2em;
 }
@@ -1802,7 +1863,7 @@ q {font-style: italic;}
 }
 
 .destination-home {
-  margin-top: 5em;
+  margin-top: 17em;
 }
 
 .destination-home h2 {
@@ -1880,25 +1941,29 @@ q {font-style: italic;}
 
 
 .bayahibe-banner {
-  background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1635954416/cygnus%20yachts/pictures/destinations/pages/bayahibe/3_ivngw0.jpg); 
+  background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1635954416/cygnus%20yachts/pictures/destinations/pages/bayahibe/3_ivngw0.jpg);
 }
+
 .catalina-banner {
   background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1635954445/cygnus%20yachts/pictures/destinations/home/CATALINA_u0a5hs.jpg);
 }
+
 .palmilla-banner {
   background-image: url(../img/destination-main/11.jpg);
   background-position: center;
 }
+
 .puntacana-banner {
   background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1635954416/cygnus%20yachts/pictures/destinations/pages/puntacana/puntacana-card_fsfsef.jpg);
 }
+
 .saona-banner {
   background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1635954416/cygnus%20yachts/pictures/destinations/pages/saona/saona_d2uxuc.jpg);
 }
 
 .destination-banner-template {
   background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1635954420/cygnus%20yachts/pictures/destinations/pages/palmilla/3_svnvh7.jpg);
-  
+
 }
 
 
@@ -1908,7 +1973,7 @@ q {font-style: italic;}
   align-items: center;
   flex-direction: column;
   height: 100%;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .destination-banner-overlay h2 {
@@ -1918,13 +1983,13 @@ q {font-style: italic;}
 
 .destinations-contact {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   margin-top: 3em;
 }
 
 .container-gallery-contact {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
 
 /* ===================   FAQ's PAGE ===================== */
@@ -1957,15 +2022,20 @@ q {font-style: italic;}
 }
 
 
-.faq-main a, a:hover, a:focus, a:active {
+.faq-main a,
+a:hover,
+a:focus,
+a:active {
   text-decoration: none;
   outline: none;
 }
+
 .faq-main ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
+
 .faq {
   padding: 120px 0 90px;
   background: #f7fbff;
@@ -2068,17 +2138,18 @@ q {font-style: italic;}
 /* =================== CONTACT PAGE ===================== */
 
 .contact-banner {
-  background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1636314110/cygnus%20yachts/pictures/home/home1_i9ypjb_2_hb8cex.jpg); 
+  background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1636314110/cygnus%20yachts/pictures/home/home1_i9ypjb_2_hb8cex.jpg);
   background-position: center;
   height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
-}  
+}
 
 .contact-banner h1 {
   color: #FFF;
 }
+
 .contact-page__subtitle {
   text-align: center;
   padding: 2em;
@@ -2113,6 +2184,7 @@ q {font-style: italic;}
 .contact-icon__content h5 span {
   color: var(--title-color)
 }
+
 .contact-icon__content h5 {
   color: var(--text-color-light);
 }
@@ -2138,7 +2210,7 @@ q {font-style: italic;}
 
 .contact-form__content {
   display: grid;
-  grid-template-columns: repeat(10,1fr);
+  grid-template-columns: repeat(10, 1fr);
   padding-top: 5em;
 }
 
@@ -2167,12 +2239,14 @@ q {font-style: italic;}
 }
 
 @keyframes spinner-border {
-  to { transform: rotate(360deg); }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .input-error {
   outline: 1px solid red;
-} 
+}
 
 .input-valido {
   outline: 1px solid var(--green);
@@ -2187,17 +2261,17 @@ q {font-style: italic;}
 }
 
 .contact-btn-disabled {
-  opacity: 0.5; 
+  opacity: 0.5;
   cursor: not-allowed;
 }
 
 
 .enviado-correctamente {
- padding: .5em;
- background-color: #e67e2e;
- color: #fff;
- text-align: center;
- margin-top: 1em;
+  padding: .5em;
+  background-color: #e67e2e;
+  color: #fff;
+  text-align: center;
+  margin-top: 1em;
 }
 
 
@@ -2207,15 +2281,16 @@ q {font-style: italic;}
     width: 110px;
   }
 
-  .home__data {
+  /* .home__data {
     margin-top: 8em;
-  }
+  } */
 
-  
+
 
   .article-about img {
     padding-left: 7em;
   }
+
   .container-about-info,
   .container__yachtsmain {
     grid-template-columns: repeat(1, 1fr);
@@ -2225,11 +2300,11 @@ q {font-style: italic;}
     margin-top: -3em;
   }
 
-  .container__yachtsmain  {
+  .container__yachtsmain {
     margin-bottom: 20em;
-  } 
+  }
 
-  .about-page-banner2  {
+  .about-page-banner2 {
     grid-template-columns: repeat(1, 1fr);
     margin-top: -10px;
   }
@@ -2253,9 +2328,13 @@ q {font-style: italic;}
     flex-direction: column-reverse;
   }
 
+  .about-banner,
+  .yacht-banner {
+    margin-top: -5em;
+  }
+
   .yacht-banner {
     height: 400px;
-
   }
 
   .slide-container {
@@ -2270,25 +2349,28 @@ q {font-style: italic;}
   .yachts-main {
     grid-template-columns: 1fr;
   }
-  
-  
+
+
   .banner-overlay {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     flex-direction: column;
   }
-  
+
   .yachts-banner-template h2 {
     font-size: 1.2em;
     color: #FFF;
-  
+
   }
+
   .yachts-banner-template h2:nth-child(2) {
     padding-bottom: 2em;
   }
 
-
+  .destination-banner__title {
+    margin-top: -7em;
+  }
 
   .destination-container {
     grid-template-columns: repeat(1, 1fr);
@@ -2302,9 +2384,12 @@ q {font-style: italic;}
     height: 250px;
   }
 
+  .destination-home {
+    margin-top: -15em;
+  }
 
   .destinations-contact {
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 
   .destination-banner-overlay h2 {
@@ -2319,7 +2404,7 @@ q {font-style: italic;}
     grid-template-columns: 1fr;
     margin-top: 3em;
   }
-  
+
   .destination-banner-template {
     margin-top: -0em;
   }
@@ -2351,7 +2436,7 @@ q {font-style: italic;}
     margin-bottom: 5em;
   }
 
-/* .contact-form__imgtop {
+  /* .contact-form__imgtop {
   display: block;
   margin-bottom: 2em;
 } */

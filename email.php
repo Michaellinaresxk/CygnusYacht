@@ -1,10 +1,11 @@
 <?php
+// var_dump($_POST);exit();
 $name = $_POST['name'];
 $email = $_POST['email'];
 // $asunto = $_POST['asunto'];
 $message = $_POST['message'];
  
-$to = "linares.michael@gmail.com"; 
+$to = "booking@puntacanayachtcharters.com"; 
 $subject = $name. " Send a message"; 
 $body = ' 
 <html> 
@@ -35,6 +36,6 @@ if(!$mail) {
   print_r($_POST);
 }
 
-header("Location:contact.html");
+header("Location:contact.html")
 
 ?>

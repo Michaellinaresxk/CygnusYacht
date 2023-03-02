@@ -69,7 +69,7 @@ let swiper = new Swiper(".mySwiper", {
 	freeMode: true,
 	watchSlidesProgress: true,
 });
-var swiper2 = new Swiper(".mySwiper2", {
+let swiper2 = new Swiper(".mySwiper2", {
 	spaceBetween: 10,
 	navigation: {
 		nextEl: ".swiper-button-next",
@@ -131,29 +131,6 @@ sr.reveal(`.about__img-overlay,
     origin: 'right',
     interval: 100,
 })
-
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  if (n > slides.length) {slideIndex = 1}
-    if (n < 1) {slideIndex = slides.length}
-    for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-    }
-  // slides[slideIndex-1].style.display = "block";
-}
-
 
 
 

@@ -1,0 +1,45 @@
+{
+  "@context" : "http://schema.org",
+  "@type" : "LocalBusiness",
+  "name" : "Cygnus Yachts",
+  "image" : "https://res.cloudinary.com/michaelxk-com/image/upload/v1637125146/cygnus%20yachts/pictures/yates/Majestic-56/1_firuqj.jpg",
+  "url" : "http://puntacanayachtcharters.com/",
+  "telephone" : "+1 829 296 3529",
+  "email" : "booking@cygnusyachts.com",
+  "address" : {
+    "@type" : "PostalAddress",
+    "streetAddress" : "23000",
+    "addressLocality" : "Cap Cana",
+    "addressRegion" : "Higuey, La Altagracia",
+    "addressCountry" : "Dominican Republic",
+    "postalCode" : "23000"
+  },
+  "openingHoursSpecification" : {
+    "@type" : "OpeningHoursSpecification",
+    "dayOfWeek" : {
+      "@type" : "DayOfWeek",
+      "name" : "From Monday to Monday"
+    }
+  },
+  "aggregateRating" : {
+    "@type" : "AggregateRating",
+    "ratingValue" : "10",
+    "bestRating" : "10",
+    "worstRating" : "3",
+    "ratingCount" : "123"
+  },
+  "review" : {
+    "@type" : "Review",
+    "author" : {
+      "@type" : "Person",
+      "name" : "Diana Castro"
+    },
+    "reviewRating" : {
+      "@type" : "Rating",
+      "ratingValue" : "5",
+      "bestRating" : "100%",
+      "worstRating" : "2"
+    },
+    "reviewBody" : "If you want to enjoy a unique and unforgettable experience, I recommend this company. They recommended me this company in the Hotel, they are very professional and offer a personalized service. Sailing on a yacht through the Caribbean Sea with my loved ones is an experience that I will never forget, a memory for a lifetime."
+  }
+}

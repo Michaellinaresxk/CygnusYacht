@@ -4,14 +4,14 @@
     "aboutUs": "About us",
     "yachts": "Yachts",
     "destinations": "Destinations",
-    "contact": "Contact us"
+    "contact": "Contact us",
+    "faq": "FAQ's"
   },
   "home-banner": {
     "slogan1": "10 years and counting...",
     "slogan2": "Fullfilling",
     "slogan3": "dreams",
     "slogan4": "Since",
-    "slogan5": "2010",
     "span": "5 best places to visit"
   },
   "boat-tipe": {
@@ -37,12 +37,6 @@
     "testimonial-1": "My boyfriend and I were in Punta Cana a month ago and we hired this company’s services to go on a private yacht to Saona Island. The experience was super fun and incredible. We did snorkeling, we bathed in natural pools, the food was very good and the crew was very professional and kind. We will definitely repeat next year.",
     "testimonial-2": "I celebrated my birthday with my friends on a yacht at Palmilla Beach, it was an unforgettable experience. The beach is beautiful, the yacht we booked was spectacular and the service was attentive and excellent. I did not have to worry about anything during my birthday, and my friends and I had a lot of fun. 100% Recommended.",
     "testimonial-3": "If you want to enjoy a unique and unforgettable experience, I recommend this company. They recommended me this company in the Hotel, they are very professional and offer a personalized service. Sailing on a yacht through the Caribbean Sea with my loved ones is an experience that I will never forget, a memory for a lifetime."
-  },
-  "subscribe": {
-    "title": "Suscribete para recibir boletines",
-    "subtitle": "Suscribete con tu correo y asi podras recibir informacion, sobre descuentos y mas",
-    "inputText": "Escribe tu correo",
-    "subscribe": "Suscribete"
   },
   "footer": {
     "description": "Yacht charter service, where we give you the opportunity to make all your dreams and wishes come true in the most beautiful and exclusive destinations that can be found in the Caribbean.",
@@ -91,7 +85,7 @@
     "subtitle": "Exclusive Yachts for rent in Punta Cana and the Caribbean.",
     "rentYacth1": "Yacht Charter",
     "description": "Description",
-    "description2": "Yachts Charter Privado en Punta Cana",
+    "description2": "Yachts Charter Private in Punta Cana",
     "details": "Characteristics",
     "length": "length:",
     "beam": "Beam:",
@@ -146,15 +140,15 @@
     "p2": "With its incredible spaces and abundance of areas to enjoy, this yacht takes the sailing experience to a whole new level. This charter yacht in Punta Cana has a capacity of up to 14 people for day charter and 8 for overnight.",
     "p3": "A private boat that is becoming a benchmark when choosing a yacht charter in the Dominican Republic."
   },
-  "lagoon420":{
+  "lagoon420": {
     "p1": "The Lagoon 420 catamaran is an excellent choice when renting a catamaran in Punta Cana. With a length of 42 feet (12.80 meters) and a beam of 25.3 feet (7.70 meters), this beautiful charter offers an area of ​​100 m2. The design invites outside life. The interior area of ​​the boat is now completely integrated and communicated with the external part. With this catamaran rental you can enjoy comfortable navigation and anchoring in total comfort.",
     "p2": "This beautiful catamaran is fully equipped to sail for several days and discover the most beautiful beaches and corners of the Dominican Republic. It has four cabins with double beds, two bathrooms and a very bright interior lounge.",
     "p3": "We offer all types of charters and itineraries;",
     "p4": "Full day charters, for groups of friends, bachelorette parties, business groups, families, marriage proposals and much more.",
-    "p5": "We offer various itineraries touring the different parts of the islands. The excursion between Saona Island, Catalina Island and the wonderful Palmilla Beach is undoubtedly the most popular!",  
+    "p5": "We offer various itineraries touring the different parts of the islands. The excursion between Saona Island, Catalina Island and the wonderful Palmilla Beach is undoubtedly the most popular!",
     "p6": "A luxury boat rental in Punta Cana."
   },
-  "lagoon440":{
+  "lagoon440": {
     "p1": "With this Lagoon 440 catamaran rental in Punta Cana you will have all the comfort you may need in a boat. It is a safe and suitable choice to spend a magnificent vacation for both a day charter and a weekly rental. A large capacity catamaran. Due to its features and equipment you will find yourself in a floating luxury hotel.",
     "p2": "In charter boats, most of the time is usually spent in outdoor areas, and this boat has plenty of these areas. Its aft (terrace) is designed to spend pleasant moments, both during anchoring and during navigation.",
     "p3": "It is probably the most demanded charter catamaran in the entire boat rental sector in Punta Cana.",
@@ -213,17 +207,19 @@
   "catamarans-page": {
     "catamarans": "Catamarans",
     "yachts": "Yacht",
-    "slogan":"Exclusives catamarans charter in Punta Cana and the Caribbean."
+    "slogan": "Exclusives catamarans charter in Punta Cana and the Caribbean.",
+    "description2": "Alquiler de catamaranes Privados en Punta Cana"
   },
   "superyacht-page": {
     "title": "Our Superyachts",
-    "slogan":"Exclusives superyachts charter in Punta Cana and the Caribbean."
+    "slogan": "Exclusives superyachts charter in Punta Cana and the Caribbean.",
+    "description2": "Private superyacht charter in Punta Cana"
   },
   "destinations": {
     "title": "Our Destinations",
     "subtitle": "Choose Your Place",
     "subtitle2": "Choose one of the destinations we have for you.",
-    "description": "Enjoy the most exclusive destinations in the Caribbean. We have access to more than 10 rental yachts in 4 different destinations - rent a yacht in Casa de Campo la Romana, visit the incredible islands we have for you, rent a Yacht in Punta Cana or rent a yacht in La Marina de Cap Cana - everything is possible with our bespoke boat rental service.",
+    "description": "Enjoy the most exclusive destinations in the Caribbean. We have access to more than 10 rental yachts in 4 different destination. Rent a yacht in Casa de Campo la Romana, visit the incredible islands we have for you, rent a Yacht in Punta Cana or rent a yacht in La Marina de Cap Cana, everything is possible with our bespoke boat rental service.",
     "place1": "Isla Saona",
     "place2": "Punta Cana",
     "place3": "Bayahibe",
@@ -232,8 +228,8 @@
     "recomended": "Recomeded",
     "title2": "Tropical Islands",
     "descriptionP": "The Caribbean is the area of ​​the world where these wonderful tropical islands are found. Crystal clear blue waters, 365 days a year of sunshine, coral reefs and palm fringed beaches is what the Caribbean is known for, although its diversity is the true quality of its charm. Extensive in destination size and adventure opportunities, you can expect to have a different experience on any island you choose.",
-    "descriptionP2":  "The Dominican Republic has a great variety of tropical islands, among them are: Saona Island, Catalina Island, Palmilla Beach and the incredible Natural pools at Juanillo Beach Cap Cana and Punta Cana. A fantastic getaway for the winter months, you can always expect the sun in the Caribbean. Each part of the Caribbean has its own unique charm.",
-    "descriptionP3":  "These islands are perfect for a winter vacation getaway. With a warm climate throughout the year, the Dominican Republic offers you the perfect opportunity to avoid the cold winter months."
+    "descriptionP2": "The Dominican Republic has a great variety of tropical islands, among them are: Saona Island, Catalina Island, Palmilla Beach and the incredible Natural pools at Juanillo Beach Cap Cana and Punta Cana. A fantastic getaway for the winter months, you can always expect the sun in the Caribbean. Each part of the Caribbean has its own unique charm.",
+    "descriptionP3": "These islands are perfect for a winter vacation getaway. With a warm climate throughout the year, the Dominican Republic offers you the perfect opportunity to avoid the cold winter months."
   },
   "catalina": {
     "title": "Catalina Island",
@@ -262,12 +258,12 @@
     "banner": "Answering your questions",
     "title": "FAQs",
     "subtitle": "Frequently Asked Questions",
-    "Ask1":"Duration of the Charter?",
-    "Answer1":"From 9:00 am to 5:00 pm (8 hours).",
-    "Ask2":"Do all yacht rentals <br> include catering services?",
-    "Answer2":"No. However, the catering services can be added to any rental boat for a small fee.",
-    "Ask3":"Is transportation included?",
-    "Answer3":"No, but we provide round trip transportation por your trip under quote.",
+    "Ask1": "Duration of the Charter?",
+    "Answer1": "From 9:00 am to 5:00 pm (8 hours).",
+    "Ask2": "Do all yacht rentals <br> include catering services?",
+    "Answer2": "No. However, the catering services can be added to any rental boat for a small fee.",
+    "Ask3": "Is transportation included?",
+    "Answer3": "No, but we provide round trip transportation por your trip under quote.",
     "Ask4": "Can i take my own food <br> and drink on board?",
     "Answer4": "Yes. Let us know if you need any special utensils and if an extra fee is added at the end.",
     "Ask5": "What is included in the price?",

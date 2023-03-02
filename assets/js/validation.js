@@ -1,6 +1,4 @@
 
-// variables
-
 const contactForm = document.getElementById('contactForm');
 const name1 =  document.getElementById('name');
 const email =  document.getElementById('email');
@@ -19,13 +17,14 @@ function eventlisteners() {
   name1.addEventListener('blur', FormValidation);
 
   contactForm.addEventListener('submit', sendForm);
+  webInit()
 }
 
-// // funciones 
-// function webInit() {
-//   // contact_submitBtn.disabled = true;
-//   contact_submitBtn.classList.add('contact-btn-disabled');
-// }
+// funciones 
+function webInit() {
+  // contact_submitBtn.disabled = true;
+  contact_submitBtn.classList.add('contact-btn-disabled');
+}
 
 // valida el formulario 
 function FormValidation(e) {
@@ -33,7 +32,7 @@ function FormValidation(e) {
 
   if(e.target.value.length > 0) {
 
-    // Elimar errores 
+    // Borrar errores 
     const error = document.querySelector('p.error');
    
     if(error) {
@@ -44,7 +43,6 @@ function FormValidation(e) {
   } else {
     e.target.classList.remove('input-valido');
     e.target.classList.add('input-error');
-
     showError(`Every field is required`);
   }
 
@@ -66,7 +64,7 @@ function FormValidation(e) {
     }
   }
 
-    if(email.value && message.value && name1 !== '') {
+    if(er.test(email.value) && message.value && name1 !== '') {
     // botonSubmit_contact.disabled = false;
     contact_submitBtn.classList.remove('button--contact_submitBtn');
   }
@@ -89,7 +87,6 @@ function sendForm(e) {
 e.preventDefault();
 
 // mostrar spinner
-
 const spinner = document.getElementById('spinner');
 spinner.style.display = 'block';
   
@@ -98,17 +95,18 @@ spinner.style.display = 'block';
     spinner.style.display = 'none';
 
     // se envio correctamente
-
     const paragraph = document.createElement('p');
     paragraph.textContent = 'Thank you for your message';
     paragraph.classList.add('enviado-correctamente');
 
-    // contactForm.insertBefore(paragraph, contact_submitBtn);
-    contactForm.appendChild(paragraph)
+    contactForm.insertBefore(paragraph, contact_submitBtn);
+    // contactForm.appendChild(paragraph)
 
     setTimeout(() => {
       paragraph.remove();
-    },5000);
+    },4000);
+
+    
 
     resetForm();
 
