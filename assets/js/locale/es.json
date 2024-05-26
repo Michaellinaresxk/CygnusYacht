@@ -22,6 +22,24 @@
     "superyachts": "Superyates",
     "charter": "Catamaranes <br><strong>Charter</strong>"
   },
+  "homePageText": {
+    "title": "Nuestra Flota: Una Sinfonía de Elegancia y Tecnología",
+    "p1": "Nuestros yates son más que simples embarcaciones; son santuarios flotantes de lujo y confort. Cada yate de nuestra flota cuenta con amplias cubiertas, camarotes elegantemente equipados y todas las comodidades modernas que puedas desear. Ya sea que busques una escapada íntima o estés planeando una gran celebración, nuestros yates ofrecen el escenario perfecto.",
+    "whyToChoose": "¿Por Qué Elegir Premier Yacht Charters?",
+    "whyToChoose-subtitle": "Lujo y Confort Sin Igual: ",
+    "whyToChoose-p1": "Nuestros yates ofrecen el pináculo del lujo, con atención al detalle que asegura un viaje de confort sin paralelo.",
+    "whyToChoose-subtitle2": "Experiencias Personalizadas: ",
+    "whyToChoose-p2": "Con itinerarios a medida y excursiones exclusivas, cada viaje con nosotros es único.",
+    "Dedication": ": Estamos comprometidos con prácticas sostenibles que protegen el medio ambiente marino para las futuras generaciones.",
+    "service": "Servicio Excepcional: Donde Cada Detalle Importa",
+    "servicep1": "Nuestros miembros de la tripulación son el corazón de nuestro servicio. Altamente capacitados y apasionadamente dedicados, aseguran que tu viaje sea nada menos que espectacular. Desde cenas gourmet preparadas por chefs a bordo hasta itinerarios personalizados, vamos más allá para satisfacer tus necesidades."
+  },
+  "main-text": {
+    "title": "Punta Cana Yacht Charters",
+    "p1": "Embarque en una experiencia inolvidable de yateo en Punta Cana con nuestra excepcional selección de yates a motor disponibles para el alquiler. Nuestros yates varían de 38 a 85 pies y satisfacen diversas preferencias, ofreciendo alquileres de día completo. ",
+    "p2": "Parta desde la marina de Casa de Campo y navegue para descubrir las aguas cristalinas, playas prístinas. Explore el encanto único de la Playa Palmilla, Isla Catalina o Isla Saona, relájese en las arenas polvorientas de Isla Saona, o sumérjase en el arrecife mágico de Isla Catalina.",
+    "p3": "on los asesores de alquiler de yates conocedores de Punta Cana Yacht Charter, tripulación profesional y personal atento, su alquiler de yate en Punta Cana será una aventura llena de lujo y exploración que atesorará para siempre. Confíe en nosotros para entregar una experiencia extraordinaria de yateo que le dejará con recuerdos inolvidables y un deseo ferviente de regresar a estas islas encantadoras."
+  },
   "places": {
     "title": "Elije un destino",
     "subtitle": "Elige uno de los destinos que tenemos para ti.",
@@ -67,12 +85,12 @@
     "bannerText2": "Disponemos de una amplia selección de yates únicos de alquiler en Punta Cana y un servicio totalmente personalizado, diseñado para cubrir todas sus necesidades y para que su experiencia con Cygnus Yachts sea inolvidable.",
     "bannerText3": "Desde su solicitud de alquiler hasta el final de su experiencia Cygnus Yachts en un alquiler de yates en Punta Cana Republica Dominicana, usted tendrá uno de nuestros especialistas como interlocutor respaldado por un equipo de profesionales altamente cualificados, juntos velarán para cubrir todas sus necesidades y darle el mejor servicio posible durante su experiencia Cygnus Yachts en un alquiler de yate.",
     "bannerText4": "Si desea alquilar un yate en Punta Cana póngase en contacto con Cygnus Yachts, permítanos asesorarle a personalizar sus vacaciones o eventos de empresa y nos encargaremos de todos los detalles.",
-    "split-title": "Confort",
+    "split-title": "Tu Sueño, Nuestra Misión.",
     "split-subtitle": "En Cygnus Yachts somos conscientes de la importancia del confort, del bienestar y de los pequeños detalles.",
     "split-text": "Por esta razón le ofrecemos un servicio totalmente personalizado pensado exclusivamente para cubrir todas sus necesidades antes, durante y después del alquiler de un yate, donde usted podrá encontrar todo lo que necesita para hacer de su estancia a bordo, un espacio a su medida.",
-    "split-title2": "Satisfacción",
-    "split-subtitle2": "Un trabajo bien hecho, la satisfacción de nuestros clientes…",
-    "split-text2": "es el reflejo de la pasión y del entusiasmo que ponemos en todo lo que hacemos en Cygnus Yachts, por ello hallará con nosotros la tranquilidad, discreción y seguridad que le ofrece tener el mejor equipo de profesionales a su disposición antes, durante y después de su alquiler de yate.",
+    "split-title2": "Descubre las Joyas Ocultas del Caribe",
+    "split-subtitle2": "Abraza el Lujo y la Aventura en Alta Mar",
+    "split-text2": "Embarca en un viaje para explorar playas aisladas, aguas cristalinas y una vida marina vibrante. Nuestro conocimiento local y experiencia abren destinos exclusivos, ofreciendo una experiencia caribeña auténtica y enriquecedora.",
     "split-title3": "Confianza",
     "split-subtitle3": "Permítanos asesorarle a personalizar sus vacaciones o eventos de empresa y nos encargaremos de todos los detalles.",
     "split-text3": "Desde su solicitud de alquiler hasta el final de su experiencia Cygnus Yachts en un alquiler de yates en Punta Cana Republica Dominicana, usted tendrá uno de nuestros especialistas como interlocutor respaldado por un equipo de profesionales altamente cualificados, juntos velarán para cubrir todas sus necesidades y darle el mejor servicio posible durante su experiencia Cygnus Yachts en un alquiler de yate."
@@ -130,9 +148,9 @@
     "p3": "Gracias a este yate Fairline 50 de alquiler en Punta Cana, podrás explorar el Mar Caribe de una forma única."
   },
   "fairline43": {
-    "p1": "El yate Fairline Targa 43 es uno de los yates deportivos más populares y valorados en la industria de la navegación. Este elegante yate de alquiler en Punta Cana está diseñado tanto para la socialización como para la velocidad, el yate Targa 43 hace ambas cosas excepcionalmente bien y tiene una capacidad de hasta 10 invitados.",
+    "p1": "El yate Fairline 43 es uno de los yates deportivos más populares y valorados en la industria de la navegación. Este elegante yate de alquiler en Punta Cana está diseñado tanto para la socialización como para la velocidad, el yate Targa 43 hace ambas cosas excepcionalmente bien y tiene una capacidad de hasta 10 invitados.",
     "p2": "Tiene una velocidad máxima de 30 nudos y este yate es un placer de conducir gracias a sus dos potentes motores Volvo de 480 cv cada uno. El espacio está ingeniosamente diseñado tanto por dentro como por fuera para el entretenimiento y el placer.",
-    "p3": "This Fairline Targa 43 Yacht is fully equipped and with an optimized space to offer you the comfort you require to enjoy a fascinating trip on the waters of the Caribbean Sea.",
+    "p3": "This Fairline 43 Yacht is fully equipped and with an optimized space to offer you the comfort you require to enjoy a fascinating trip on the waters of the Caribbean Sea.",
     "p4": "A bordo de este yate podrás realizar un tour privado con tripulación a Isla Saona, Playa Palmilla o Isla Catalina. De regreso podrás disfrutar de los hermosos atardeceres que República Dominicana tiene para ti."
   },
   "ferreti": {

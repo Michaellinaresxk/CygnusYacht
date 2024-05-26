@@ -121,10 +121,6 @@ input {
   font-size: var(--normal-font-size);
 }
 
-.button--contact_submitBtn {
-  opacity: 0.5;
-  cursor: not-allowed;
-}
 
 button {
   cursor: pointer;
@@ -138,7 +134,11 @@ input {
   overflow-x: hidden;
 }
 
-
+.about .title-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section {
@@ -497,13 +497,14 @@ input {
 }
 
 .superyachts {
-  background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1635954193/cygnus%20yachts/pictures/home/super-yates_iuzobc.jpg);
+  background-image: url(../img/luxury.JPG);
+  background-position: top;
   width: 100%;
-  height: 350px;
+  height: 450px;
 }
 
 .superyachts__card {
-  background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1635954193/cygnus%20yachts/pictures/home/super-yates_iuzobc.jpg);
+  background-image: url(../img/luxury.JPG);
 }
 
 
@@ -1209,7 +1210,7 @@ q {
 
 .about-banner,
 .yacht-banner {
-  background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1636314110/cygnus%20yachts/pictures/home/home1_i9ypjb_2_hb8cex.jpg);
+  background-image: url(../img/luxury.JPG);
   background-size: cover;
   background-position: center;
   width: 100vw;
@@ -1220,6 +1221,9 @@ q {
   align-items: center;
 }
 
+.about-banner{
+  background-image: url(../img/drone_i8cbut.jpg);
+}
 .about__overlay {
   top: 0;
   left: 0;
@@ -1230,7 +1234,13 @@ q {
 .about-banner__title,
 .destination-banner-title {
   color: var(--white-color);
-  font-size: var(--biggest-font-size)
+  font-size: var(--biggest-font-size);
+}
+
+.about-banner__title {
+  text-align: center;
+  color: #214753;
+  margin: 20px 20px;
 }
 
 .about-banner__subtitle {
@@ -1301,10 +1311,6 @@ q {
   font-size: 1.1em;
 }
 
-.article-about__logo {
-  max-width: 100%;
-  margin-bottom: 2em;
-}
 
 .service-section .services-info {
   display: grid;
@@ -1317,6 +1323,7 @@ q {
   background-color: hsl(var(--hue-color), 64%, 15%);
   padding-bottom: 5em;
   padding-top: 3em;
+  margin-top: 5em;
 }
 
 .article-about img {
@@ -1324,7 +1331,8 @@ q {
 }
 
 .services-info-img1 {
-  height: 300px;
+  height: 400px;
+  width: 100%;
 }
 
 .img-rounded:nth-child(3) {
@@ -1538,6 +1546,10 @@ q {
   background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1643588316/cygnus%20yachts/pictures/yates/fairline/fairline4_gvf7ep.jpg)
 }
 
+.fairline-43-new  {
+  background-image: url(../img/yacht/fairline-43/fairline43.jpeg);
+}
+
 .oceanFast-banner {
   background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1643591760/cygnus%20yachts/pictures/yates/ocean-fast/ocean1_ksckd3.jpg)
 }
@@ -1549,6 +1561,8 @@ q {
 .bennety-banner {
   background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1643601583/cygnus%20yachts/pictures/yates/benetti/bg_x3h03m.jpg)
 }
+
+
 
 .azimut55-banner {
   background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1643669266/cygnus%20yachts/pictures/yates/Azimut/bymatteocrupi-60_bgwhme.jpg)
@@ -1854,15 +1868,13 @@ q {
 }
 
 
-
-
 .destination-banner h1 {
   color: var(--white-color);
   position: relative;
 }
 
 .destination-home {
-  margin-top: 20em;
+  margin-top: 25em;
 }
 
 .destination-home h2 {
@@ -2137,9 +2149,10 @@ a:active {
 /* =================== CONTACT PAGE ===================== */
 
 .contact-banner {
-  background-image: url(https://res.cloudinary.com/michaelxk-com/image/upload/v1636314110/cygnus%20yachts/pictures/home/home1_i9ypjb_2_hb8cex.jpg);
-  background-position: center;
-  height: 300px;
+  background-image: url(../img/Drone_22_dedjhu.jpg);
+  background-size: cover;
+  background-position: top;
+  height: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2147,6 +2160,9 @@ a:active {
 
 .contact-banner h1 {
   color: #FFF;
+  background-color: #173940;
+  padding: 10px 20px;
+  border-radius: 10px;
 }
 
 .contact-page__subtitle {

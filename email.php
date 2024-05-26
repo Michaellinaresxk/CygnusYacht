@@ -29,13 +29,12 @@ $headers .= "From: ".$name." <". $email .">\r\n";
 
 $mail = mail($to,$subject,$body,$headers);
 
-if(!$mail) {
-  print_r( 'Mailer error: ' . error_get_last());
+if(mail($to, $subject, $message, $headers)) {
+  echo 'Email sent successfully.';
 } else {
-  //echo 'Message has been sent.';
-  print_r($_POST);
+  echo 'Email sending failed.';
 }
 
-header("Location:contact.html")
+header("Location:contact.html");
 
 ?>

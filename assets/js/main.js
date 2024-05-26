@@ -326,7 +326,6 @@ function setLangInLocalStorage(language) {
 
 (function() {
   if(localStorage.getItem('langChosen') === null || localStorage.getItem('langChosen') === undefined) {
-   
     localStorage.setItem('langChosen', "en")
   }
 })();
