@@ -19,14 +19,32 @@
     "subtitle": "We have a wide selection of unique yacht, super yacht, boat and catamaran rentals.",
     "yachts": "Yachts",
     "catamarans": "Catamarans",
-    "superyachts": "Superyachts",
+    "superyachts": "Luxury Yachts",
     "charter": "Catamarans <br><strong>Charter</strong>"
   },
+  "homePageText": {
+    "title": "Our Fleet: A Symphony of Elegance and Technology",
+    "p1": "Our yachts are more than just vessels; they are floating sanctuaries of luxury and comfort. Each yacht in our fleet boasts spacious decks, elegantly appointed cabins, and all the modern amenities you could wish for. Whether you are seeking an intimate getaway or planning a grand celebration, our yachts offer the perfect setting.",
+    "whyToChoose": "Why Choose Premier Yacht Charters?",
+    "whyToChoose-subtitle": "Unrivaled Luxury and Comfort: ",
+    "whyToChoose-p1": "Our yachts offer the pinnacle of luxury, with attention to detail that ensures a journey of unparalleled comfort.",
+    "whyToChoose-subtitle2": "Personalized Experiences: ",
+    "whyToChoose-p2": "With tailored itineraries and exclusive excursions, every voyage with us is uniquely yours.",
+    "Dedication": ": We are committed to sustainable practices that protect the marine environment for future generations.",
+    "service": "Exceptional Service: Where Every Detail Matters",
+    "servicep1": "Our crew members are the heart of our service. Highly trained and passionately dedicated, they ensure that your voyage is nothing short of spectacular. From gourmet dining prepared by onboard chefs to personalized itineraries, we go above and beyond to meet your needs."
+  },
   "places": {
-    "title": "Choose Your Place",
+    "title": "Choose Your Destination",
     "subtitle": "Choose one of the destinations we have for you.",
     "beach": "Beach",
     "island": "Island"
+  },
+  "main-text": {
+    "title": "Punta Cana Yacht Charters",
+    "p1": "Embark on an unforgettable Punta Cana yachting experience with our exceptional selection of motor yachts available for charter. Our yachts range from 38 to 85 feet and cater to various preferences, offering a full day charters. ",
+    "p2": "Depart from the Casa de Campo marina and sail to discover the crystal-clear waters, pristine beaches. Explore the unique charm of the Palmilla Beach, Catalina Island or Saona Island, unwind on the powdery sands of Saona Island, or dive into the magical reef in Catalina Island. ",
+    "p3": " With Punta Cana Yacht Charter knowledgeable yacht charter advisors, professional crew, and attentive staff, your Punta Cana yacht charter will be a luxury and exploration-filled adventure that you will cherish forever. Trust us to deliver an extraordinary yachting experience that will leave you with unforgettable memories and an eagerness to return to these enchanting islands."
   },
   "video-tour": {
     "title": "Video Tour",
@@ -67,12 +85,12 @@
     "bannerText2": "We have a wide selection of unique yachts for rent in Punta Cana and a totally personalized service, designed to cover all your needs and to make your experience with Cygnus Yachts unforgettable.",
     "bannerText3": "From your rental request to the end of your Cygnus Yachts experience in a yacht rental in Punta Cana Dominican Republic, you will have one of our specialists as your interlocutor backed by a team of highly qualified professionals, together they will ensure that all your needs are covered and give you the best possible service during your Cygnus Yachts experience in a yacht charter.",
     "bannerText4": "If you want to rent a yacht in Punta Cana, contact Cygnus Yachts, let us advise you to customize your vacations or company events and we will take care of all the details.",
-    "split-title": "Comfort",
+    "split-title": "Your Dream, Our Mission",
     "split-subtitle": "At Cygnus Yachts we are aware of the importance of comfort, well-being and small details.",
     "split-text": "For this reason we offer you a totally personalized service designed exclusively to cover all your needs before, during and after renting a yacht, where you can find everything you need to make your stay on board a space to suit you. ",
-    "split-title2": "Satisfaction",
-    "split-subtitle2": "A job well done, the satisfaction of our customers...",
-    "split-text2": "It's the reflection of the passion and enthusiasm that we put into everything we do at Cygnus Yachts, so you will find with us the tranquility, discretion and security that having the best team of professionals at your disposal before, during and after your yacht rental.",
+    "split-title2": "Discover the Hidden Gems of the Caribbean",
+    "split-subtitle2": "Embrace Luxury and Adventure on the High Seas",
+    "split-text2": "Embark on a journey to explore secluded beaches, crystal-clear waters, and vibrant marine life. Our local knowledge and expertise unlock exclusive destinations, offering an authentic and enriching Caribbean experience.",
     "split-title3": "Trust",
     "split-subtitle3": "Let us advise you to personalize your holidays or company events and we will take care of all the details.",
     "split-text3": "From your rental request to the end of your Cygnus Yachts experience in a yacht charter in Punta Cana, Dominican Republic, you will have one of our specialists as your interlocutor backed by a team of highly qualified professionals, together they will ensure that all your needs are covered and give you the best possible service during your Cygnus Yachts experience in a yacht charter."
@@ -130,9 +148,9 @@
     "p3": "Thanks to this Fairline 50 yacht for rent in Punta Cana, you will be able to explore the Caribbean Sea in a unique way."
   },
   "fairline43": {
-    "p1": "The Fairline Targa 43 yacht is one of the most popular and valued sports yachts in the yachting industry. This elegant Punta Cana charter yacht is designed for both socializing and speed, the Targa 43 yacht does both exceptionally well and has a capacity of up to 10 guests.",
+    "p1": "The Fairline 43 yacht is one of the most popular and valued sports yachts in the yachting industry. This elegant Punta Cana charter yacht is designed for both socializing and speed, the Targa 43 yacht does both exceptionally well and has a capacity of up to 10 guests.",
     "p2": "It has a maximum speed of 30 knots and this yacht is a pleasure to drive thanks to its two powerful Volvo engines of 480 hp each. The space is cleverly designed both inside and out for entertaining and pleasure.",
-    "p3": "This Fairline Targa 43 Yacht is fully equipped and with an optimized space to offer you the comfort you require to enjoy a fascinating trip on the waters of the Caribbean Sea.",
+    "p3": "This Fairline 43 Yacht is fully equipped and with an optimized space to offer you the comfort you require to enjoy a fascinating trip on the waters of the Caribbean Sea.",
     "p4": "On board this yacht you can take a private tour with a crew to Saona Island, Palmilla Beach or Catalina Island. On the way back you can enjoy the beautiful sunsets that the Dominican Republic has for you."
   },
   "ferreti": {
@@ -217,7 +235,7 @@
   },
   "destinations": {
     "title": "Our Destinations",
-    "subtitle": "Choose Your Place",
+    "subtitle": "Choose Your Destination",
     "subtitle2": "Choose one of the destinations we have for you.",
     "description": "Enjoy the most exclusive destinations in the Caribbean. We have access to more than 10 rental yachts in 4 different destination. Rent a yacht in Casa de Campo la Romana, visit the incredible islands we have for you, rent a Yacht in Punta Cana or rent a yacht in La Marina de Cap Cana, everything is possible with our bespoke boat rental service.",
     "place1": "Isla Saona",
