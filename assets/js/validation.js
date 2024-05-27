@@ -104,7 +104,7 @@ export {
   formResult,
   contact_submitBtn,
   er,
-  eventlisteners,
+ 
   FormValidation,
   showError,
   sendForm,
