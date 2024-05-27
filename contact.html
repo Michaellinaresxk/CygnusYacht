@@ -19,7 +19,7 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     <link rel="stylesheet" href="assets/css/styles.css">
-
+    
     <title>Isla Catalina</title>
 </head>
 
@@ -120,13 +120,23 @@
                 <p data-i18n="contact-page.description2" class="mb-5"> Do not forget to leave us your phone number so we
                     can contact you and give you complete information about private boat rentals in Punta Cana.</p>
 
-                <form class="mb-5" action="email.php" method="post"
+                   
+
+            <form class="mb-5" method="post"onsubmit={handlerSubmit}
                     id="contactForm" class="contactForm" name="contactForm">
+                    
                     <div class="row">
 
                         <div class="col-md-12 form-group">
                             <label for="name" class="col-form-label" data-i18n="contactForm.name">Name:</label>
                             <input type="text" class="form-control" name="name" id="name">
+                        </div>
+                    </div>
+                    <div class="row">
+
+                        <div class="col-md-12 form-group">
+                            <label for="phone" class="col-form-label" data-i18n="contactForm.phone">Telefono:</label>
+                            <input type="tel" class="form-control" name="phone" id="phone">
                         </div>
                     </div>
                     <div class="row">
@@ -152,12 +162,13 @@
                     <div class="row">
                         <div class="form-result" id="formResult"></div><!-- /.form-result -->
                         <div class="col-md-12">
-                            <button type="submit" class="button button--contact_submitBtn" id="contact_submitBtn"
+                            <button type="submit"  class="button button--contact_submitBtn" id="contact_submitBtn"
                                 data-i18n="button.sendMessage">Send Message</button>
                             <span class="submitting"></span>
                         </div>
                     </div>
                 </form>
+            
             </div>
             <div class="contact-img"></div>
         </div>
@@ -232,11 +243,17 @@
         </div>
     </footer>
 
+   
     <!--========== SCROLL UP ==========-->
     <a href="#" class="scrollup" id="scroll-up">
         <i class="ri-arrow-up-line scrollup__icon"></i>
     </a>
 
+    
+
+
+     <!-- =============== SEND EMAIL USING RESEND========== -->
+     <script src="assets/js/resend.js"></script>
     <!--=============== SCROLL REVEAL===============-->
     <script src="assets/js/scrollreveal.min.js"></script>
 
@@ -255,7 +272,7 @@
             formResult,
             contact_submitBtn,
             er,
-            eventlisteners,
+           
             FormValidation,
             showError,
             sendForm,

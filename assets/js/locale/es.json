@@ -312,6 +312,7 @@
   "contactForm": {
     "name": "Nombre:",
     "email": "Correo:",
+    "phone": "Telefono:",
     "message": "Mensaje:",
     "placerYourName": "Colocar nombre:",
     "placerYourEmail": "Correo electrónico:",
